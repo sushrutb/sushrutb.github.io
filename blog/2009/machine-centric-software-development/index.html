@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Machine centric software development</title>
+    <meta name="description" content="I came across a post today and found it very useful from a lead developers stand point. One of the reasons why IT has come to become what it is today is - lo...">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://sushrutbidwai.com/blog/2009/machine-centric-software-development/">
+    <link rel="alternate" type="application/rss+xml" title="Sushrut Bidwai" href="http://sushrutbidwai.com/feed.xml" />
+  </head>
+
+  <body>
+    <main>
+      <header class="site-header">
+  <div class="container">
+    <h1><a href="/">Sushrut <span>Bidwai</span></a></h1>
+
+    <button type="button" class="sliding-panel-button">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="navbar sliding-panel-content">
+      <ul>
+        
+          <li><a href="/about" title="About">About</a></li>
+        
+          <li><a href="/blog" title="Blog">Blog</a></li>
+        
+        <li><a href="/feed.xml" target="_blank"><i class="icon icon-feed"></i></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="sliding-panel-fade-screen"></div>
+
+
+      <div class="container">
+        <article role="article" class="post">
+
+  <div class="card">
+    <header class="post-header">
+      <h1 class="post-title">Machine centric software development</h1>
+      <p class="post-meta">Dec 28, 2009</p>
+    </header>
+
+    <div class="post-content">
+      <p>I came across a <a href="http://www.loper-os.org/?p=69">post</a> today and found it very useful from a lead developers stand point. One of the reasons why IT has come to become what it is today is - lot of &ldquo;managers&rdquo; or &ldquo;decision-makers&rdquo; still think of product development as classical engineering. IT is different. Growth of IT is dependent of productivity of people and not productivity of machines. Most of the other engineering disciplines are centered around making sure that machines are kept busy as much as possible so that manufacturing lines are optimally utilized. This does not hold true for IT.</p>
+
+<p>Productivity of software development is directly proportional to productivity of people developing it under given process and technology environment. I am not saying Lisp, Haskell, Clojure, Python etc are the only way you can make people productive. Nope. But there should be balance between product you are developing, technologies used for them and processes designed for the same. But most important thing is - understand the people you have and structure your processes based on that. Or think about the processes you want to follow and hire people who fit into them. Technology may not be the silver bullet here. How you leverage people and processes might be, in my opinion.</p>
+
+    </div>
+
+    
+  </div>
+
+</article>
+
+      </div>
+
+      <footer class="site-footer">
+  <div class="container">
+    <ul class="social">
+  <li><a href="http://github.com/sushrutb" target="_blank"><i class="icon icon-github"></i></a></li>
+</ul>
+
+    <p class="txt-medium-gray">
+      <small>&copy;2021 All rights reserved. Made with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and ♥</small>
+    </p>
+  </div>
+</footer>
+
+
+
+      <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script>
+      $(document).ready(function() {
+        $('.sliding-panel-button,.sliding-panel-fade-screen,.sliding-panel-close').on('click touchstart',function (e) {
+          $('.sliding-panel-content,.sliding-panel-fade-screen').toggleClass('is-visible');
+          e.preventDefault();
+        });
+      });
+      </script>
+    </main>
+  </body>
+</html>

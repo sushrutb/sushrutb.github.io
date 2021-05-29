@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Week 3   Machine Learning</title>
+    <meta name="description" content="">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://sushrutbidwai.com/week-3---machine-learning">
+    <link rel="alternate" type="application/rss+xml" title="Sushrut Bidwai" href="http://sushrutbidwai.com/feed.xml" />
+  </head>
+
+  <body>
+    <main>
+      <header class="site-header">
+  <div class="container">
+    <h1><a href="/">Sushrut <span>Bidwai</span></a></h1>
+
+    <button type="button" class="sliding-panel-button">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="navbar sliding-panel-content">
+      <ul>
+        
+          <li><a href="/about" title="About">About</a></li>
+        
+          <li><a href="/blog" title="Blog">Blog</a></li>
+        
+        <li><a href="/feed.xml" target="_blank"><i class="icon icon-feed"></i></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="sliding-panel-fade-screen"></div>
+
+
+      <div class="container">
+        <article role="article" class="post">
+
+  <div class="card">
+    <header class="post-header">
+      <h1 class="post-title">Week 3   Machine Learning</h1>
+      <p class="post-meta">May 21, 2019</p>
+    </header>
+
+    <div class="post-content">
+      <p><img src="/images/machine-learning.png" alt="Machine Learning" /></p>
+
+<h5 id="classification-algorithms">Classification Algorithms</h5>
+
+<blockquote>
+  <p>It is not a good idea to apply linear regression to classification problems.</p>
+</blockquote>
+
+<h5 id="examples-of-classification-problems">Examples of classification problems.</h5>
+<ul>
+  <li>Predict if an email is spam or not.</li>
+  <li>Predict if a transaction is fraud or not.</li>
+  <li>Predict if a tumor is benign or not.</li>
+</ul>
+
+<p>If possible answer is one of two, then it is a binary classification problem.</p>
+
+<h3 id="logistic-regression"><span>Logistic Regression</span></h3>
+
+<p>Hypothesis: <em>h<sub>θ</sub>(x) = g(z)</em></p>
+
+<ul>
+  <li>z = θ<sup>T</sup>x<br /></li>
+  <li>g(z) = 1/(1+e<sup>-z</sup>)</li>
+  <li>g is called sigmoid or logistic function which asymptotes at 0 and 1</li>
+  <li>Hypothesis function <em>h</em> gives the probability that output is 1.</li>
+  <li>So if h<sub>θ</sub>(x) = 0.7, it means that it is 70% chance that output is 1, and 30% chance that it is 0.</li>
+</ul>
+
+<h5 id="decision-boundary">Decision boundary</h5>
+<ul>
+  <li>A way to convert the analog output function, to discrete.</li>
+  <li>h<sub>θ</sub>(x) &gt;= 0.5 -&gt; y = 1</li>
+  <li>h<sub>θ</sub>(x) &lt; 0.5 -&gt; y = 0</li>
+  <li>g(z) &gt;= 0.5 when z &gt;= 0 when <strong>θ<sup>T</sup>x &gt;= 0</strong></li>
+</ul>
+
+<h5 id="cost-function">Cost function</h5>
+
+<p><img src="/images/logistic-regression-cost-function.png" alt="Cost function for logistic regression" /></p>
+
+<h5 id="optimization-algorithms">Optimization Algorithms</h5>
+<ul>
+  <li>Gradient descent</li>
+  <li>Conjugate gradient</li>
+  <li>BFGS</li>
+  <li>L-BFGS</li>
+</ul>
+
+<h5 id="multi-class-classification">Multi-class classification</h5>
+
+<p><img src="/images/multiclass-classifier.png" alt="Multi-class classification" /></p>
+
+<h5 id="over-and-under-fitting">Over and under fitting.</h5>
+<p><strong>Under-fitting</strong></p>
+<ul>
+  <li>When a hypothesis function does not fit the training set well.</li>
+  <li>Errors are quite high.</li>
+  <li>Usually fixed by changing hypothesis function by including higher order polynomials or new features.</li>
+</ul>
+
+<p><strong>Over-fitting</strong></p>
+<ul>
+  <li>When a hypothesis function fits training set too well, but fails to predict future outcomes for yet unseen data.</li>
+  <li>Happens when there are too many features or hypothesis contains too many higher order polynomials.</li>
+  <li>While trying to reduce error rate as much as possible, it ends up creating a function which does not product any errors for training set, but is a overly restrictive predictive function.</li>
+  <li>Fixed by regularizing.</li>
+  <li>By introducing a very small error in every iteration for each parameter, θ, gives a set of parameter functions which fit the training set well, but also predict future outcomes well.</li>
+  <li>Over fitting is possible for linera and logistic regression, regularization applies to both of them.</li>
+</ul>
+
+<p><img src="/images/regularised-logistic-regression.png" alt="Regularized Logistic Regression" /></p>
+
+    </div>
+
+    
+<hr>
+
+<aside id="comments" class="disqus">
+  <div class="container">
+    <h3><i class="icon icon-comments-o"></i> Comments</h3>
+    <div id="disqus_thread"></div>
+    <script>
+      var disqus_config = function() {
+        this.page.url = 'http://sushrutbidwai.com';
+        this.page.identifier = '/week-3---machine-learning';
+      };
+      (function() {
+        var d = document,
+        s = d.createElement('script');
+        s.src = '//sushrutbidwaicom.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+  </div>
+</aside>
+
+  </div>
+
+</article>
+
+      </div>
+
+      <footer class="site-footer">
+  <div class="container">
+    <ul class="social">
+  <li><a href="http://github.com/sushrutb" target="_blank"><i class="icon icon-github"></i></a></li>
+</ul>
+
+    <p class="txt-medium-gray">
+      <small>&copy;2021 All rights reserved. Made with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and ♥</small>
+    </p>
+  </div>
+</footer>
+
+
+
+      <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script>
+      $(document).ready(function() {
+        $('.sliding-panel-button,.sliding-panel-fade-screen,.sliding-panel-close').on('click touchstart',function (e) {
+          $('.sliding-panel-content,.sliding-panel-fade-screen').toggleClass('is-visible');
+          e.preventDefault();
+        });
+      });
+      </script>
+    </main>
+  </body>
+</html>

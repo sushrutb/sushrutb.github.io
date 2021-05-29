@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Meeter : New age meeting scheduler</title>
+    <meta name="description" content="I am glad to introduce you to my new venture that I will be launching soon. Problem: Big companies love meetings. They can not get enough of them. But they a...">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://sushrutbidwai.com/blog/2015/meeter-new-age-meeting-scheduler/">
+    <link rel="alternate" type="application/rss+xml" title="Sushrut Bidwai" href="http://sushrutbidwai.com/feed.xml" />
+  </head>
+
+  <body>
+    <main>
+      <header class="site-header">
+  <div class="container">
+    <h1><a href="/">Sushrut <span>Bidwai</span></a></h1>
+
+    <button type="button" class="sliding-panel-button">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="navbar sliding-panel-content">
+      <ul>
+        
+          <li><a href="/about" title="About">About</a></li>
+        
+          <li><a href="/blog" title="Blog">Blog</a></li>
+        
+        <li><a href="/feed.xml" target="_blank"><i class="icon icon-feed"></i></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="sliding-panel-fade-screen"></div>
+
+
+      <div class="container">
+        <article role="article" class="post">
+
+  <div class="card">
+    <header class="post-header">
+      <h1 class="post-title">Meeter : New age meeting scheduler</h1>
+      <p class="post-meta">Jul 29, 2015</p>
+    </header>
+
+    <div class="post-content">
+      <p>I am glad to introduce you to my new venture that I will be launching soon. </p>
+<p><br /></p>
+<p>Problem: Big companies love meetings. They can not get enough of them. But they are incredibly hard to schedule. Despite having many email exchanges, calendar requests and assistant handling schedules they are still pain in the ass. And more meetings get scheduled, it becomes harder and harder to schedule more. Nature of the problem keeps getting complex. So most of the time we are spending is in fact scheduling meetings rather than actually having those meetings. This ends now!</p>
+<p>Solution: Tinder for meeting scheduling. </p>
+<p>After the decline of airbnb for stuff, dropbox for things, new way to describe a startup is Tinder of things. So I am building a tinder of meeting scheduling. </p>
+<p><br /></p>
+<p>How this works?</p>
+<p>You login using your company login. We integrate into LDAP and Exchange and Sharepoint etc. You see a list of people available for meeting *right now*. Our data scientists and big data developers make sure list of people is sorted according to matching level of bullshit and sports trivia. Swipe right to meet that person, swipe left to see  another person. As soon as there is a match, we immediately and auto-magically book a meeting room which is most convenient to both of you. We even send directions to your mobile.</p>
+<p><br /></p>
+<p>Now instead of unraveling web complex calendar problems just to schedule meetings, you can schedule them in less than 30 secs, from your phone. Now you can be more productive than ever! </p>
+<p>Insights from beta customers and how we are using it to make product better.</p>
+<p>1. Nobody ever swiped left. So instead of loading list of possible people, we just load one person. </p>
+<p>2. Nobody cares about our sorting algorithm. Hence the only data we consider now is when did you last meet this person. So basically you get to have meetings with everyone in organization in a loop. Power of simplicity! New recruits will get inserted at random points with in this loop.</p>
+<p>3. Assistants have be made redundant at all beta customers. Well I am afraid every great tool often forces certain set of workforce to move up in value chain. So our impact is very evident.</p>
+<p>4. Meeting rooms are more important commodity than people occupying them. So now we are using geo-fencing so meetings between people closest to a meeting room is automatically scheduled with out any action of end user. Magic right?! Next product we will be launching soon is uber for meeting rooms. </p>
+<p>More to come very soon.</p>
+<p>BTW Did you know most of the advances in graph theory were due to assistant finding easier ways to schedule meetings?</p>
+
+    </div>
+
+    
+  </div>
+
+</article>
+
+      </div>
+
+      <footer class="site-footer">
+  <div class="container">
+    <ul class="social">
+  <li><a href="http://github.com/sushrutb" target="_blank"><i class="icon icon-github"></i></a></li>
+</ul>
+
+    <p class="txt-medium-gray">
+      <small>&copy;2021 All rights reserved. Made with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and ♥</small>
+    </p>
+  </div>
+</footer>
+
+
+
+      <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script>
+      $(document).ready(function() {
+        $('.sliding-panel-button,.sliding-panel-fade-screen,.sliding-panel-close').on('click touchstart',function (e) {
+          $('.sliding-panel-content,.sliding-panel-fade-screen').toggleClass('is-visible');
+          e.preventDefault();
+        });
+      });
+      </script>
+    </main>
+  </body>
+</html>

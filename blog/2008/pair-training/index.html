@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Pair training</title>
+    <meta name="description" content="I have always been thinking about how I am going to train a freshly graduated student coming just out of college and joining my company. Not having a good tr...">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://sushrutbidwai.com/blog/2008/pair-training/">
+    <link rel="alternate" type="application/rss+xml" title="Sushrut Bidwai" href="http://sushrutbidwai.com/feed.xml" />
+  </head>
+
+  <body>
+    <main>
+      <header class="site-header">
+  <div class="container">
+    <h1><a href="/">Sushrut <span>Bidwai</span></a></h1>
+
+    <button type="button" class="sliding-panel-button">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="navbar sliding-panel-content">
+      <ul>
+        
+          <li><a href="/about" title="About">About</a></li>
+        
+          <li><a href="/blog" title="Blog">Blog</a></li>
+        
+        <li><a href="/feed.xml" target="_blank"><i class="icon icon-feed"></i></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="sliding-panel-fade-screen"></div>
+
+
+      <div class="container">
+        <article role="article" class="post">
+
+  <div class="card">
+    <header class="post-header">
+      <h1 class="post-title">Pair training</h1>
+      <p class="post-meta">Sep 19, 2008</p>
+    </header>
+
+    <div class="post-content">
+      <p>I have always been thinking about how I am going to train a freshly graduated student coming just out of college and joining my company. Not having a good training program in place is one of the major mistake any startup makes. I have been with a startup where we had same problem. So what we did was devise a sound training program.
+
+Most important thing you have to understand is writing quality code is art, there is no other away to put it across. Have you ever learnt a musical instrument? Painting? Singing? How do you learn it. First you have see a maestro at work, live. Performing just for you. So you know the body language, know the small movements, listen to breathing as he/she performs. We do the same in our training program. We start with one week of class room training focused on software solutions and not technology. (We hire people who have some knowledge of technologies we use) After this one week, we give new trainees a project to execute, typically a small project like implement a blog tool, bug management tool etc. We work with the trainees in all phases of project execution.
+
+We do requirement analysis together and play roles of customer as well as facilitator. We do design with them. But most importantly when the architecture of the project is decided, we implement a use-case for each new person in pair programming. All the trainee has to do is sit with one of the more experienced developer and watch him implement the use-case.
+
+<strong>Advantages:</strong>
+</p>
+<ol><li>When a person see how a pro writes code, how he uses various tools including time-sheets, IDEs, debuggers , he gets window into how as a professional he should work.</li>
+	<li>Experienced person normally walks trainee through various things, classes as he is writing them. This gives insight into how a high level design is transformed into low level classes and data structures.</li>
+	<li>We normally don&rsquo;t have time to do entire low level design, attribute design. So we rely upon experience and re-factoring to some extent.  Pair training gives trainee hands on re-factoring.</li>
+	<li>Get to know various tools, shortcuts, first cut what proficiency trainee should have once he/she has experience.</li>
+	<li>Time management. How much can be accomplished in how much time.</li>
+</ol>
+<p><strong>Disadvantages:</strong></p>
+<ol><li>Sometimes there is chance that trainee will pick exact bad habit trainer has. Though we try to monitor our training processes closely, but there is still a chance. To reduce it we do pair training with multiple trainers.</li>
+	<li>Time consuming. Hence we do it on a Sunday. Yes we work on Sunday! We want to grow and build a great company.</li>
+</ol>
+
+    </div>
+
+    
+  </div>
+
+</article>
+
+      </div>
+
+      <footer class="site-footer">
+  <div class="container">
+    <ul class="social">
+  <li><a href="http://github.com/sushrutb" target="_blank"><i class="icon icon-github"></i></a></li>
+</ul>
+
+    <p class="txt-medium-gray">
+      <small>&copy;2021 All rights reserved. Made with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and ♥</small>
+    </p>
+  </div>
+</footer>
+
+
+
+      <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script>
+      $(document).ready(function() {
+        $('.sliding-panel-button,.sliding-panel-fade-screen,.sliding-panel-close').on('click touchstart',function (e) {
+          $('.sliding-panel-content,.sliding-panel-fade-screen').toggleClass('is-visible');
+          e.preventDefault();
+        });
+      });
+      </script>
+    </main>
+  </body>
+</html>

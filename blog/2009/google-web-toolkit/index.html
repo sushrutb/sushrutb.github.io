@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Google Web Toolkit</title>
+    <meta name="description" content="The post which will bring some very very interesting discussions/debates/fights. Here it is.">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://sushrutbidwai.com/blog/2009/google-web-toolkit/">
+    <link rel="alternate" type="application/rss+xml" title="Sushrut Bidwai" href="http://sushrutbidwai.com/feed.xml" />
+  </head>
+
+  <body>
+    <main>
+      <header class="site-header">
+  <div class="container">
+    <h1><a href="/">Sushrut <span>Bidwai</span></a></h1>
+
+    <button type="button" class="sliding-panel-button">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="navbar sliding-panel-content">
+      <ul>
+        
+          <li><a href="/about" title="About">About</a></li>
+        
+          <li><a href="/blog" title="Blog">Blog</a></li>
+        
+        <li><a href="/feed.xml" target="_blank"><i class="icon icon-feed"></i></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="sliding-panel-fade-screen"></div>
+
+
+      <div class="container">
+        <article role="article" class="post">
+
+  <div class="card">
+    <header class="post-header">
+      <h1 class="post-title">Google Web Toolkit</h1>
+      <p class="post-meta">Feb 17, 2009</p>
+    </header>
+
+    <div class="post-content">
+      <p>The post which will bring some very very interesting discussions/debates/fights. Here it is.
+
+<em>(Before starting flames on this post, do read the last line note.)</em>
+
+When I co-founded this company and decided to work with early stage startups, I was faced with technology choices. Ruby was (is) getting mainstream momentum. Many startups were using it. PHP, no matter how much I dislike it, was still used widely. Python with Django was also started getting some ground. .Net and Java being as important as ever. Choices were there, all looking good on surface. Features were all there. We decided to evaluate all these technologies. We both come from deep roots in Java and object oriented technologies and do have some bias towards it. But still we tried to do our best. We listed down all pros and cons for all these technologies. Investigated all of them. Build sample projects/apps in all of them. Talked to experts, technology mentors.
+
+Also while making the choices we had some limitations on ourselves and this choice should be evaluated against these limitations.
+
+<strong>Limitations - </strong>
+</p>
+<ul><li>We are not building one single product. We will be building many products, for diversified set of applications. For mobile, for web, for enterprises, for embedded devices and may be even for space crafts.</li>
+	<li>Talent acquisition, training and retaining costs. Though we build cutting edge products, we still are a services company.</li>
+	<li>We use our services arm to groom engineers. So finding projects on same/similar technology which can be executed by services division was also essentially, but this was more of an nice to have feature rather than limitation.</li>
+	<li>We will be working for many startups in next few years. We want technology to support creation of off-shelf components and using them with multiple startups where ever possible.</li>
+	<li>Knowledge transfer for code/design and technology should be minimal. Again nice to have but not exactly a limitation.</li>
+</ul>
+<div>Okay, so once you know the background, here is our clear choice.</div>
+<div><strong>Java all the way.</strong></div>
+<div>We decided Java provides the best technology choice we can make. True, for web applications Java is not exactly a suitable choice. So, we started thinking which is the technology that can provide UI features and sit comfortably on a Java backend? You can use any technology for that. But again doing lot of investigation, search (we dont call everything as research) and came to conclusion that <strong>Google Web Toolkit </strong>is the best technology available.</div>
+<div>If you refer to previous post, I have outlined majority of things we consider or should consider while making choices. So how does Google Web Toolkit (GWT) ranks on all this. If you dont know what GWT is, I will suggest going through some basics before continuing.</div>
+<div><strong>Feature set -</strong></div>
+<div>
+<ul><li>Provides cool Ajax stuff like fading pop-overs, drag and drop and many such things in built.</li>
+	<li>Though most of the features are available with other technologies too.</li>
+	<li>Templating is one of the most important feature for UI side technology. Is there any better templating engine than a class? I dont think so.</li>
+	<li>Why one should learn weird things like % % terminated tags? Weird UI side syntaxs? With GWT all you are doing is writing classes and implementing methods.</li>
+	<li>Already many UI design tools are available for GWT. Writing your own is not a big problem. All you will be doing is churning out classes from the design tool. Hence performance and usability of such tools is much better for GWT than for other things.</li>
+</ul></div>
+<div><strong>Performance - </strong></div>
+<div>
+<ul><li>On UI side it is just HTML and Javascript code. Java code cross compiled into HTML + Javascript + CSS.</li>
+	<li>This Javascript code is maintained by Google and open source communities. This gives it chance of getting better and better with every release. Hence more optimized.</li>
+	<li>GWT is not much of code generation, but more of code replacement, hence limitations that code generation techniques have are not completely applicable to GWT from performance perspective.</li>
+	<li>Browser specifics etc are handled much better.</li>
+	<li>No need to write Javascript on your own, unless you want to write your own plugins. Even then, you write the Javascript, write a simple module to cross compile Java code to that Javascript and you never have to use Javascript directly again. Release that plugin into wild ie open source communities and it will keep evolving if its good enough.</li>
+	<li>So performance not an issue with GWT on UI side.</li>
+	<li>On backend its Java, so performance can not been an issue there. Java is proven for that.</li>
+	<li>Also lot of performance improvement tools are available for Java. Caching systems, search engines and many such goodies are there well performing, which can be easily integrated.</li>
+</ul><div><strong>Maintainability - </strong></div>
+<div>
+<ul><li>GWT code is essentially classes. We know that classes are more maintainable than PHP/JSP or other text files.</li>
+	<li>Since code is just classes, you will be drawing class diagram, sequence diagram instead of screen mocks and screen flow. Now UML digram are backed up with specification and hence more maintainable.</li>
+	<li>Two programmers can work on same class (but not on same plain text file) without giving too many check in conflicts. Great thing to have when quick fixing is required and you are fire fighting.</li>
+	<li>Classes are structured, governed by OOD and OOP concepts. Its very easy to understand code written by some one else in the format of class than in a text file, even if we assume zero or 100% documentation. Also this helps in code-reviews, peer reviews and other audit processes.</li>
+	<li>Using UML design philosophy and OOD/P concepts, code written is much cleaner, well organized and in fact much lesser than others. So much easier to maintain.</li>
+	<li>I can not stop raving about how maintainable GWT+Java code is!</li>
+</ul><div><strong>Talent acquisition -</strong></div>
+<div>
+<ul><li>There are thousands of Java programmers out there who are good in Java and understand HTML/CSS basics fairly well.</li>
+	<li>No need to have Javascript wizards in the team, if you are working with GWT.</li>
+	<li>Java is backed by Sun certification, if you believe in certifications which I dont much. Always good to know that some one is making money by certifying talent. You need not have to rely on them, but its a nice to have thing.</li>
+	<li>So in short, talent acquisition is fairly straight forward, plenty of choices.</li>
+</ul><div><strong>Distributed team work -</strong></div>
+<div>
+<ul><li>I have covered these things in maintainability but to make sure one understands the importance of the same from distributed team work perspective too, I am reiterating in next points. If you know how they apply for this, then skip to next bold point :-).</li>
+	<li>Class diagram, sequence diagram help in communicating thought process in more concise and clear way. With UML specs in place, you are sure that what you are saying is not misunderstood on the other side on internet pipe.</li>
+	<li>Lots of tools, techniques available for Java to help in minimising issues related to distributed team structures. </li>
+</ul><div><strong>Eco-system - </strong></div>
+<div>
+<ul><li>Java has a very very vibrant community. A little too vibrant for my taste actually.</li>
+	<li>Lot of open source communities and products have made millions of dollars. JBoss, Hibernate, Apache are only few examples to note.</li>
+	<li>Java is backed by Sun which is a multi billion dollar company. There revenues, not all but part, are dependent on Java and its success.</li>
+	<li>Though Google, does not make money out GWT, at least for now, it cant just let GWT hanging. Google brand name is associated with it.</li>
+	<li>Already there are tonns of communities which are creating wealth by GWT plugin development, support, tools are there.</li>
+	<li>This can only grow from here.</li>
+	<li>Many outsourcing vendors are available for GWT development, as it is nothing more than plain JEE development, a little easier in fact.</li>
+</ul></div>
+<div><strong>Time to market -</strong> </div>
+<div>
+<ul><li>As I have mentioned already in last post, that time to market is not counted from development day zero to release. But it is counted from inception of the concept to release. This include time for team building, trainings and everything.</li>
+	<li>Considering all that time to market is much lower or at least same.</li>
+	<li>Also lot of people who say Java is slow in development, never used any code generation tools. Never have actually seen a world class product being developed using Java. There are many things one can do to speed up the process.</li>
+	<li>With GWT tool support is even more rich than for Java. Hence using excellent tools infrastructure and good design principles GWT+Java app is much faster developed or at least with the speed as a python app is developed.</li>
+	<li>Also dont compare time to release first screen as a measurement. Yes, I agree for Java or Java based apps, getting first use case running smoothly gets some more time than others. That too if you are very rigid about following processes. But once you have that one use case flowing, rest of the things become very mechanical, apart from the algorithms. We generally generate the code using custom annotations etc once we have that first use case. So all we need to implement is the backend logics.</li>
+</ul></div>
+<div>Open for discussions.</div>
+</div>
+<div><em>Note, I am not saying other technologies (apart from PHP :D) does not have these features, but they are not as evolved as Java. And this is not a polical statement!</em></div>
+</div>
+</div>
+</div>
+
+    </div>
+
+    
+  </div>
+
+</article>
+
+      </div>
+
+      <footer class="site-footer">
+  <div class="container">
+    <ul class="social">
+  <li><a href="http://github.com/sushrutb" target="_blank"><i class="icon icon-github"></i></a></li>
+</ul>
+
+    <p class="txt-medium-gray">
+      <small>&copy;2021 All rights reserved. Made with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and ♥</small>
+    </p>
+  </div>
+</footer>
+
+
+
+      <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script>
+      $(document).ready(function() {
+        $('.sliding-panel-button,.sliding-panel-fade-screen,.sliding-panel-close').on('click touchstart',function (e) {
+          $('.sliding-panel-content,.sliding-panel-fade-screen').toggleClass('is-visible');
+          e.preventDefault();
+        });
+      });
+      </script>
+    </main>
+  </body>
+</html>

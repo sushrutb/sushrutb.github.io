@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Week 3   Mathematical Thinking</title>
+    <meta name="description" content="">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://sushrutbidwai.com/week-3---mathematical-thinking">
+    <link rel="alternate" type="application/rss+xml" title="Sushrut Bidwai" href="http://sushrutbidwai.com/feed.xml" />
+  </head>
+
+  <body>
+    <main>
+      <header class="site-header">
+  <div class="container">
+    <h1><a href="/">Sushrut <span>Bidwai</span></a></h1>
+
+    <button type="button" class="sliding-panel-button">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="navbar sliding-panel-content">
+      <ul>
+        
+          <li><a href="/about" title="About">About</a></li>
+        
+          <li><a href="/blog" title="Blog">Blog</a></li>
+        
+        <li><a href="/feed.xml" target="_blank"><i class="icon icon-feed"></i></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="sliding-panel-fade-screen"></div>
+
+
+      <div class="container">
+        <article role="article" class="post">
+
+  <div class="card">
+    <header class="post-header">
+      <h1 class="post-title">Week 3   Mathematical Thinking</h1>
+      <p class="post-meta">Jun 13, 2019</p>
+    </header>
+
+    <div class="post-content">
+      <p><img src="/images/mathematical-thinking.png" alt="Mathematical Thinking" /></p>
+
+<h3 id="quantifiers"><span>Quantifiers</span></h3>
+
+<p>All mathematical quantifiers can be expressed in either <em>there exists</em> or <em>for all</em>.</p>
+
+<h5 id="there-exists">There exists</h5>
+<ul>
+  <li>There exists an object x having property P.</li>
+  <li>Denoted by symbol - <strong>∃</strong></li>
+  <li>For example ∃x[x<sup>2</sup>+2x+1=0]</li>
+  <li>You can prove it by finding x which satisfies the property.</li>
+  <li>∃! - There exists an unique.</li>
+</ul>
+
+<p><em>Continuous function - Graph of the function does not have any breaks or joints</em></p>
+
+<h5 id="for-all">For all</h5>
+<ul>
+  <li>For all x it is the case that.</li>
+  <li>Denoted by symbol - <strong>∀</strong></li>
+  <li>For example - ∀x(x<sup>2</sup> &gt;= 0).</li>
+</ul>
+
+<h5 id="how-to-read-mathematical-formulas">How to read mathematical formulas</h5>
+
+<ul>
+  <li>(∀x)[P(x) =&gt; Q(x)] : For every x, <em>if</em> P(x) <em>then</em> Q(x).</li>
+  <li>(∀x)[P(x) ^ Q(x)] : ∀xP(x) ^ ∀xQ(x) : For every x P(x) <em>and</em> Q(x).</li>
+  <li>(∃x)[P(x) ^ Q(x)] : There is an x for which P(x) <em>and</em> Q(x).</li>
+  <li>(∃x)[P(x) =&gt; Q(x)] : There is an for which <em>if</em> P(x) <em>then</em> Q(x). Rarely useful.</li>
+</ul>
+
+<h5 id="negation-of-quantifiers">Negation of quantifiers.</h5>
+
+<p>¬(∀x[P(x) =&gt; Q(x)]) = ∃x[P(x) !=&gt; Q(x)] = ∃x[P(x) ^ ¬Q(x)]</p>
+
+    </div>
+
+    
+<hr>
+
+<aside id="comments" class="disqus">
+  <div class="container">
+    <h3><i class="icon icon-comments-o"></i> Comments</h3>
+    <div id="disqus_thread"></div>
+    <script>
+      var disqus_config = function() {
+        this.page.url = 'http://sushrutbidwai.com';
+        this.page.identifier = '/week-3---mathematical-thinking';
+      };
+      (function() {
+        var d = document,
+        s = d.createElement('script');
+        s.src = '//sushrutbidwaicom.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+  </div>
+</aside>
+
+  </div>
+
+</article>
+
+      </div>
+
+      <footer class="site-footer">
+  <div class="container">
+    <ul class="social">
+  <li><a href="http://github.com/sushrutb" target="_blank"><i class="icon icon-github"></i></a></li>
+</ul>
+
+    <p class="txt-medium-gray">
+      <small>&copy;2021 All rights reserved. Made with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and ♥</small>
+    </p>
+  </div>
+</footer>
+
+
+
+      <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script>
+      $(document).ready(function() {
+        $('.sliding-panel-button,.sliding-panel-fade-screen,.sliding-panel-close').on('click touchstart',function (e) {
+          $('.sliding-panel-content,.sliding-panel-fade-screen').toggleClass('is-visible');
+          e.preventDefault();
+        });
+      });
+      </script>
+    </main>
+  </body>
+</html>

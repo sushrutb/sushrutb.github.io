@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sushrut Bidwai</title>
+    <description>Personal website of Sushrut Bidwai</description>
+    <link>http://sushrutbidwai.com/</link>
+    <atom:link href="http://sushrutbidwai.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 29 May 2021 13:11:23 +0530</pubDate>
+    <lastBuildDate>Sat, 29 May 2021 13:11:23 +0530</lastBuildDate>
+    <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Machine Learning</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/machine-learning.png&quot; alt=&quot;Machine Learning&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This blog will host weekly notes from the course. I will update this post to links with weekly notes.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/machine-learning---course-notes&quot;&gt;Week 1 Notes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/week-2---machine-learning&quot;&gt;Week 2 Notes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/week-3---machine-learning&quot;&gt;Week 3 Notes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/week-4---machine-learning&quot;&gt;Week 4 Notes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/week-5---machine-learning&quot;&gt;Week 5 Notes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/week-6---machine-learning&quot;&gt;Week 6 Notes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/week-8---machine-learning&quot;&gt;Week 8 Notes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/week-9---machine-learning&quot;&gt;Week 9 Notes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/week-10---machine-learning&quot;&gt;Week 10 Notes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/week-11---machine-learning&quot;&gt;Week 11 Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 12 Jul 2019 15:52:36 +0530</pubDate>
+        <link>http://sushrutbidwai.com/machine-learning</link>
+        <guid isPermaLink="true">http://sushrutbidwai.com/machine-learning</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Week 11   Machine Learning</title>
+        <description>&lt;h3 id=&quot;machine-learning-application---photo-ocr&quot;&gt;Machine Learning Application - Photo OCR&lt;/h3&gt;
+
+&lt;h5 id=&quot;pipeline&quot;&gt;Pipeline&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Detect text&lt;/li&gt;
+  &lt;li&gt;Character segmentation&lt;/li&gt;
+  &lt;li&gt;Character classification&lt;/li&gt;
+  &lt;li&gt;(Optional) spelling correction.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;sliding-window&quot;&gt;Sliding Window&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Scan an image step by step to check whether object can be detected in it.&lt;/li&gt;
+  &lt;li&gt;Draw boundaries around the detected objects/characters.&lt;/li&gt;
+  &lt;li&gt;Feed these smaller images to the next step.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;character-detection&quot;&gt;Character detection&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Train an algorithm which can detect when an image is a the middle of two adjoining characters.&lt;/li&gt;
+  &lt;li&gt;If it detects image as middle of the two characters, mark it as a boundary.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/photo-ocr.png&quot; alt=&quot;Photo OCR&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;artificial-data-synthesis&quot;&gt;Artificial data synthesis&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Generate data using off the shelf fonts and other image processing techniques to mimic real world data.&lt;/li&gt;
+  &lt;li&gt;Use small real world training set, but use image processing techniques, generate more samples.&lt;/li&gt;
+  &lt;li&gt;Introduce gaussian noise or distortions to generate more samples.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;You need a low bias classifier, so that adding more samples helps.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;If you can get more real world data, that might be better use of resources than spending time on artificial data synthesis.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;ceiling-analysis--how-to-decide-which-part-of-the-pipeline-to-work-on&quot;&gt;Ceiling Analysis / How to decide which part of the pipeline to work on?&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Mimic a stage is working at 100% accuracy by using training set, but just using label output at the output of the algorithm.&lt;/li&gt;
+  &lt;li&gt;So if the label is y=1, then algorithm outputs 1, else outputs 0.&lt;/li&gt;
+  &lt;li&gt;This similar to mocking in classical programming unit testing.&lt;/li&gt;
+  &lt;li&gt;Step by step mock out each stage of the pipeline and observer the overall pipeline performance in each step.&lt;/li&gt;
+  &lt;li&gt;If the mock stage which is working at 100% efficiency does not change the overall performance by a lot, then that stage is not worth working on immediate priority.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/ceiling.png&quot; alt=&quot;Ceiling Analysis&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 10 Jul 2019 15:57:55 +0530</pubDate>
+        <link>http://sushrutbidwai.com/week-11---machine-learning</link>
+        <guid isPermaLink="true">http://sushrutbidwai.com/week-11---machine-learning</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Week 10   Machine Learning</title>
+        <description>&lt;h3 id=&quot;large-scale-machine-learning&quot;&gt;&lt;span&gt;Large Scale Machine Learning&lt;/span&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Try out the learning algorithm which much smaller sample size, and see if it suffers from high variance problem when small size is small. Only then having many more samples will help.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;stochastic-gradient-descent&quot;&gt;Stochastic Gradient Descent&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/stochasticgr.png&quot; alt=&quot;Stochastic Gradient Descent&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;mini-batch-gradient-descent&quot;&gt;Mini batch Gradient Descent&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/minibatchgr.png&quot; alt=&quot;Mini batch Gradient descent&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;notes-on-stochastic-and-mini-mini-batch&quot;&gt;Notes on stochastic and mini mini batch&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Plot cost averaged over 1000 iterations or similar number.&lt;/li&gt;
+  &lt;li&gt;If the curve is steadily decreasing, then algorithm is converging, if not adjust appropriate parameters such as learning rate.&lt;/li&gt;
+  &lt;li&gt;You can use dynamic learning rate. Where learning rate becomes smaller and smaller as number of iterations increase.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;online-learning&quot;&gt;Online Learning&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;When new data keeps coming in. Streams of data instead of fixed training set.&lt;/li&gt;
+  &lt;li&gt;Similar to stochastic gradient descent, just that training set is not fixed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;map-reduce&quot;&gt;Map Reduce&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Split data and run steps of an algorithm on separate machines.&lt;/li&gt;
+  &lt;li&gt;Centralized server combines results.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 10 Jul 2019 13:19:11 +0530</pubDate>
+        <link>http://sushrutbidwai.com/week-10---machine-learning</link>
+        <guid isPermaLink="true">http://sushrutbidwai.com/week-10---machine-learning</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Week 9   Machine Learning</title>
+        <description>&lt;h3 id=&quot;anomaly-detection&quot;&gt;&lt;span&gt;Anomaly detection&lt;/span&gt;&lt;/h3&gt;
+
+&lt;h5 id=&quot;applications&quot;&gt;Applications&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fraud detection in e-commerce&lt;/li&gt;
+  &lt;li&gt;Manufacturing - help in quality assurance by finding anomalous components.&lt;/li&gt;
+  &lt;li&gt;Monitoring computers in data centers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;algorithm&quot;&gt;Algorithm&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/anomaly-detection.png&quot; alt=&quot;Anomaly Detection Algorithm&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;choosing-parameters&quot;&gt;Choosing parameters&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;The algorithms works best if the feature has gaussian distribution.&lt;/li&gt;
+  &lt;li&gt;It will still work if distribution is not gaussian.&lt;/li&gt;
+  &lt;li&gt;Features can be transformed to so that their distribution looks more gaussian.&lt;/li&gt;
+  &lt;li&gt;For example
+    &lt;ul&gt;
+      &lt;li&gt;Feature x can be transformed using log(x), or log(x + c), or sqrt(x) etc.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Do error analysis. If p(x) is similar for normal and anomalous examples, then need to find new features which can improve the algorithm.&lt;/li&gt;
+  &lt;li&gt;Choose features which take on very small or very large values in the event of an anomaly.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;multivariate-gaussian-distribution&quot;&gt;Multivariate gaussian distribution&lt;/h5&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Original gaussian&lt;/th&gt;
+      &lt;th&gt;Multivariate gaussian&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Manually create features to capture anomalies, based on given raw set of features.&lt;/td&gt;
+      &lt;td&gt;Automatically captures correlations between features&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Computationally cheaper&lt;/td&gt;
+      &lt;td&gt;Expensive to compute, does not scale well with number of features, due to calculating matrix inverse.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Works even in small training set.&lt;/td&gt;
+      &lt;td&gt;Number of training examples has  to be greater than number of features. Should be m &amp;gt; 10n&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;-recommender-systems&quot;&gt;&lt;span&gt; Recommender systems&lt;/span&gt;&lt;/h3&gt;
+
+&lt;h5 id=&quot;applications-1&quot;&gt;Applications&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Movie, book recommendations.&lt;/li&gt;
+  &lt;li&gt;Shopping recommendations.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;content-based-recommender-systems&quot;&gt;Content based recommender systems&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Essentially a deviation of linear regression.&lt;/li&gt;
+  &lt;li&gt;We find prediction parameters, θ, for each user in the system.&lt;/li&gt;
+  &lt;li&gt;Use above parameters to predict which movies the user will like.&lt;/li&gt;
+  &lt;li&gt;Requires availability of features based on content a movie such as degree of action, romance; which difficult to find in real world.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;collaborative-filtering&quot;&gt;Collaborative filtering&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/cf-1.png&quot; alt=&quot;Collaborative Filtering&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/cf-2.png&quot; alt=&quot;Collaborative Filtering&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/cf-3.png&quot; alt=&quot;Collaborative Filtering&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 05 Jul 2019 17:11:37 +0530</pubDate>
+        <link>http://sushrutbidwai.com/week-9---machine-learning</link>
+        <guid isPermaLink="true">http://sushrutbidwai.com/week-9---machine-learning</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Week 4   Science Of Exercise</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/science-of-exercise.png&quot; alt=&quot;Science Of Exercise&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;exercise-in-medicine-and-diseases&quot;&gt;&lt;span&gt;Exercise in Medicine and diseases&lt;/span&gt;&lt;/h3&gt;
+
+&lt;h5 id=&quot;sedentary-lifestyle&quot;&gt;Sedentary lifestyle.&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Leads many diseases cancer, cardio vascular diseases.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Sitting is harmful!&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Inactivity is risk factor for major chronic illnesses.&lt;/li&gt;
+  &lt;li&gt;Even moderate exercise is great for reducing risk of many illnesses.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;diet-exercise-and-weight-control&quot;&gt;Diet, exercise, and weight control.&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Obesity is cause for many diseases.&lt;/li&gt;
+  &lt;li&gt;Fat stored in abdominal cavity is far more harmful.
+    &lt;ul&gt;
+      &lt;li&gt;Having a tummy/beer belly is far worse than having fat thighs/hips.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;If you eat more calories than you burn, then you gain weight.&lt;/li&gt;
+  &lt;li&gt;Dieting leads to loss of water weight. Prolonged diet will lead to loss of fat, but also loss of protein.&lt;/li&gt;
+  &lt;li&gt;Weight lost due to dieting is regained when stopped, as it reduces metabolic rate.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;heart-diseases&quot;&gt;Heart diseases&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Heart diseases is most common cause of death - 25% in US.&lt;/li&gt;
+  &lt;li&gt;Fat deposits in major arteries, eventually blocking blood causing heart attacks and strokes.&lt;/li&gt;
+  &lt;li&gt;59% of heart diseases causes due to physical inactivity.&lt;/li&gt;
+  &lt;li&gt;Aerobic exercises will reduce risk of coronary artery blockages by reducing bad cholesterol and increasing good cholesterol.&lt;/li&gt;
+  &lt;li&gt;Hypertension leads to stroke, heart diseases, kidney failures.&lt;/li&gt;
+  &lt;li&gt;Exercise reduces blood pressure and hyper tension.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;diabetes---type-ii&quot;&gt;Diabetes - Type II&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Caused elevated blood glucose levels or chronic hyperglycemia.&lt;/li&gt;
+  &lt;li&gt;Insulin resistance.&lt;/li&gt;
+  &lt;li&gt;Symptoms - excess urination, blurry vision, fatigue, thirst, hunger.&lt;/li&gt;
+  &lt;li&gt;Main causes lack of exercise and obesity.&lt;/li&gt;
+  &lt;li&gt;Regular exercise will increase insulin sensitivity and lower risk of insulin resistance.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Exercise will help treat type II Diabetes far, far better than anything else.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;cancer&quot;&gt;Cancer&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Modifiable risk factors for Cancer
+    &lt;ul&gt;
+      &lt;li&gt;Unhealthy lifestyle - lack of exercise, obesity, poor diet.&lt;/li&gt;
+      &lt;li&gt;Environmental - tobacco, diet, sunlight, infectious diseases&lt;/li&gt;
+      &lt;li&gt;Alcohol&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Regular exercises reduces risk of breat, prostate, and colon cancer - 3 of the top 4 most common cancers.&lt;/li&gt;
+  &lt;li&gt;Exercise can stop growth of cancer.&lt;/li&gt;
+  &lt;li&gt;Improves antioxidants which are useful in fighting cancer.&lt;/li&gt;
+  &lt;li&gt;Lowers body fat which can lead to cancer.&lt;/li&gt;
+  &lt;li&gt;Reduces certain hormones which cause growth of cancer.&lt;/li&gt;
+  &lt;li&gt;Exercise also improves quality of life for patient undergoing treatment.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;aging&quot;&gt;Aging&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Successful aging relates to maintaining your health to live experience desired quality of life.&lt;/li&gt;
+  &lt;li&gt;Stamina - regular aerobic exercise helps maintain stamina in older age.&lt;/li&gt;
+  &lt;li&gt;Loss of muscle mass, sarcopenia, which leads to falls, fractures, loss of mobility can be reduced with regular exercise.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Never too late to start exercising.&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Osteoporosis - Porous bones, affects lot of women. - low calcium, vitamin D.&lt;/li&gt;
+  &lt;li&gt;Weight lifting is important activity to counter Osteoporosis.&lt;/li&gt;
+  &lt;li&gt;If you are active in younger age, it is important to keep active, as adaptations are reversible.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;brain&quot;&gt;Brain&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;For healthy Brain
+    &lt;ul&gt;
+      &lt;li&gt;Active social lifestyle&lt;/li&gt;
+      &lt;li&gt;Quality sleep&lt;/li&gt;
+      &lt;li&gt;Stress management&lt;/li&gt;
+      &lt;li&gt;Mental stimulation&lt;/li&gt;
+      &lt;li&gt;Healthy diet&lt;/li&gt;
+      &lt;li&gt;Regular exercise&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Exercise helps with maintaining blood flow to brain, reducing risk of dementia.&lt;/li&gt;
+  &lt;li&gt;Parkinson’s disease - brain stops producing dopamine, losing control of muscle movements.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 03 Jul 2019 15:56:24 +0530</pubDate>
+        <link>http://sushrutbidwai.com/week-4---science-of-exercise</link>
+        <guid isPermaLink="true">http://sushrutbidwai.com/week-4---science-of-exercise</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Week 3   Science Of Exercise</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/science-of-exercise.png&quot; alt=&quot;Science Of Exercise&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;fitness-and-performance&quot;&gt;&lt;span&gt;Fitness and performance&lt;/span&gt;&lt;/h3&gt;
+
+&lt;h5 id=&quot;endurance-training&quot;&gt;Endurance training&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;When you regularly exercise, body will adapt. 3-5 times a week, for few months.&lt;/li&gt;
+  &lt;li&gt;Adaptations depend on - frequency, intensity, duration, and type of exercise.&lt;/li&gt;
+  &lt;li&gt;Frequency
+    &lt;ul&gt;
+      &lt;li&gt;Don’t be a weekend warrior when it comes to exercise.&lt;/li&gt;
+      &lt;li&gt;3 to 5 days a week is ideal.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Intensity is most important when it comes to adaptations.
+    &lt;ul&gt;
+      &lt;li&gt;Use heart rate monitors.&lt;/li&gt;
+      &lt;li&gt;Intensity should be 50-85% of heart rate reserves.&lt;/li&gt;
+      &lt;li&gt;(heart rate reserve/100) * (max HR 210 - resting HR) + Rest HR&lt;/li&gt;
+      &lt;li&gt;Max HR = 220 - age&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;For me to train at 85% HR reserve: 85%/100 * (220 - 37 - 66) + 66 = 165 bpm&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;For me to train at 85% HR reserve: 50%/100 * (220 - 37 - 66) + 66 = 125 bpm&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Duration
+    &lt;ul&gt;
+      &lt;li&gt;20 to 60 mins of exercise.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Type or mode
+    &lt;ul&gt;
+      &lt;li&gt;Should involve large muscle groups.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;A training program should have
+    &lt;ul&gt;
+      &lt;li&gt;Designated recovery days.&lt;/li&gt;
+      &lt;li&gt;Designated hard training weeks, followed by recovery weeks.&lt;/li&gt;
+      &lt;li&gt;Start with low intensity, lower duration and gradually increase both.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;what-happens-when-you-stop-training&quot;&gt;What happens when you stop training.&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Reversibility - all adaptations will be reversed with time once you stop training.&lt;/li&gt;
+  &lt;li&gt;Reversal of various adaptations is quite fast and will occur within weeks after training is stopped.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;strengh-training&quot;&gt;Strengh training&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Strength training adaptations depend on - frequency, intensity, number of repetitions per set, and number of sets.&lt;/li&gt;
+  &lt;li&gt;After a period of strength training, output plateaus, factors affecting it
+    &lt;ul&gt;
+      &lt;li&gt;Physical activity&lt;/li&gt;
+      &lt;li&gt;Nutrition&lt;/li&gt;
+      &lt;li&gt;Genetics&lt;/li&gt;
+      &lt;li&gt;Endocrine influences&lt;/li&gt;
+      &lt;li&gt;Nervous system&lt;/li&gt;
+      &lt;li&gt;Environmental.&lt;/li&gt;
+      &lt;li&gt;Growth hormones such as testosterone.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/strength.png&quot; alt=&quot;Strength training adaptations&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/strength2.png&quot; alt=&quot;Strength training over time&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;differences-for-men-and-women-in-strength-training&quot;&gt;Differences for men and women in strength training.&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Men have more muscles and larger cross sectional areas.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;A man and a woman having same muscle mass can generate same amount of power and force.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Due to very large quantities of testosterone (20-30 times), amount of muscle gain in men can be much higher.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;nutrition-for-training&quot;&gt;Nutrition for training&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;How much to eat?
+    &lt;ul&gt;
+      &lt;li&gt;Endurance - weight stable.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;What to eat?
+    &lt;ul&gt;
+      &lt;li&gt;Endurance
+        &lt;ul&gt;
+          &lt;li&gt;Increasing carb stores.&lt;/li&gt;
+          &lt;li&gt;55-60% calories from carbs.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;When?
+    &lt;ul&gt;
+      &lt;li&gt;Takes 24 hours to replenish carb stores.&lt;/li&gt;
+      &lt;li&gt;First 1 to 2 hours post exercise.&lt;/li&gt;
+      &lt;li&gt;Pre-competition meal -
+        &lt;ul&gt;
+          &lt;li&gt;2 to 3 hours prior - reduces blood requirements of digestive system and stabilizes glucose level&lt;/li&gt;
+          &lt;li&gt;300-500 calories, high in carbs.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;causes-of-muscle-fatigue&quot;&gt;Causes Of Muscle fatigue&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Muscle fatigue is inability to maintain output required during exercise.&lt;/li&gt;
+  &lt;li&gt;Common causes are located in the muscle itself.&lt;/li&gt;
+  &lt;li&gt;For Endurance exercise
+    &lt;ul&gt;
+      &lt;li&gt;Depletion of carb stores.&lt;/li&gt;
+      &lt;li&gt;Calcium levels&lt;/li&gt;
+      &lt;li&gt;Body and muscle temperature.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;causes-of-muscle-soreness&quot;&gt;Causes of muscle soreness&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;During prolonged isometric contraction, blood flow to the muscle can be shut down, reducing oxygen flow.&lt;/li&gt;
+  &lt;li&gt;This results in creating ATP anaerobically, producing acids. These acids when released into blood stream cause localized burning and pain, which subsided quickly.&lt;/li&gt;
+  &lt;li&gt;Cramps - no clear reasons are yet established.
+    &lt;ul&gt;
+      &lt;li&gt;Theory 1 - electrolyte imbalance.&lt;/li&gt;
+      &lt;li&gt;Theory 2 - bug in neural wiring.&lt;/li&gt;
+      &lt;li&gt;Can be solved using salts, fluids, massage and ice packs.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Muscle soreness which starts hours after the exercise is caused by eccentric contraction, when muscle is stretched.&lt;/li&gt;
+  &lt;li&gt;These contractions causes micro tears in the muscle fibers leading to inflammation, weakness, tenderness, and pain.&lt;/li&gt;
+  &lt;li&gt;Damaged sarcomere (muscle tissues) are replaced with healthy.&lt;/li&gt;
+  &lt;li&gt;Subsequent exercise with same intensity with cause lesser pain.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;performance-enhancing-drugs&quot;&gt;Performance enhancing drugs&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Blood doping - inject your blood cells before a competition.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 03 Jul 2019 15:56:19 +0530</pubDate>
+        <link>http://sushrutbidwai.com/week-3---science-of-exercise</link>
+        <guid isPermaLink="true">http://sushrutbidwai.com/week-3---science-of-exercise</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Week 8   Machine Learning</title>
+        <description>&lt;h3 id=&quot;unsupervised-learning-&quot;&gt;&lt;span&gt;Unsupervised learning &lt;/span&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Data does not have labels (y values)&lt;/li&gt;
+  &lt;li&gt;Clustering is a way to find structures with in data sets.&lt;/li&gt;
+  &lt;li&gt;Applications of clustering
+    &lt;ul&gt;
+      &lt;li&gt;Market segmentation&lt;/li&gt;
+      &lt;li&gt;Astronomy&lt;/li&gt;
+      &lt;li&gt;Computer clusters&lt;/li&gt;
+      &lt;li&gt;Social network analysis.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;k-means-algorithm&quot;&gt;K-means algorithm&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/kmeans.png&quot; alt=&quot;K-means algorithm&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;fine-tuning-k-means&quot;&gt;Fine tuning k-means&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Use randomly chosen inputs from input data set as initial centroids.&lt;/li&gt;
+  &lt;li&gt;Run k means multiple times with different randomly chosen centroids to reduce chance of getting stuck in local optima.&lt;/li&gt;
+  &lt;li&gt;Use elbow method to find optimum number of clusters. Although elbow method is quite ineffective for most real world problems.&lt;/li&gt;
+  &lt;li&gt;Deciding number of clusters requires human insight into the problem domain.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;dimensionality-reduction&quot;&gt;Dimensionality reduction&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Useful to reduce number of features to 2-3 to aid in visualizing data. May not necessarily be used to write machine learning algorithms.&lt;/li&gt;
+  &lt;li&gt;Compression - to save disk space, specially with computer vision.&lt;/li&gt;
+  &lt;li&gt;Speed up learning algorithm by reducing number of features without losing variance.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Don’t use PCA to solve overfitting.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h5 id=&quot;principal-component-analysis&quot;&gt;Principal Component analysis&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/pca.png&quot; alt=&quot;Principal Component Analysis&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;how-to-choose-number-of-principal-components&quot;&gt;How to choose number of Principal components&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/choosing-k.png&quot; alt=&quot;Choosing k&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 Jul 2019 16:11:42 +0530</pubDate>
+        <link>http://sushrutbidwai.com/week-8---machine-learning</link>
+        <guid isPermaLink="true">http://sushrutbidwai.com/week-8---machine-learning</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Week 3   Influencing People</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/influencing-people.png&quot; alt=&quot;Influencing People&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;developing-relationships&quot;&gt;&lt;span&gt;Developing Relationships&lt;/span&gt;&lt;/h3&gt;
+
+&lt;h5 id=&quot;expand-your-network&quot;&gt;Expand your network&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Find and meet people outside of your regular circle of contacts.&lt;/li&gt;
+  &lt;li&gt;One lunch per week with a colleague you don’t know.&lt;/li&gt;
+  &lt;li&gt;Join professional association or a sports club.&lt;/li&gt;
+  &lt;li&gt;Volunteer for non profit.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Most relationships are mutually dependent on each other, where each person depends on the other person a lot and to same degree.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h5 id=&quot;organizationalsocial-currencies&quot;&gt;Organizational/Social currencies&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Resources - budget, personnel, space, information&lt;/li&gt;
+  &lt;li&gt;Cooperation - faster response, approval, help.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;You don’t build a network, you earn it by delivering value to your contacts.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h5 id=&quot;relationship-currencies&quot;&gt;Relationship currencies&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Acceptance/inclusion - providing closeness and friendship.&lt;/li&gt;
+  &lt;li&gt;Personal support.&lt;/li&gt;
+  &lt;li&gt;Understanding.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;positional-currencies&quot;&gt;Positional currencies&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Advancement and visibility.&lt;/li&gt;
+  &lt;li&gt;Reputation. - endorsements.&lt;/li&gt;
+  &lt;li&gt;Social capital - introductions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;personal-related-currencies&quot;&gt;Personal related currencies&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Learning and growth.&lt;/li&gt;
+  &lt;li&gt;Self concept. - compliments, gratitude.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;bring-energy-into-relationships&quot;&gt;Bring energy into relationships&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Show concern for others.&lt;/li&gt;
+  &lt;li&gt;Connect with people beyond job roles.&lt;/li&gt;
+  &lt;li&gt;Always focus on possibilities and not just limitations.&lt;/li&gt;
+  &lt;li&gt;Maintain high level of cognitive and physical engagement.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 21 Jun 2019 15:24:19 +0530</pubDate>
+        <link>http://sushrutbidwai.com/week-3---influencing-people</link>
+        <guid isPermaLink="true">http://sushrutbidwai.com/week-3---influencing-people</guid>
+        
+        <category>Influencing People</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Week 6   Machine Learning</title>
+        <description>&lt;h3 id=&quot;-advice-on-machine-learning&quot;&gt;&lt;span&gt; Advice on machine learning&lt;/span&gt;&lt;/h3&gt;
+
+&lt;p&gt;If your machine learning algorithm is not working well, you can try following things.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Get more training examples.&lt;/li&gt;
+  &lt;li&gt;Try smaller set of features.&lt;/li&gt;
+  &lt;li&gt;Additional features.&lt;/li&gt;
+  &lt;li&gt;Adding polynomial features.&lt;/li&gt;
+  &lt;li&gt;Decreasing or increasing λ - the regularization parameter.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;machine-learning-diagnostic&quot;&gt;Machine learning diagnostic.&lt;/h5&gt;
+
+&lt;p&gt;A test you can run to gain insight what is/isn’t working with a learning algorithm, and gain guidance as to how best to improve its performance.&lt;/p&gt;
+
+&lt;h5 id=&quot;evaluating-hypothesis&quot;&gt;Evaluating hypothesis.&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Overfitting
+    &lt;ul&gt;
+      &lt;li&gt;Use part of training examples as test set.&lt;/li&gt;
+      &lt;li&gt;Typically random 30% of training examples are used as test set.&lt;/li&gt;
+      &lt;li&gt;If hypothesis overfits - then error in training set will be low, but high in test set.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Degree of polynomial
+    &lt;ul&gt;
+      &lt;li&gt;Linear, quadratic, cubic.. etc.&lt;/li&gt;
+      &lt;li&gt;Keep 20% of training examples for cross validation set.&lt;/li&gt;
+      &lt;li&gt;60% training set, 20% cross validation set, 20% test set.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;high-bias-or-variance-problem&quot;&gt;High bias or variance problem.&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Bias problem - training set and cross validation set errors both will be high.&lt;/li&gt;
+  &lt;li&gt;Variance problem - training set error is low, but cross validation errors are high.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/bias-variance-problem.png&quot; alt=&quot;Bias or variance problem&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;learning-curve&quot;&gt;Learning Curve.&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Plot average squared error for training set size.&lt;/li&gt;
+  &lt;li&gt;Plot both average squared error for cross validation set (J&lt;sub&gt;CV&amp;lt;/sup&amp;gt;) and training set J&lt;sub&gt;train&lt;/sub&gt;.&lt;/sub&gt;&lt;/li&gt;
+  &lt;li&gt;As the training set gets larger, the error for a quadratic function increases.&lt;/li&gt;
+  &lt;li&gt;The error value will plateau out after a certain m, or training set size.&lt;/li&gt;
+  &lt;li&gt;High bias - J&lt;sub&gt;CV&amp;lt;/sup&amp;gt; and J&lt;sub&gt;train&lt;/sub&gt; both will be high, will converge for sufficiently large value of training set size. More data will not help.&lt;/sub&gt;&lt;/li&gt;
+  &lt;li&gt;High variance - J&lt;sub&gt;train&lt;/sub&gt; « J&lt;sub&gt;CV&amp;lt;/sup&amp;gt;, will not converge. More data will likely help.&lt;/sub&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;neural-networks&quot;&gt;Neural networks.&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Smaller networks prone to under fitting.&lt;/li&gt;
+  &lt;li&gt;Larger networks prone to over fitting, but can be solved using regularization.&lt;/li&gt;
+  &lt;li&gt;Number of hidden layers is similar to degree of polynomial and same techniques can be used to optimize that.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;machine-learning-system-design&quot;&gt;Machine Learning System Design&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;How to spend your time to reduce error of your algorithm?
+    &lt;ul&gt;
+      &lt;li&gt;Collect lots of data.&lt;/li&gt;
+      &lt;li&gt;Develop sophisticated features.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Error analysis
+    &lt;ul&gt;
+      &lt;li&gt;Start with a simple algorithm.&lt;/li&gt;
+      &lt;li&gt;Plot learning curves to decide whether you need more features or data.&lt;/li&gt;
+      &lt;li&gt;Eye ball data where algorithm is going wrong.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Use a single numerical evaluation metric for your algorithm - error rate or something like that.
+    &lt;ul&gt;
+      &lt;li&gt;This evaluation will helps with deciding whether your changes are useful or not.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;skewed-classes-in-classification-algorithm&quot;&gt;Skewed classes in classification algorithm.&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Data may be skewed to contain far more number of examples for certain class.&lt;/li&gt;
+  &lt;li&gt;For example - far more samples (99%) of patients who dont have cancer, compared to small sample of patient who do.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Throwing out data to reducing skew is incorrect, as skew is representative of real world.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Using error metric will not be very useful to determine performance of such algorithm.&lt;/li&gt;
+  &lt;li&gt;In classification, you can change threshold from 0.5 to higher or lower values to force your algorithm to predict positive class only when very confident.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Precision&lt;/strong&gt;(P) - true positives / (true positives + false positives)
+    &lt;ul&gt;
+      &lt;li&gt;What percent of predicted positive results were correct.&lt;/li&gt;
+      &lt;li&gt;Good algorithm will have closer to 1.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Recall&lt;/strong&gt;(R) - true positives / (true positives + false negative)
+    &lt;ul&gt;
+      &lt;li&gt;What percent of positive results were predicted correctly&lt;/li&gt;
+      &lt;li&gt;Good algorithm will have closer to 1.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Trade off between Precision and Recall is a hard and depends on context.&lt;/li&gt;
+  &lt;li&gt;Trying out different algorithms and comparing P and R for them is a good to determine which algorithm is better.&lt;/li&gt;
+  &lt;li&gt;F score - 2 * (P * R)/(P + R) - Higher the value the better.
+    &lt;ul&gt;
+      &lt;li&gt;This score is used to compare performance of various algorithm.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;data-for-machine-learning&quot;&gt;Data for machine learning&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Very large data set makes even an “inferior algorithm” work better, almost at par with better algorithms.&lt;/li&gt;
+  &lt;li&gt;Although having large data set is not sufficient.&lt;/li&gt;
+  &lt;li&gt;Is the data useful and contains necessary information to write a good enough algorithm?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Can a human expert predict output confidently based on example and set of features?&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;For example - you can’t predict housing price based on data which contains only size of the house as information, irrespective of how many examples you have.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 17 Jun 2019 14:51:38 +0530</pubDate>
+        <link>http://sushrutbidwai.com/week-6---machine-learning</link>
+        <guid isPermaLink="true">http://sushrutbidwai.com/week-6---machine-learning</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Week 2   Science Of Exercise</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/science-of-exercise.png&quot; alt=&quot;Science Of Exercise&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;types-of-muscle-systems&quot;&gt;Types of muscle systems&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Skeletal&lt;/li&gt;
+  &lt;li&gt;Cardiac/Heart.&lt;/li&gt;
+  &lt;li&gt;Smooth - muscles surrounding blood vessels.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;skeletal-muscles&quot;&gt;Skeletal muscles&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Types of contractions
+    &lt;ul&gt;
+      &lt;li&gt;Isometric - no change in length.
+        &lt;ul&gt;
+          &lt;li&gt;Planking.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Concentric - muscle shortens.
+        &lt;ul&gt;
+          &lt;li&gt;Curls, presses. Most common form of contraction.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Eccentric - muscle lengthens.
+        &lt;ul&gt;
+          &lt;li&gt;Downhill running&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Contractions cause muscle soreness.&lt;/li&gt;
+  &lt;li&gt;Consists of 3 types of fibers.&lt;/li&gt;
+  &lt;li&gt;Type I fibers - high in mitochondria, can use fats aerobically, so slow to fatigue and hence important for endurance.&lt;/li&gt;
+  &lt;li&gt;Type IIx fibers - Use anaerobic paths to generate energy. Very fast, so required in exercises where you need lot of force, very quickly, for short durations.&lt;/li&gt;
+  &lt;li&gt;Type IIa fibers - Mixture of properties from type IIx and type I.&lt;/li&gt;
+  &lt;li&gt;Average person have 50-50% of type I and type II fibers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/exercise-fibers.png&quot; alt=&quot;Fibers during exercise&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;respiratory-systems&quot;&gt;Respiratory systems&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Roles of respiratory systems
+    &lt;ul&gt;
+      &lt;li&gt;Oxygen supply is maintained.&lt;/li&gt;
+      &lt;li&gt;Eliminate CO&lt;sub&gt;2&lt;/sub&gt; from the system.&lt;/li&gt;
+      &lt;li&gt;Buffering metabolic acids used during exercise.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;98.5% of oxygen is carried by hemoglobin (red blood cells).&lt;/li&gt;
+  &lt;li&gt;Drop in pH and increase in body temperature, causes more oxygen to be unloaded into muscles. &lt;em&gt;Warmup is important.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Endurance training will lead to increase in red blood cells count.&lt;/li&gt;
+  &lt;li&gt;During exercise, ATP production leads to increase demand for oxygen, leading to increased quantity of CO&lt;sub&gt;2&lt;/sub&gt;.&lt;/li&gt;
+  &lt;li&gt;Ventilatory rate - process of moving air into and out of the lungs.
+    &lt;ul&gt;
+      &lt;li&gt;Affected by breathing frequency.&lt;/li&gt;
+      &lt;li&gt;Tidal volume. - It is better, as it provides more time to complete gas exchange.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Valsalva maneuver&lt;/strong&gt; - Grunting during exercise forces blood supply to heart to drop, forcing heart to pump more blood. But can lead to fainting or dizziness.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;cardiovascular-systems&quot;&gt;Cardiovascular systems&lt;/h5&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Cardiac Output = Heart Rate * Stroke Volume&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Increase in output of heart, enhancing delivery of oxygen and blood flow.&lt;/li&gt;
+  &lt;li&gt;Heart rate increases during exercise due to nervous systems and hormone (epinephrine), depends also on intensity of the exercise.&lt;/li&gt;
+  &lt;li&gt;Oxygen consumption is depended on cardiac output, amount of oxygen utilized in muscle cells for ATP production.&lt;/li&gt;
+  &lt;li&gt;Oxygen consumption increases with intensity of exercise, before plateauing to peak rate.&lt;/li&gt;
+  &lt;li&gt;Blood flow can increased by
+    &lt;ul&gt;
+      &lt;li&gt;Increasing cardiac output.&lt;/li&gt;
+      &lt;li&gt;Blood vessels expand.&lt;/li&gt;
+      &lt;li&gt;Blood flow to muscles unused in exercise is reduced - kidneys, stomach, liver.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Oxygen levels drop as it is used for energy production, CO2 and hydrogen levels increases as output of energy production. This leads local smooth muscles to relax and increase blood flow.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;adaptations-in-cardiovascular-systems&quot;&gt;Adaptations in Cardiovascular systems&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Lower resting heart rate.&lt;/li&gt;
+  &lt;li&gt;Greater stroke volume at resting.&lt;/li&gt;
+  &lt;li&gt;Lower heart rate during less intense exercise.&lt;/li&gt;
+  &lt;li&gt;Greater maximal cardiac output.&lt;/li&gt;
+  &lt;li&gt;High oxygen consumption at local muscles.&lt;/li&gt;
+  &lt;li&gt;Maximal heart rate is &lt;strong&gt;not&lt;/strong&gt; affected by exercise.&lt;/li&gt;
+  &lt;li&gt;Training over a significant duration will cause
+    &lt;ul&gt;
+      &lt;li&gt;Higher red blood cell count.&lt;/li&gt;
+      &lt;li&gt;Higher capillaries in muscle fiber.&lt;/li&gt;
+      &lt;li&gt;Higher mitochondria.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;endocrine-systems&quot;&gt;Endocrine systems&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Endocrine systems - glands which produce hormones.&lt;/li&gt;
+  &lt;li&gt;Pancreas - insulin&lt;/li&gt;
+  &lt;li&gt;Adrenal - epinephrine&lt;/li&gt;
+  &lt;li&gt;Pituitary gland - growth hormone.&lt;/li&gt;
+  &lt;li&gt;hormones - trace substances, carried via blood, regulate physiological and metabolic functions.&lt;/li&gt;
+  &lt;li&gt;Play important role in maintain homeostasis.&lt;/li&gt;
+  &lt;li&gt;Insulin - when blood glucose levels increase, help in consuming increased glucose.&lt;/li&gt;
+  &lt;li&gt;Type 2 diabetes is caused by insulin resistance. Regular exercise is affecting alleviating insulin resistance.&lt;/li&gt;
+  &lt;li&gt;Epinephrine - aka adrenaline (stress hormones)
+    &lt;ul&gt;
+      &lt;li&gt;Released from adrenal glands.&lt;/li&gt;
+      &lt;li&gt;Lot of adrenaline is released during exercise due to stimulation from sympathetic nervous system.&lt;/li&gt;
+      &lt;li&gt;Similar to flight or fight response.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Growth hormones
+    &lt;ul&gt;
+      &lt;li&gt;Produced by Pituitary glands.&lt;/li&gt;
+      &lt;li&gt;Increases consumption of fatty acids.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Help protein synthesis just after exercise as levels stay up for 1 hour after exercise.&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/adrenaline.png&quot; alt=&quot;Effects of adrenaline&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;immune-systems&quot;&gt;Immune systems&lt;/h5&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Open Window Theory - After exercise, immune system is suppressed for few hours and hence more susceptible to viral or bacterial infections.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Length of suppressed time is dependent on intensity and length of exercise.&lt;/li&gt;
+  &lt;li&gt;Even you are sick and symptoms are above neck (like cold), okay to do light exercise. Else rest.&lt;/li&gt;
+  &lt;li&gt;Regular moderate training will enhances immune systems but regular high intensity exercise will make immune system weak and highly susceptible to viral and bacterial infections.&lt;/li&gt;
+  &lt;li&gt;Regular exercise help to fight stress.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 14 Jun 2019 21:24:13 +0530</pubDate>
+        <link>http://sushrutbidwai.com/week-2---science-of-exercise</link>
+        <guid isPermaLink="true">http://sushrutbidwai.com/week-2---science-of-exercise</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

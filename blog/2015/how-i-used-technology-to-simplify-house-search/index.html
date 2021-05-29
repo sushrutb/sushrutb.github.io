@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Tinder meets realestate</title>
+    <meta name="description" content="Or How I used technology to simplify house search">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://sushrutbidwai.com/blog/2015/how-i-used-technology-to-simplify-house-search/">
+    <link rel="alternate" type="application/rss+xml" title="Sushrut Bidwai" href="http://sushrutbidwai.com/feed.xml" />
+  </head>
+
+  <body>
+    <main>
+      <header class="site-header">
+  <div class="container">
+    <h1><a href="/">Sushrut <span>Bidwai</span></a></h1>
+
+    <button type="button" class="sliding-panel-button">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="navbar sliding-panel-content">
+      <ul>
+        
+          <li><a href="/about" title="About">About</a></li>
+        
+          <li><a href="/blog" title="Blog">Blog</a></li>
+        
+        <li><a href="/feed.xml" target="_blank"><i class="icon icon-feed"></i></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="sliding-panel-fade-screen"></div>
+
+
+      <div class="container">
+        <article role="article" class="post">
+
+  <div class="card">
+    <header class="post-header">
+      <h1 class="post-title">Tinder meets realestate</h1>
+      <p class="post-meta">Oct 12, 2015</p>
+    </header>
+
+    <div class="post-content">
+      <h4 id="or-how-i-used-technology-to-simplify-house-search">Or How I used technology to simplify house search</h4>
+
+<p>My fiancée and I are moving out of our current rental and looking for a new one in Melbourne. Finding houses that we both like is tedious. Initially we were sending each other links and then discussing if we both liked it or not. Once we liked a house we wanted to keep track of open inspection time. Or schedule a inspection with agent.</p>
+
+<p>Instead of doing all this, I decided to code a simple solution with out having to deploy an app or maintain a server and so on.</p>
+
+<blockquote>
+  <p>Basic requirement for the app is to be extremely easy to use and automate as much as possible.</p>
+</blockquote>
+
+<p>So keeping above in mind, this is what I ended doing.</p>
+
+<p>######Step 0 - Create requirements</p>
+
+<ul>
+  <li>Make a list of suburbs which worked for both of us.</li>
+  <li>Make a list of requirements - Number of parking spots, bedrooms and so on.</li>
+</ul>
+
+<p>######Step 1 - Code a simple scrapper</p>
+
+<p>I have used <a href="http://jsoup.org">jsoup</a> a lot in the past. My previous shopping search engine app used it extensively. So I used that again to code a simple scrapper and attribute extractor. Scrapper runs everyday and fetches data from <a href="http://realestate.com.au">realestate.com.au</a>.</p>
+
+<p>######Step 2 - Database
+I had no intention of hosting all this data myself or maintain a schema. I anyways wanted to try out <a href="http://firebase.io">firebase</a> and hence decided to just use that.
+Scrapper created in Step 1, validates the data, adds hygiene to it and then pushes it to a firebase collection.</p>
+
+<p>######Step 3 - Build a UI</p>
+
+<p>Instead of maintaining a database or something which is cumbersome to maintain, I decided to just create two separate pages with same content but injected with hardcoded userids. I use one link and she uses another link. Pages themselves are built using <a href="http://foundation.zurb.com">Foundation 5</a> and work flawlessly on mobile.
+<img src="/content/images/2015/10/Screenshot-2015-10-12-18-23-36.png" alt="" /></p>
+
+<p>We both give thumbs-up or down to the houses we like.</p>
+<blockquote>
+  <p>Creating a tinder like experience has been the key idea behind this exercise.</p>
+</blockquote>
+
+<p>These pages, along little bit of Javascript and UI artefacts are all hosted on <a href="https://db.tt/NeUOFrM">dropbox</a>!</p>
+
+<blockquote>
+  <p>By outsourcing content hosting to Dropbox, I did not have to be worried about up time. Even if it is just supporting my partner as a user, it is still lot of work and creates a dependency. Ultimately the app had to be useful and uptime is the most important part of that.
+######Step 4
+We both look at the houses in our spare time and like/unlike them. Every time we like/unlike a house, that information is pushed to firebase. A script runs everyday which just does a set intersection to find the houses we have both liked. 
+######Step 5 - Create calendar event
+I have created a shared google calendar “Inspection times” which will have all the “events” related to house search. The script in Step 4 also pushes events to this calendar. Scrapper extracts open inspection times from the house listing and then create events with time, location, agent information and adds that to the shared calendar.</p>
+</blockquote>
+
+<p>It has been an interesting problem to solve technically, even though most of the tech part was just wiring up off-the-shelf components.</p>
+
+<p>Thank you <a href="https://twitter.com/thinrhino">@thinrhino</a> for proof reading.</p>
+
+    </div>
+
+    
+  </div>
+
+</article>
+
+      </div>
+
+      <footer class="site-footer">
+  <div class="container">
+    <ul class="social">
+  <li><a href="http://github.com/sushrutb" target="_blank"><i class="icon icon-github"></i></a></li>
+</ul>
+
+    <p class="txt-medium-gray">
+      <small>&copy;2021 All rights reserved. Made with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and ♥</small>
+    </p>
+  </div>
+</footer>
+
+
+
+      <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script>
+      $(document).ready(function() {
+        $('.sliding-panel-button,.sliding-panel-fade-screen,.sliding-panel-close').on('click touchstart',function (e) {
+          $('.sliding-panel-content,.sliding-panel-fade-screen').toggleClass('is-visible');
+          e.preventDefault();
+        });
+      });
+      </script>
+    </main>
+  </body>
+</html>

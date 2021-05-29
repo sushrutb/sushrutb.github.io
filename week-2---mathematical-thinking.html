@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Week 2   Mathematical Thinking</title>
+    <meta name="description" content="">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://sushrutbidwai.com/week-2---mathematical-thinking">
+    <link rel="alternate" type="application/rss+xml" title="Sushrut Bidwai" href="http://sushrutbidwai.com/feed.xml" />
+  </head>
+
+  <body>
+    <main>
+      <header class="site-header">
+  <div class="container">
+    <h1><a href="/">Sushrut <span>Bidwai</span></a></h1>
+
+    <button type="button" class="sliding-panel-button">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="navbar sliding-panel-content">
+      <ul>
+        
+          <li><a href="/about" title="About">About</a></li>
+        
+          <li><a href="/blog" title="Blog">Blog</a></li>
+        
+        <li><a href="/feed.xml" target="_blank"><i class="icon icon-feed"></i></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="sliding-panel-fade-screen"></div>
+
+
+      <div class="container">
+        <article role="article" class="post">
+
+  <div class="card">
+    <header class="post-header">
+      <h1 class="post-title">Week 2   Mathematical Thinking</h1>
+      <p class="post-meta">Jun 8, 2019</p>
+    </header>
+
+    <div class="post-content">
+      <p><img src="/images/mathematical-thinking.png" alt="Mathematical Thinking" /></p>
+
+<h5 id="logical-implication">Logical Implication</h5>
+<ul>
+  <li>Implication involves causality.</li>
+  <li>Implication has a truth part and a causality part.</li>
+  <li>Mathematics only deals with truth part or conditional.</li>
+  <li>φ =&gt; ψ
+    <ul>
+      <li>φ is antecedent.</li>
+      <li>ψ is consequence.</li>
+    </ul>
+  </li>
+  <li>φ =&gt; ψ means
+    <ul>
+      <li>If φ, then ψ</li>
+      <li>φ is sufficient for ψ</li>
+      <li>φ only if ψ</li>
+      <li>ψ if φ</li>
+      <li>ψ whenever φ</li>
+      <li>ψ is necessary for φ</li>
+    </ul>
+  </li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>φ</th>
+      <th>ψ</th>
+      <th>φ =&gt; ψ</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>T</td>
+      <td>T</td>
+      <td>T</td>
+    </tr>
+    <tr>
+      <td>T</td>
+      <td>F</td>
+      <td>F</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>T</td>
+      <td>T</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>F</td>
+      <td>T</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="logical-equivalence">Logical equivalence.</h5>
+<ul>
+  <li>Equivalence is similar to equations/equality.</li>
+  <li>Biconditional.</li>
+  <li>φ &lt;=&gt; ψ if (φ =&gt; ψ) ^ (ψ =&gt; φ)</li>
+  <li>φ &lt;=&gt; ψ means
+    <ul>
+      <li>φ is necessary and sufficient for ψ</li>
+      <li>φ if and only if ψ</li>
+    </ul>
+  </li>
+</ul>
+
+    </div>
+
+    
+<hr>
+
+<aside id="comments" class="disqus">
+  <div class="container">
+    <h3><i class="icon icon-comments-o"></i> Comments</h3>
+    <div id="disqus_thread"></div>
+    <script>
+      var disqus_config = function() {
+        this.page.url = 'http://sushrutbidwai.com';
+        this.page.identifier = '/week-2---mathematical-thinking';
+      };
+      (function() {
+        var d = document,
+        s = d.createElement('script');
+        s.src = '//sushrutbidwaicom.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+  </div>
+</aside>
+
+  </div>
+
+</article>
+
+      </div>
+
+      <footer class="site-footer">
+  <div class="container">
+    <ul class="social">
+  <li><a href="http://github.com/sushrutb" target="_blank"><i class="icon icon-github"></i></a></li>
+</ul>
+
+    <p class="txt-medium-gray">
+      <small>&copy;2021 All rights reserved. Made with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and ♥</small>
+    </p>
+  </div>
+</footer>
+
+
+
+      <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script>
+      $(document).ready(function() {
+        $('.sliding-panel-button,.sliding-panel-fade-screen,.sliding-panel-close').on('click touchstart',function (e) {
+          $('.sliding-panel-content,.sliding-panel-fade-screen').toggleClass('is-visible');
+          e.preventDefault();
+        });
+      });
+      </script>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Week 2   Machine Learning</title>
+    <meta name="description" content="">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://sushrutbidwai.com/week-2---machine-learning">
+    <link rel="alternate" type="application/rss+xml" title="Sushrut Bidwai" href="http://sushrutbidwai.com/feed.xml" />
+  </head>
+
+  <body>
+    <main>
+      <header class="site-header">
+  <div class="container">
+    <h1><a href="/">Sushrut <span>Bidwai</span></a></h1>
+
+    <button type="button" class="sliding-panel-button">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="navbar sliding-panel-content">
+      <ul>
+        
+          <li><a href="/about" title="About">About</a></li>
+        
+          <li><a href="/blog" title="Blog">Blog</a></li>
+        
+        <li><a href="/feed.xml" target="_blank"><i class="icon icon-feed"></i></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="sliding-panel-fade-screen"></div>
+
+
+      <div class="container">
+        <article role="article" class="post">
+
+  <div class="card">
+    <header class="post-header">
+      <h1 class="post-title">Week 2   Machine Learning</h1>
+      <p class="post-meta">May 21, 2019</p>
+    </header>
+
+    <div class="post-content">
+      <p><img src="/images/machine-learning.png" alt="Machine Learning" /></p>
+
+<h3 id="multivariate-linear-gradient"><span>Multivariate linear gradient</span></h3>
+
+<h5 id="hypothesis-function">hypothesis function</h5>
+<ul>
+  <li>Multiple features, single out come variables.</li>
+  <li>Definition of hypothesis function
+    <ul>
+      <li>h<sub>θ</sub>(x) = θ<sub>0</sub> + θ<sub>1</sub>x<sub>1</sub> + θ<sub>2</sub>x<sub>2</sub> … + θ<sub>n</sub>x<sub>n</sub></li>
+      <li>x<sub>0 = 1</sub></li>
+      <li>h<sub>θ</sub>(x) = θ<sub>0</sub><strong>x<sub>0</sub></strong> + θ<sub>1</sub>x<sub>1</sub> + θ<sub>2</sub>x<sub>2</sub> … + θ<sub>n</sub>x<sub>n</sub></li>
+      <li>x = (N+1) vector, θ = (N+1) vetor</li>
+      <li>h<sub>θ</sub>(x) = θ<sup>T</sup>x</li>
+    </ul>
+  </li>
+</ul>
+
+<h5 id="multivariate-linear-regression">Multivariate linear regression</h5>
+
+<p><img src="/images/multivariate-linear-regression.png" alt="Multivariate Linear Regression" /></p>
+
+<h5 id="feature-scaling">Feature scaling</h5>
+<ul>
+  <li>If ranges for various features vary quite a bit, leads to skewed chart, leading to slow rate of convergence.</li>
+  <li>To speed up speed of convergence scale all features so that ranges for all are between 0 to 1.</li>
+  <li>Example - Feature 1 = potential values 0 to 10000. ScaledFeature 1 = (Feature 1)/10000 = potential values 0 to 1.</li>
+  <li>If features can have negative values then potential values will be -1 to 1</li>
+</ul>
+
+<h5 id="mean-normalization">Mean normalization</h5>
+<ul>
+  <li>All features having similar mean (zero) helps with rate of convergence.</li>
+  <li>Normalize all features so that the mean is at zero.</li>
+</ul>
+
+<h5 id="formula-to-do-feature-scaling-and-mean-normalization">Formula to do feature scaling and mean normalization</h5>
+
+<blockquote>
+  <p>x<sub>i</sub> = (x<sub>i</sub>-μ<sub>i</sub>)/S<sub>i</sub></p>
+</blockquote>
+
+<ul>
+  <li>&amp;mu<sub>i</sub> = average value of the feature.</li>
+  <li>S<sub>i</sub> = Max Value - Min Value for the feature</li>
+  <li>Features a range of -0.5 to 0.5</li>
+</ul>
+
+<h5 id="practical-tips-for-gradient-descent">Practical tips for gradient descent</h5>
+<ul>
+  <li>Best way to debug if gradient descent is working is by plotting J(θ) for number of iterations.</li>
+  <li>Learning rate too small = slow convergence</li>
+  <li>Learning rate too high = J(θ) may not converge.</li>
+  <li>Try α = 0.001, 0.003, 0.01, 0.03, 0.1, 0.3, 1…</li>
+</ul>
+
+<h5 id="polynomial-regression">Polynomial regression</h5>
+
+<p><img src="/images/polynomial-regression.png" alt="Polynomial Regression" /></p>
+
+<h5 id="normal-equation">Normal Equation</h5>
+
+<p>θ = (X<sup>T</sup>X)<sup>-1</sup>X<sup>T</sup>y</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Gradient descent</th>
+      <th>Normal Equation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Need to choose learning rate</td>
+      <td>Dont need to choose learning rate</td>
+    </tr>
+    <tr>
+      <td>Needs many iterations</td>
+      <td>No need to iterate</td>
+    </tr>
+    <tr>
+      <td>O(kn)<sup>2</sup></td>
+      <td>O(n<sup>3</sup>) to calculate X<sup>T</sup>X</td>
+    </tr>
+    <tr>
+      <td>Works well even when n in large</td>
+      <td>Slow if n is very large</td>
+    </tr>
+  </tbody>
+</table>
+
+    </div>
+
+    
+<hr>
+
+<aside id="comments" class="disqus">
+  <div class="container">
+    <h3><i class="icon icon-comments-o"></i> Comments</h3>
+    <div id="disqus_thread"></div>
+    <script>
+      var disqus_config = function() {
+        this.page.url = 'http://sushrutbidwai.com';
+        this.page.identifier = '/week-2---machine-learning';
+      };
+      (function() {
+        var d = document,
+        s = d.createElement('script');
+        s.src = '//sushrutbidwaicom.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+  </div>
+</aside>
+
+  </div>
+
+</article>
+
+      </div>
+
+      <footer class="site-footer">
+  <div class="container">
+    <ul class="social">
+  <li><a href="http://github.com/sushrutb" target="_blank"><i class="icon icon-github"></i></a></li>
+</ul>
+
+    <p class="txt-medium-gray">
+      <small>&copy;2021 All rights reserved. Made with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and ♥</small>
+    </p>
+  </div>
+</footer>
+
+
+
+      <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script>
+      $(document).ready(function() {
+        $('.sliding-panel-button,.sliding-panel-fade-screen,.sliding-panel-close').on('click touchstart',function (e) {
+          $('.sliding-panel-content,.sliding-panel-fade-screen').toggleClass('is-visible');
+          e.preventDefault();
+        });
+      });
+      </script>
+    </main>
+  </body>
+</html>

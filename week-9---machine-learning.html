@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Week 9   Machine Learning</title>
+    <meta name="description" content="Anomaly detection">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://sushrutbidwai.com/week-9---machine-learning">
+    <link rel="alternate" type="application/rss+xml" title="Sushrut Bidwai" href="http://sushrutbidwai.com/feed.xml" />
+  </head>
+
+  <body>
+    <main>
+      <header class="site-header">
+  <div class="container">
+    <h1><a href="/">Sushrut <span>Bidwai</span></a></h1>
+
+    <button type="button" class="sliding-panel-button">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="navbar sliding-panel-content">
+      <ul>
+        
+          <li><a href="/about" title="About">About</a></li>
+        
+          <li><a href="/blog" title="Blog">Blog</a></li>
+        
+        <li><a href="/feed.xml" target="_blank"><i class="icon icon-feed"></i></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="sliding-panel-fade-screen"></div>
+
+
+      <div class="container">
+        <article role="article" class="post">
+
+  <div class="card">
+    <header class="post-header">
+      <h1 class="post-title">Week 9   Machine Learning</h1>
+      <p class="post-meta">Jul 5, 2019</p>
+    </header>
+
+    <div class="post-content">
+      <h3 id="anomaly-detection"><span>Anomaly detection</span></h3>
+
+<h5 id="applications">Applications</h5>
+<ul>
+  <li>Fraud detection in e-commerce</li>
+  <li>Manufacturing - help in quality assurance by finding anomalous components.</li>
+  <li>Monitoring computers in data centers</li>
+</ul>
+
+<h5 id="algorithm">Algorithm</h5>
+
+<p><img src="/images/anomaly-detection.png" alt="Anomaly Detection Algorithm" /></p>
+
+<h5 id="choosing-parameters">Choosing parameters</h5>
+<ul>
+  <li>The algorithms works best if the feature has gaussian distribution.</li>
+  <li>It will still work if distribution is not gaussian.</li>
+  <li>Features can be transformed to so that their distribution looks more gaussian.</li>
+  <li>For example
+    <ul>
+      <li>Feature x can be transformed using log(x), or log(x + c), or sqrt(x) etc.</li>
+    </ul>
+  </li>
+  <li>Do error analysis. If p(x) is similar for normal and anomalous examples, then need to find new features which can improve the algorithm.</li>
+  <li>Choose features which take on very small or very large values in the event of an anomaly.</li>
+</ul>
+
+<h5 id="multivariate-gaussian-distribution">Multivariate gaussian distribution</h5>
+
+<table>
+  <thead>
+    <tr>
+      <th>Original gaussian</th>
+      <th>Multivariate gaussian</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Manually create features to capture anomalies, based on given raw set of features.</td>
+      <td>Automatically captures correlations between features</td>
+    </tr>
+    <tr>
+      <td>Computationally cheaper</td>
+      <td>Expensive to compute, does not scale well with number of features, due to calculating matrix inverse.</td>
+    </tr>
+    <tr>
+      <td>Works even in small training set.</td>
+      <td>Number of training examples has  to be greater than number of features. Should be m &gt; 10n</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="-recommender-systems"><span> Recommender systems</span></h3>
+
+<h5 id="applications-1">Applications</h5>
+<ul>
+  <li>Movie, book recommendations.</li>
+  <li>Shopping recommendations.</li>
+</ul>
+
+<h5 id="content-based-recommender-systems">Content based recommender systems</h5>
+<ul>
+  <li>Essentially a deviation of linear regression.</li>
+  <li>We find prediction parameters, θ, for each user in the system.</li>
+  <li>Use above parameters to predict which movies the user will like.</li>
+  <li>Requires availability of features based on content a movie such as degree of action, romance; which difficult to find in real world.</li>
+</ul>
+
+<h5 id="collaborative-filtering">Collaborative filtering</h5>
+
+<p><img src="/images/cf-1.png" alt="Collaborative Filtering" /></p>
+
+<p><img src="/images/cf-2.png" alt="Collaborative Filtering" /></p>
+
+<p><img src="/images/cf-3.png" alt="Collaborative Filtering" /></p>
+
+    </div>
+
+    
+<hr>
+
+<aside id="comments" class="disqus">
+  <div class="container">
+    <h3><i class="icon icon-comments-o"></i> Comments</h3>
+    <div id="disqus_thread"></div>
+    <script>
+      var disqus_config = function() {
+        this.page.url = 'http://sushrutbidwai.com';
+        this.page.identifier = '/week-9---machine-learning';
+      };
+      (function() {
+        var d = document,
+        s = d.createElement('script');
+        s.src = '//sushrutbidwaicom.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+  </div>
+</aside>
+
+  </div>
+
+</article>
+
+      </div>
+
+      <footer class="site-footer">
+  <div class="container">
+    <ul class="social">
+  <li><a href="http://github.com/sushrutb" target="_blank"><i class="icon icon-github"></i></a></li>
+</ul>
+
+    <p class="txt-medium-gray">
+      <small>&copy;2021 All rights reserved. Made with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and ♥</small>
+    </p>
+  </div>
+</footer>
+
+
+
+      <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script>
+      $(document).ready(function() {
+        $('.sliding-panel-button,.sliding-panel-fade-screen,.sliding-panel-close').on('click touchstart',function (e) {
+          $('.sliding-panel-content,.sliding-panel-fade-screen').toggleClass('is-visible');
+          e.preventDefault();
+        });
+      });
+      </script>
+    </main>
+  </body>
+</html>

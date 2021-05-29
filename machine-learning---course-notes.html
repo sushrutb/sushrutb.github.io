@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Machine Learning   Course Notes</title>
+    <meta name="description" content="">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://sushrutbidwai.com/machine-learning---course-notes">
+    <link rel="alternate" type="application/rss+xml" title="Sushrut Bidwai" href="http://sushrutbidwai.com/feed.xml" />
+  </head>
+
+  <body>
+    <main>
+      <header class="site-header">
+  <div class="container">
+    <h1><a href="/">Sushrut <span>Bidwai</span></a></h1>
+
+    <button type="button" class="sliding-panel-button">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="navbar sliding-panel-content">
+      <ul>
+        
+          <li><a href="/about" title="About">About</a></li>
+        
+          <li><a href="/blog" title="Blog">Blog</a></li>
+        
+        <li><a href="/feed.xml" target="_blank"><i class="icon icon-feed"></i></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="sliding-panel-fade-screen"></div>
+
+
+      <div class="container">
+        <article role="article" class="post">
+
+  <div class="card">
+    <header class="post-header">
+      <h1 class="post-title">Machine Learning   Course Notes</h1>
+      <p class="post-meta">May 15, 2019</p>
+    </header>
+
+    <div class="post-content">
+      <p><img src="/images/machine-learning.png" alt="Machine Learning" /></p>
+
+<h3 id="what-is-machine-learning">What is machine learning?</h3>
+<blockquote>
+  <p>Field of study that gives computers the ability to learn without being explicitly programmed</p>
+</blockquote>
+
+<blockquote>
+  <p>A computer program is said to learn from experience E with respect to some task T and some performance measure P, if its performance on T, as measured by P, improves with experience E.</p>
+</blockquote>
+
+<h3 id="types-of-machine-learning">Types of machine learning.</h3>
+<ul>
+  <li>Supervised - teach the computer how to do something.</li>
+  <li>Unsupervised - computer learns by itself.</li>
+  <li>Reinforced Learning.</li>
+  <li>Recommender systems.</li>
+</ul>
+
+<h4 id="supervised-learning">Supervised learning</h4>
+<ul>
+  <li>Classification problems where output is from set of discrete values.
+    <ul>
+      <li>Email is spam or not.</li>
+    </ul>
+  </li>
+  <li>Regression problems where result is within a continuous output.
+    <ul>
+      <li>House prices.</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="unsupervised-learning">Unsupervised learning</h4>
+<ul>
+  <li>Structure of the data is unknown.</li>
+  <li>Used to determine structure of the data and derive features.</li>
+</ul>
+
+<h4 id="linear-regression-with-one-variable">Linear regression with one variable</h4>
+
+<h5 id="cost-function">Cost function</h5>
+
+<p><img src="/images/cost-function.png" alt="Cost Function" /></p>
+
+<h5 id="gradient-descent">Gradient descent</h5>
+
+<p><img src="/images/gd.png" alt="Gradient Descent" /></p>
+
+<h5 id="gradient-descent-for-linear-regression">Gradient descent for linear regression</h5>
+
+<p><img src="/images/gd-lr.png" alt="Gradient Descent For Linear Regression" /></p>
+
+    </div>
+
+    
+<hr>
+
+<aside id="comments" class="disqus">
+  <div class="container">
+    <h3><i class="icon icon-comments-o"></i> Comments</h3>
+    <div id="disqus_thread"></div>
+    <script>
+      var disqus_config = function() {
+        this.page.url = 'http://sushrutbidwai.com';
+        this.page.identifier = '/week-1--machine-learning';
+      };
+      (function() {
+        var d = document,
+        s = d.createElement('script');
+        s.src = '//sushrutbidwaicom.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+  </div>
+</aside>
+
+  </div>
+
+</article>
+
+      </div>
+
+      <footer class="site-footer">
+  <div class="container">
+    <ul class="social">
+  <li><a href="http://github.com/sushrutb" target="_blank"><i class="icon icon-github"></i></a></li>
+</ul>
+
+    <p class="txt-medium-gray">
+      <small>&copy;2021 All rights reserved. Made with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and ♥</small>
+    </p>
+  </div>
+</footer>
+
+
+
+      <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script>
+      $(document).ready(function() {
+        $('.sliding-panel-button,.sliding-panel-fade-screen,.sliding-panel-close').on('click touchstart',function (e) {
+          $('.sliding-panel-content,.sliding-panel-fade-screen').toggleClass('is-visible');
+          e.preventDefault();
+        });
+      });
+      </script>
+    </main>
+  </body>
+</html>

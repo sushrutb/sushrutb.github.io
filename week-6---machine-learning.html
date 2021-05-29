@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Week 6   Machine Learning</title>
+    <meta name="description" content=" Advice on machine learning">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://sushrutbidwai.com/week-6---machine-learning">
+    <link rel="alternate" type="application/rss+xml" title="Sushrut Bidwai" href="http://sushrutbidwai.com/feed.xml" />
+  </head>
+
+  <body>
+    <main>
+      <header class="site-header">
+  <div class="container">
+    <h1><a href="/">Sushrut <span>Bidwai</span></a></h1>
+
+    <button type="button" class="sliding-panel-button">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="navbar sliding-panel-content">
+      <ul>
+        
+          <li><a href="/about" title="About">About</a></li>
+        
+          <li><a href="/blog" title="Blog">Blog</a></li>
+        
+        <li><a href="/feed.xml" target="_blank"><i class="icon icon-feed"></i></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="sliding-panel-fade-screen"></div>
+
+
+      <div class="container">
+        <article role="article" class="post">
+
+  <div class="card">
+    <header class="post-header">
+      <h1 class="post-title">Week 6   Machine Learning</h1>
+      <p class="post-meta">Jun 17, 2019</p>
+    </header>
+
+    <div class="post-content">
+      <h3 id="-advice-on-machine-learning"><span> Advice on machine learning</span></h3>
+
+<p>If your machine learning algorithm is not working well, you can try following things.</p>
+
+<ul>
+  <li>Get more training examples.</li>
+  <li>Try smaller set of features.</li>
+  <li>Additional features.</li>
+  <li>Adding polynomial features.</li>
+  <li>Decreasing or increasing λ - the regularization parameter.</li>
+</ul>
+
+<h5 id="machine-learning-diagnostic">Machine learning diagnostic.</h5>
+
+<p>A test you can run to gain insight what is/isn’t working with a learning algorithm, and gain guidance as to how best to improve its performance.</p>
+
+<h5 id="evaluating-hypothesis">Evaluating hypothesis.</h5>
+<ul>
+  <li>Overfitting
+    <ul>
+      <li>Use part of training examples as test set.</li>
+      <li>Typically random 30% of training examples are used as test set.</li>
+      <li>If hypothesis overfits - then error in training set will be low, but high in test set.</li>
+    </ul>
+  </li>
+  <li>Degree of polynomial
+    <ul>
+      <li>Linear, quadratic, cubic.. etc.</li>
+      <li>Keep 20% of training examples for cross validation set.</li>
+      <li>60% training set, 20% cross validation set, 20% test set.</li>
+    </ul>
+  </li>
+</ul>
+
+<h5 id="high-bias-or-variance-problem">High bias or variance problem.</h5>
+<ul>
+  <li>Bias problem - training set and cross validation set errors both will be high.</li>
+  <li>Variance problem - training set error is low, but cross validation errors are high.</li>
+</ul>
+
+<p><img src="/images/bias-variance-problem.png" alt="Bias or variance problem" /></p>
+
+<h5 id="learning-curve">Learning Curve.</h5>
+<ul>
+  <li>Plot average squared error for training set size.</li>
+  <li>Plot both average squared error for cross validation set (J<sub>CV&lt;/sup&gt;) and training set J<sub>train</sub>.</sub></li>
+  <li>As the training set gets larger, the error for a quadratic function increases.</li>
+  <li>The error value will plateau out after a certain m, or training set size.</li>
+  <li>High bias - J<sub>CV&lt;/sup&gt; and J<sub>train</sub> both will be high, will converge for sufficiently large value of training set size. More data will not help.</sub></li>
+  <li>High variance - J<sub>train</sub> « J<sub>CV&lt;/sup&gt;, will not converge. More data will likely help.</sub></li>
+</ul>
+
+<h5 id="neural-networks">Neural networks.</h5>
+<ul>
+  <li>Smaller networks prone to under fitting.</li>
+  <li>Larger networks prone to over fitting, but can be solved using regularization.</li>
+  <li>Number of hidden layers is similar to degree of polynomial and same techniques can be used to optimize that.</li>
+</ul>
+
+<h5 id="machine-learning-system-design">Machine Learning System Design</h5>
+<ul>
+  <li>How to spend your time to reduce error of your algorithm?
+    <ul>
+      <li>Collect lots of data.</li>
+      <li>Develop sophisticated features.</li>
+    </ul>
+  </li>
+  <li>Error analysis
+    <ul>
+      <li>Start with a simple algorithm.</li>
+      <li>Plot learning curves to decide whether you need more features or data.</li>
+      <li>Eye ball data where algorithm is going wrong.</li>
+    </ul>
+  </li>
+  <li>Use a single numerical evaluation metric for your algorithm - error rate or something like that.
+    <ul>
+      <li>This evaluation will helps with deciding whether your changes are useful or not.</li>
+    </ul>
+  </li>
+</ul>
+
+<h5 id="skewed-classes-in-classification-algorithm">Skewed classes in classification algorithm.</h5>
+<ul>
+  <li>Data may be skewed to contain far more number of examples for certain class.</li>
+  <li>For example - far more samples (99%) of patients who dont have cancer, compared to small sample of patient who do.</li>
+  <li><em>Throwing out data to reducing skew is incorrect, as skew is representative of real world.</em></li>
+  <li>Using error metric will not be very useful to determine performance of such algorithm.</li>
+  <li>In classification, you can change threshold from 0.5 to higher or lower values to force your algorithm to predict positive class only when very confident.</li>
+  <li><strong>Precision</strong>(P) - true positives / (true positives + false positives)
+    <ul>
+      <li>What percent of predicted positive results were correct.</li>
+      <li>Good algorithm will have closer to 1.</li>
+    </ul>
+  </li>
+  <li><strong>Recall</strong>(R) - true positives / (true positives + false negative)
+    <ul>
+      <li>What percent of positive results were predicted correctly</li>
+      <li>Good algorithm will have closer to 1.</li>
+    </ul>
+  </li>
+  <li>Trade off between Precision and Recall is a hard and depends on context.</li>
+  <li>Trying out different algorithms and comparing P and R for them is a good to determine which algorithm is better.</li>
+  <li>F score - 2 * (P * R)/(P + R) - Higher the value the better.
+    <ul>
+      <li>This score is used to compare performance of various algorithm.</li>
+    </ul>
+  </li>
+</ul>
+
+<h5 id="data-for-machine-learning">Data for machine learning</h5>
+<ul>
+  <li>Very large data set makes even an “inferior algorithm” work better, almost at par with better algorithms.</li>
+  <li>Although having large data set is not sufficient.</li>
+  <li>Is the data useful and contains necessary information to write a good enough algorithm?</li>
+  <li><strong>Can a human expert predict output confidently based on example and set of features?</strong></li>
+  <li>For example - you can’t predict housing price based on data which contains only size of the house as information, irrespective of how many examples you have.</li>
+</ul>
+
+    </div>
+
+    
+<hr>
+
+<aside id="comments" class="disqus">
+  <div class="container">
+    <h3><i class="icon icon-comments-o"></i> Comments</h3>
+    <div id="disqus_thread"></div>
+    <script>
+      var disqus_config = function() {
+        this.page.url = 'http://sushrutbidwai.com';
+        this.page.identifier = '/week-6---machine-learning';
+      };
+      (function() {
+        var d = document,
+        s = d.createElement('script');
+        s.src = '//sushrutbidwaicom.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+  </div>
+</aside>
+
+  </div>
+
+</article>
+
+      </div>
+
+      <footer class="site-footer">
+  <div class="container">
+    <ul class="social">
+  <li><a href="http://github.com/sushrutb" target="_blank"><i class="icon icon-github"></i></a></li>
+</ul>
+
+    <p class="txt-medium-gray">
+      <small>&copy;2021 All rights reserved. Made with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and ♥</small>
+    </p>
+  </div>
+</footer>
+
+
+
+      <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script>
+      $(document).ready(function() {
+        $('.sliding-panel-button,.sliding-panel-fade-screen,.sliding-panel-close').on('click touchstart',function (e) {
+          $('.sliding-panel-content,.sliding-panel-fade-screen').toggleClass('is-visible');
+          e.preventDefault();
+        });
+      });
+      </script>
+    </main>
+  </body>
+</html>
