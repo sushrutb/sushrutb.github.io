@@ -5,9 +5,24 @@
     <description>Personal website of Sushrut Bidwai</description>
     <link>http://sushrutbidwai.com/</link>
     <atom:link href="http://sushrutbidwai.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 29 May 2021 13:11:23 +0530</pubDate>
-    <lastBuildDate>Sat, 29 May 2021 13:11:23 +0530</lastBuildDate>
+    <pubDate>Sat, 29 May 2021 07:46:02 +0000</pubDate>
+    <lastBuildDate>Sat, 29 May 2021 07:46:02 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>India</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/goa-sunset.jpg&quot; alt=&quot;Goa&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After spending last two years in UK and Germany, I have moved back for good to India.&lt;/p&gt;
+
+&lt;p&gt;Plan for now is to do some consulting, while trying out few ideas and see if anything sticks.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 28 May 2021 12:51:52 +0000</pubDate>
+        <link>http://sushrutbidwai.com/india</link>
+        <guid isPermaLink="true">http://sushrutbidwai.com/india</guid>
+        
+        
+      </item>
     
       <item>
         <title>Machine Learning</title>
@@ -28,7 +43,7 @@
   &lt;li&gt;&lt;a href=&quot;/week-11---machine-learning&quot;&gt;Week 11 Notes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Fri, 12 Jul 2019 15:52:36 +0530</pubDate>
+        <pubDate>Fri, 12 Jul 2019 10:22:36 +0000</pubDate>
         <link>http://sushrutbidwai.com/machine-learning</link>
         <guid isPermaLink="true">http://sushrutbidwai.com/machine-learning</guid>
         
@@ -82,7 +97,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/images/ceiling.png&quot; alt=&quot;Ceiling Analysis&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 10 Jul 2019 15:57:55 +0530</pubDate>
+        <pubDate>Wed, 10 Jul 2019 10:27:55 +0000</pubDate>
         <link>http://sushrutbidwai.com/week-11---machine-learning</link>
         <guid isPermaLink="true">http://sushrutbidwai.com/week-11---machine-learning</guid>
         
@@ -122,7 +137,7 @@
   &lt;li&gt;Centralized server combines results.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Wed, 10 Jul 2019 13:19:11 +0530</pubDate>
+        <pubDate>Wed, 10 Jul 2019 07:49:11 +0000</pubDate>
         <link>http://sushrutbidwai.com/week-10---machine-learning</link>
         <guid isPermaLink="true">http://sushrutbidwai.com/week-10---machine-learning</guid>
         
@@ -207,7 +222,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/images/cf-3.png&quot; alt=&quot;Collaborative Filtering&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Fri, 05 Jul 2019 17:11:37 +0530</pubDate>
+        <pubDate>Fri, 05 Jul 2019 11:41:37 +0000</pubDate>
         <link>http://sushrutbidwai.com/week-9---machine-learning</link>
         <guid isPermaLink="true">http://sushrutbidwai.com/week-9---machine-learning</guid>
         
@@ -305,7 +320,7 @@
   &lt;li&gt;Parkinson’s disease - brain stops producing dopamine, losing control of muscle movements.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Wed, 03 Jul 2019 15:56:24 +0530</pubDate>
+        <pubDate>Wed, 03 Jul 2019 10:26:24 +0000</pubDate>
         <link>http://sushrutbidwai.com/week-4---science-of-exercise</link>
         <guid isPermaLink="true">http://sushrutbidwai.com/week-4---science-of-exercise</guid>
         
@@ -456,7 +471,7 @@
   &lt;li&gt;Blood doping - inject your blood cells before a competition.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Wed, 03 Jul 2019 15:56:19 +0530</pubDate>
+        <pubDate>Wed, 03 Jul 2019 10:26:19 +0000</pubDate>
         <link>http://sushrutbidwai.com/week-3---science-of-exercise</link>
         <guid isPermaLink="true">http://sushrutbidwai.com/week-3---science-of-exercise</guid>
         
@@ -510,7 +525,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/images/choosing-k.png&quot; alt=&quot;Choosing k&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Mon, 01 Jul 2019 16:11:42 +0530</pubDate>
+        <pubDate>Mon, 01 Jul 2019 10:41:42 +0000</pubDate>
         <link>http://sushrutbidwai.com/week-8---machine-learning</link>
         <guid isPermaLink="true">http://sushrutbidwai.com/week-8---machine-learning</guid>
         
@@ -573,7 +588,7 @@
   &lt;li&gt;Maintain high level of cognitive and physical engagement.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Fri, 21 Jun 2019 15:24:19 +0530</pubDate>
+        <pubDate>Fri, 21 Jun 2019 09:54:19 +0000</pubDate>
         <link>http://sushrutbidwai.com/week-3---influencing-people</link>
         <guid isPermaLink="true">http://sushrutbidwai.com/week-3---influencing-people</guid>
         
@@ -702,159 +717,9 @@
   &lt;li&gt;For example - you can’t predict housing price based on data which contains only size of the house as information, irrespective of how many examples you have.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Mon, 17 Jun 2019 14:51:38 +0530</pubDate>
+        <pubDate>Mon, 17 Jun 2019 09:21:38 +0000</pubDate>
         <link>http://sushrutbidwai.com/week-6---machine-learning</link>
         <guid isPermaLink="true">http://sushrutbidwai.com/week-6---machine-learning</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Week 2   Science Of Exercise</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/science-of-exercise.png&quot; alt=&quot;Science Of Exercise&quot; /&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;types-of-muscle-systems&quot;&gt;Types of muscle systems&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Skeletal&lt;/li&gt;
-  &lt;li&gt;Cardiac/Heart.&lt;/li&gt;
-  &lt;li&gt;Smooth - muscles surrounding blood vessels.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;skeletal-muscles&quot;&gt;Skeletal muscles&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Types of contractions
-    &lt;ul&gt;
-      &lt;li&gt;Isometric - no change in length.
-        &lt;ul&gt;
-          &lt;li&gt;Planking.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Concentric - muscle shortens.
-        &lt;ul&gt;
-          &lt;li&gt;Curls, presses. Most common form of contraction.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Eccentric - muscle lengthens.
-        &lt;ul&gt;
-          &lt;li&gt;Downhill running&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Contractions cause muscle soreness.&lt;/li&gt;
-  &lt;li&gt;Consists of 3 types of fibers.&lt;/li&gt;
-  &lt;li&gt;Type I fibers - high in mitochondria, can use fats aerobically, so slow to fatigue and hence important for endurance.&lt;/li&gt;
-  &lt;li&gt;Type IIx fibers - Use anaerobic paths to generate energy. Very fast, so required in exercises where you need lot of force, very quickly, for short durations.&lt;/li&gt;
-  &lt;li&gt;Type IIa fibers - Mixture of properties from type IIx and type I.&lt;/li&gt;
-  &lt;li&gt;Average person have 50-50% of type I and type II fibers.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/exercise-fibers.png&quot; alt=&quot;Fibers during exercise&quot; /&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;respiratory-systems&quot;&gt;Respiratory systems&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Roles of respiratory systems
-    &lt;ul&gt;
-      &lt;li&gt;Oxygen supply is maintained.&lt;/li&gt;
-      &lt;li&gt;Eliminate CO&lt;sub&gt;2&lt;/sub&gt; from the system.&lt;/li&gt;
-      &lt;li&gt;Buffering metabolic acids used during exercise.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;98.5% of oxygen is carried by hemoglobin (red blood cells).&lt;/li&gt;
-  &lt;li&gt;Drop in pH and increase in body temperature, causes more oxygen to be unloaded into muscles. &lt;em&gt;Warmup is important.&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Endurance training will lead to increase in red blood cells count.&lt;/li&gt;
-  &lt;li&gt;During exercise, ATP production leads to increase demand for oxygen, leading to increased quantity of CO&lt;sub&gt;2&lt;/sub&gt;.&lt;/li&gt;
-  &lt;li&gt;Ventilatory rate - process of moving air into and out of the lungs.
-    &lt;ul&gt;
-      &lt;li&gt;Affected by breathing frequency.&lt;/li&gt;
-      &lt;li&gt;Tidal volume. - It is better, as it provides more time to complete gas exchange.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Valsalva maneuver&lt;/strong&gt; - Grunting during exercise forces blood supply to heart to drop, forcing heart to pump more blood. But can lead to fainting or dizziness.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;cardiovascular-systems&quot;&gt;Cardiovascular systems&lt;/h5&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Cardiac Output = Heart Rate * Stroke Volume&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Increase in output of heart, enhancing delivery of oxygen and blood flow.&lt;/li&gt;
-  &lt;li&gt;Heart rate increases during exercise due to nervous systems and hormone (epinephrine), depends also on intensity of the exercise.&lt;/li&gt;
-  &lt;li&gt;Oxygen consumption is depended on cardiac output, amount of oxygen utilized in muscle cells for ATP production.&lt;/li&gt;
-  &lt;li&gt;Oxygen consumption increases with intensity of exercise, before plateauing to peak rate.&lt;/li&gt;
-  &lt;li&gt;Blood flow can increased by
-    &lt;ul&gt;
-      &lt;li&gt;Increasing cardiac output.&lt;/li&gt;
-      &lt;li&gt;Blood vessels expand.&lt;/li&gt;
-      &lt;li&gt;Blood flow to muscles unused in exercise is reduced - kidneys, stomach, liver.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Oxygen levels drop as it is used for energy production, CO2 and hydrogen levels increases as output of energy production. This leads local smooth muscles to relax and increase blood flow.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;adaptations-in-cardiovascular-systems&quot;&gt;Adaptations in Cardiovascular systems&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Lower resting heart rate.&lt;/li&gt;
-  &lt;li&gt;Greater stroke volume at resting.&lt;/li&gt;
-  &lt;li&gt;Lower heart rate during less intense exercise.&lt;/li&gt;
-  &lt;li&gt;Greater maximal cardiac output.&lt;/li&gt;
-  &lt;li&gt;High oxygen consumption at local muscles.&lt;/li&gt;
-  &lt;li&gt;Maximal heart rate is &lt;strong&gt;not&lt;/strong&gt; affected by exercise.&lt;/li&gt;
-  &lt;li&gt;Training over a significant duration will cause
-    &lt;ul&gt;
-      &lt;li&gt;Higher red blood cell count.&lt;/li&gt;
-      &lt;li&gt;Higher capillaries in muscle fiber.&lt;/li&gt;
-      &lt;li&gt;Higher mitochondria.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;endocrine-systems&quot;&gt;Endocrine systems&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Endocrine systems - glands which produce hormones.&lt;/li&gt;
-  &lt;li&gt;Pancreas - insulin&lt;/li&gt;
-  &lt;li&gt;Adrenal - epinephrine&lt;/li&gt;
-  &lt;li&gt;Pituitary gland - growth hormone.&lt;/li&gt;
-  &lt;li&gt;hormones - trace substances, carried via blood, regulate physiological and metabolic functions.&lt;/li&gt;
-  &lt;li&gt;Play important role in maintain homeostasis.&lt;/li&gt;
-  &lt;li&gt;Insulin - when blood glucose levels increase, help in consuming increased glucose.&lt;/li&gt;
-  &lt;li&gt;Type 2 diabetes is caused by insulin resistance. Regular exercise is affecting alleviating insulin resistance.&lt;/li&gt;
-  &lt;li&gt;Epinephrine - aka adrenaline (stress hormones)
-    &lt;ul&gt;
-      &lt;li&gt;Released from adrenal glands.&lt;/li&gt;
-      &lt;li&gt;Lot of adrenaline is released during exercise due to stimulation from sympathetic nervous system.&lt;/li&gt;
-      &lt;li&gt;Similar to flight or fight response.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Growth hormones
-    &lt;ul&gt;
-      &lt;li&gt;Produced by Pituitary glands.&lt;/li&gt;
-      &lt;li&gt;Increases consumption of fatty acids.&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;Help protein synthesis just after exercise as levels stay up for 1 hour after exercise.&lt;/strong&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/adrenaline.png&quot; alt=&quot;Effects of adrenaline&quot; /&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;immune-systems&quot;&gt;Immune systems&lt;/h5&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Open Window Theory - After exercise, immune system is suppressed for few hours and hence more susceptible to viral or bacterial infections.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Length of suppressed time is dependent on intensity and length of exercise.&lt;/li&gt;
-  &lt;li&gt;Even you are sick and symptoms are above neck (like cold), okay to do light exercise. Else rest.&lt;/li&gt;
-  &lt;li&gt;Regular moderate training will enhances immune systems but regular high intensity exercise will make immune system weak and highly susceptible to viral and bacterial infections.&lt;/li&gt;
-  &lt;li&gt;Regular exercise help to fight stress.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 14 Jun 2019 21:24:13 +0530</pubDate>
-        <link>http://sushrutbidwai.com/week-2---science-of-exercise</link>
-        <guid isPermaLink="true">http://sushrutbidwai.com/week-2---science-of-exercise</guid>
         
         
       </item>
