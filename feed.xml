@@ -5,9 +5,297 @@
     <description>Personal website of Sushrut Bidwai</description>
     <link>http://sushrutbidwai.com/</link>
     <atom:link href="http://sushrutbidwai.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 18 Oct 2021 19:15:41 +0000</pubDate>
-    <lastBuildDate>Mon, 18 Oct 2021 19:15:41 +0000</lastBuildDate>
+    <pubDate>Tue, 19 Oct 2021 09:35:51 +0000</pubDate>
+    <lastBuildDate>Tue, 19 Oct 2021 09:35:51 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title></title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/microeconomics-course.png&quot; alt=&quot;Principles of Economics - Microeconomics&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;elasticity&quot;&gt;Elasticity&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A demand curve is elastic when an increase in price reduces the quantity demanded by a lot. (and vice versa). Flatter curve.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A demand curve is inelastic when an increase in price reduced the quantity demanded by very little. Steeper slope.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;determinants-of-elasticity-of-supply&quot;&gt;Determinants of elasticity of supply&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Availability of substitutes
+    &lt;ul&gt;
+      &lt;li&gt;Goods with many substitutes have more elastic demand curve.&lt;/li&gt;
+      &lt;li&gt;Oil - inelastic as not many substitutes&lt;/li&gt;
+      &lt;li&gt;Brazilian coffee - elastic as many substitutes&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Time horizon
+    &lt;ul&gt;
+      &lt;li&gt;Immediately after price increase consumers may not be able to alter their consumption.&lt;/li&gt;
+      &lt;li&gt;Overtime they may.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Classification of product
+    &lt;ul&gt;
+      &lt;li&gt;Broader - more likely to not have substitutes hence inelastic demand curves.&lt;/li&gt;
+      &lt;li&gt;Narrow - more likely to have substitutes hence elastic.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Nature of good
+    &lt;ul&gt;
+      &lt;li&gt;Necessities - inelastic&lt;/li&gt;
+      &lt;li&gt;Luxuries - elastic&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Size of purchase
+    &lt;ul&gt;
+      &lt;li&gt;Relative to consumers budget.&lt;/li&gt;
+      &lt;li&gt;Low cost product - inelastic demand curve in short term. Coffee cost increase by 50% may lead to only small drop in demand in short term.&lt;/li&gt;
+      &lt;li&gt;High cost product - elastic demand curve.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;calculating-elasticity-of-demand&quot;&gt;Calculating elasticity of demand&lt;/h5&gt;
+
+&lt;p&gt;elasticity of demand = the % change in quantity demanded / % change in price.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;E&lt;sup&gt;D = %∆Q&lt;sup&gt;demanded / %∆Price&lt;/sup&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Example
+Oil price increased by 10%, quantity demanded dropped by 5%, so
+E&lt;sup&gt;D(Oil) = -5/10 = -0.5&lt;/sup&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Absolute value of E&lt;sup&gt;D&lt;/sup&gt;&lt;/th&gt;
+      &lt;th&gt;Elasticity&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;E&lt;sup&gt;D &amp;lt; 1&lt;/sup&gt;&lt;/td&gt;
+      &lt;td&gt;More inelastic&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;E&lt;sup&gt;D &amp;gt; 1&lt;/sup&gt;&lt;/td&gt;
+      &lt;td&gt;More elastic&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;E&lt;sup&gt;D = 1&lt;/sup&gt;&lt;/td&gt;
+      &lt;td&gt;Unit elastic.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h5 id=&quot;midpoint-formula&quot;&gt;Midpoint formula&lt;/h5&gt;
+&lt;p&gt;To erase base point bias, we use following modified formula.&lt;/p&gt;
+
+&lt;p&gt;E&lt;sup&gt;D = %∆Q/%∆P = ((∆Q/Avg. Q) * 100)/((∆P/Avg. P) * 100)
+                  = ((Q&lt;sup&gt;after - Q&lt;sup&gt;before)/((Q&lt;sup&gt;after + Q&lt;sup&gt;before)/2))/
+                  ((P&lt;sup&gt;after - P&lt;sup&gt;before)/((P&lt;sup&gt;after + P&lt;sup&gt;before)/2))&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;revenue&quot;&gt;Revenue&lt;/h6&gt;
+
+&lt;p&gt;Revenue = Price * Quantity&lt;/p&gt;
+
+&lt;p&gt;For inelastic demand curve, if price goes up then revenue goes up.
+For elastic demand curve, if price goes up then revenue drops.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Elastic demand is price sensitive. Small changes in price lead to large changes in quantity demanded.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;elasticity-of-supply&quot;&gt;Elasticity of supply&lt;/h4&gt;
+
+&lt;p&gt;Elasticity of supply is a measure about how responsive the quantity supplied is to price.&lt;/p&gt;
+
+&lt;p&gt;Elastic supply curve means increase in price increases supply by a lot.
+Inelastic supply curve means quantity supplied does not vary much with price.&lt;/p&gt;
+
+&lt;h6 id=&quot;determinants-of-elasticity-of-supply-1&quot;&gt;Determinants of elasticity of supply&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;Change in per unit costs of production.
+    &lt;ul&gt;
+      &lt;li&gt;If high production requires much higher costs, then inelastic supply curve.&lt;/li&gt;
+      &lt;li&gt;If supply can be scaled easily, then elastic supply curve.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Time horizon
+    &lt;ul&gt;
+      &lt;li&gt;Easier to expand total production capacity then elastic curve.&lt;/li&gt;
+      &lt;li&gt;Expand output only using current production capacity, then inelastic curve.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Input materials
+    &lt;ul&gt;
+      &lt;li&gt;If input materials do not contribute a large percent of toal supply of those materials, then more elastic supply.&lt;/li&gt;
+      &lt;li&gt;For example toothpicks require wood. But toothpicks are only a very small consumer of wood supply. So even doubling production of toothpicks will have little impact on price and demand of wood.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Geographic scope of market
+    &lt;ul&gt;
+      &lt;li&gt;Narrow market - elastic. You can easily increase fuel available in one city.&lt;/li&gt;
+      &lt;li&gt;Broad market - inelastic. Very difficult to increase total fuel supply in the world.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;calculating-elasticity-of-supply&quot;&gt;Calculating elasticity of supply&lt;/h5&gt;
+
+&lt;p&gt;Elasticity of supply == the % change in supply / the % change in price.&lt;/p&gt;
+
+&lt;p&gt;E&lt;sup&gt;S is generally positive. Whereas E&lt;sup&gt;D is negative. Otherwise similar math.&lt;/sup&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;slavery&quot;&gt;Slavery&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Case study for elasticity of demand and supply.&lt;/li&gt;
+  &lt;li&gt;A christian organization tried ending slavery in Sudan by buying slave and freeing them.&lt;/li&gt;
+  &lt;li&gt;This pushed more people to be slaved.&lt;/li&gt;
+  &lt;li&gt;Organization buying slaves pushed the price, incentivising slave suppliers to enslave more people.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 19 Oct 2021 09:35:51 +0000</pubDate>
+        <link>http://sushrutbidwai.com/blog/2021/2021-10-18-week-2-principles-of-economics-microeconomics/</link>
+        <guid isPermaLink="true">http://sushrutbidwai.com/blog/2021/2021-10-18-week-2-principles-of-economics-microeconomics/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title></title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/microeconomics-course.png&quot; alt=&quot;Principles of Economics - Microeconomics&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;supply-demand-and-equilibrium&quot;&gt;Supply, Demand, and Equilibrium&lt;/h3&gt;
+
+&lt;h4 id=&quot;demand-curve&quot;&gt;Demand curve&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Graphs quantity demanded at various price points. Quantity demanded decreases if price increases, as less consumers are willing to purchase the product.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;supply-curve&quot;&gt;Supply curve&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Graphs quantity supplied at various price points. Quantity supplied increases if price increases, as more suppliers are willing to supply the product.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;how-to-interpret-supply-and-demand-curve&quot;&gt;How to interpret supply and demand curve?&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;If price of a product decreases, consumers who were buying products which are substitutes, are now buying the product.&lt;/li&gt;
+  &lt;li&gt;If price of a product increases, suppliers who were making other products, are now supplying the product.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;supply-and-demand-equilibrium-price-point&quot;&gt;Supply and demand equilibrium price point.&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;When supply and demand are graphed, equilibrium is where these intersect.&lt;/li&gt;
+  &lt;li&gt;In a free market, market forces are always trying to push the price towards equilibrium.&lt;/li&gt;
+  &lt;li&gt;If price is above equilibrium, there is product surplus as demand &amp;lt; supply. This pushes the price down, towards equilibrium.&lt;/li&gt;
+  &lt;li&gt;If price is below equilibrium, there is product shortage as demand &amp;gt; supply. This pushes the price up, towards the equilibrium.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;At equilibrium, total gains from the trade are maximized.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/demand-supply-equilibrium.png&quot; alt=&quot;Demand and supply equilibrium&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;consumer-surplus&quot;&gt;Consumer surplus&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;It is &lt;em&gt;profit&lt;/em&gt; made by consumer.&lt;/li&gt;
+  &lt;li&gt;It is the difference between a maximum price a consumer is willing to pay and purchase price.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;producer-surplus&quot;&gt;Producer surplus&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;It is &lt;em&gt;profit&lt;/em&gt; made by supplier.&lt;/li&gt;
+  &lt;li&gt;It is the difference between minimum price a supplier willing to sell at and sale price.&lt;/li&gt;
+  &lt;li&gt;Assuming that minimum price set by supplier includes some profit margin, this is the extra profit made by supplier.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;demand-curve-shifts&quot;&gt;Demand curve shifts&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;demand curve shifts right - greater quantity demanded at &lt;em&gt;every&lt;/em&gt; given price point.&lt;/li&gt;
+  &lt;li&gt;demand curve shifts left - lesser quantity demanded at &lt;em&gt;every&lt;/em&gt; given price point.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;possible-reasons&quot;&gt;Possible reasons&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Income&lt;/li&gt;
+  &lt;li&gt;Population&lt;/li&gt;
+  &lt;li&gt;Price of substitutes&lt;/li&gt;
+  &lt;li&gt;Price of complements&lt;/li&gt;
+  &lt;li&gt;Expectations&lt;/li&gt;
+  &lt;li&gt;Tastes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;income&quot;&gt;Income&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;For normal goods demand increases if income increases. e.g computers, phones, pubs.&lt;/li&gt;
+  &lt;li&gt;For inferior goods demand decreases if income decreases. e.g fast food.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;population&quot;&gt;Population&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;Demand curve shifts with changes in population.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;price-of-substitutes&quot;&gt;Price of substitutes&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;Two goods are substitutes if increase in price for one good leads to an increase in demand for the other good. demand(good1) ∝ price(good2)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;price-of-complements&quot;&gt;Price of complements&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;Two goods are complements if an increase in the price of one good leads to an decrease in the demand for the other.&lt;/li&gt;
+  &lt;li&gt;Fuel and cars are complements. If fuel price increases, demand for cars will decrease.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;expectations&quot;&gt;Expectations&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;Future price of a good will shift demand curve for the good right now.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;tastes&quot;&gt;Tastes&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;Seasonal goods, fashion, fads.&lt;/li&gt;
+  &lt;li&gt;Remember pet rock!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;supply-curve-shifts&quot;&gt;Supply curve shifts&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Supply curve shifts left - quantity supplied at &lt;em&gt;every&lt;/em&gt; given price decreases.&lt;/li&gt;
+  &lt;li&gt;Supply curve shifts right - quantity supplied at &lt;em&gt;every&lt;/em&gt; given price increases.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Possible reasons&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Technological innovations - can drive down prices and/or increase throughput without adding much more cost increase supply.&lt;/li&gt;
+  &lt;li&gt;Input prices - Cost of raw materials, labour, and other input resources may affect price and supply.&lt;/li&gt;
+  &lt;li&gt;Tax and subsidies - Additional taxes will drive up prices and shift supply curve up. Subsidies will drive down prices and will shift supply curve down.&lt;/li&gt;
+  &lt;li&gt;Expectations - Future demand and prices will affect current supply.&lt;/li&gt;
+  &lt;li&gt;Opportunity costs - If another market has shifted providing better opportunities for supplier, that will increase cost and will shift supply curve.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;equilibrium&quot;&gt;Equilibrium&lt;/h4&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Free market maximizes gain from trade at equilibrium quantity and prices.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Does equilibrium work? Absolutely yes!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 19 Oct 2021 09:35:51 +0000</pubDate>
+        <link>http://sushrutbidwai.com/blog/2021/2021-10-18-week-1-principles-of-economics-microeconomics/</link>
+        <guid isPermaLink="true">http://sushrutbidwai.com/blog/2021/2021-10-18-week-1-principles-of-economics-microeconomics/</guid>
+        
+        
+      </item>
     
       <item>
         <title>India</title>
@@ -530,198 +818,6 @@
         <pubDate>Mon, 01 Jul 2019 10:41:42 +0000</pubDate>
         <link>http://sushrutbidwai.com/week-8---machine-learning</link>
         <guid isPermaLink="true">http://sushrutbidwai.com/week-8---machine-learning</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Week 3   Influencing People</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/influencing-people.png&quot; alt=&quot;Influencing People&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;developing-relationships&quot;&gt;&lt;span&gt;Developing Relationships&lt;/span&gt;&lt;/h3&gt;
-
-&lt;h5 id=&quot;expand-your-network&quot;&gt;Expand your network&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Find and meet people outside of your regular circle of contacts.&lt;/li&gt;
-  &lt;li&gt;One lunch per week with a colleague you don’t know.&lt;/li&gt;
-  &lt;li&gt;Join professional association or a sports club.&lt;/li&gt;
-  &lt;li&gt;Volunteer for non profit.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Most relationships are mutually dependent on each other, where each person depends on the other person a lot and to same degree.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h5 id=&quot;organizationalsocial-currencies&quot;&gt;Organizational/Social currencies&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Resources - budget, personnel, space, information&lt;/li&gt;
-  &lt;li&gt;Cooperation - faster response, approval, help.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;You don’t build a network, you earn it by delivering value to your contacts.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h5 id=&quot;relationship-currencies&quot;&gt;Relationship currencies&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Acceptance/inclusion - providing closeness and friendship.&lt;/li&gt;
-  &lt;li&gt;Personal support.&lt;/li&gt;
-  &lt;li&gt;Understanding.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;positional-currencies&quot;&gt;Positional currencies&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Advancement and visibility.&lt;/li&gt;
-  &lt;li&gt;Reputation. - endorsements.&lt;/li&gt;
-  &lt;li&gt;Social capital - introductions.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;personal-related-currencies&quot;&gt;Personal related currencies&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Learning and growth.&lt;/li&gt;
-  &lt;li&gt;Self concept. - compliments, gratitude.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;bring-energy-into-relationships&quot;&gt;Bring energy into relationships&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Show concern for others.&lt;/li&gt;
-  &lt;li&gt;Connect with people beyond job roles.&lt;/li&gt;
-  &lt;li&gt;Always focus on possibilities and not just limitations.&lt;/li&gt;
-  &lt;li&gt;Maintain high level of cognitive and physical engagement.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 21 Jun 2019 09:54:19 +0000</pubDate>
-        <link>http://sushrutbidwai.com/week-3---influencing-people</link>
-        <guid isPermaLink="true">http://sushrutbidwai.com/week-3---influencing-people</guid>
-        
-        <category>Influencing People</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Week 6   Machine Learning</title>
-        <description>&lt;h3 id=&quot;-advice-on-machine-learning&quot;&gt;&lt;span&gt; Advice on machine learning&lt;/span&gt;&lt;/h3&gt;
-
-&lt;p&gt;If your machine learning algorithm is not working well, you can try following things.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Get more training examples.&lt;/li&gt;
-  &lt;li&gt;Try smaller set of features.&lt;/li&gt;
-  &lt;li&gt;Additional features.&lt;/li&gt;
-  &lt;li&gt;Adding polynomial features.&lt;/li&gt;
-  &lt;li&gt;Decreasing or increasing λ - the regularization parameter.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;machine-learning-diagnostic&quot;&gt;Machine learning diagnostic.&lt;/h5&gt;
-
-&lt;p&gt;A test you can run to gain insight what is/isn’t working with a learning algorithm, and gain guidance as to how best to improve its performance.&lt;/p&gt;
-
-&lt;h5 id=&quot;evaluating-hypothesis&quot;&gt;Evaluating hypothesis.&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Overfitting
-    &lt;ul&gt;
-      &lt;li&gt;Use part of training examples as test set.&lt;/li&gt;
-      &lt;li&gt;Typically random 30% of training examples are used as test set.&lt;/li&gt;
-      &lt;li&gt;If hypothesis overfits - then error in training set will be low, but high in test set.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Degree of polynomial
-    &lt;ul&gt;
-      &lt;li&gt;Linear, quadratic, cubic.. etc.&lt;/li&gt;
-      &lt;li&gt;Keep 20% of training examples for cross validation set.&lt;/li&gt;
-      &lt;li&gt;60% training set, 20% cross validation set, 20% test set.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;high-bias-or-variance-problem&quot;&gt;High bias or variance problem.&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Bias problem - training set and cross validation set errors both will be high.&lt;/li&gt;
-  &lt;li&gt;Variance problem - training set error is low, but cross validation errors are high.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/bias-variance-problem.png&quot; alt=&quot;Bias or variance problem&quot; /&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;learning-curve&quot;&gt;Learning Curve.&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Plot average squared error for training set size.&lt;/li&gt;
-  &lt;li&gt;Plot both average squared error for cross validation set (J&lt;sub&gt;CV&amp;lt;/sup&amp;gt;) and training set J&lt;sub&gt;train&lt;/sub&gt;.&lt;/sub&gt;&lt;/li&gt;
-  &lt;li&gt;As the training set gets larger, the error for a quadratic function increases.&lt;/li&gt;
-  &lt;li&gt;The error value will plateau out after a certain m, or training set size.&lt;/li&gt;
-  &lt;li&gt;High bias - J&lt;sub&gt;CV&amp;lt;/sup&amp;gt; and J&lt;sub&gt;train&lt;/sub&gt; both will be high, will converge for sufficiently large value of training set size. More data will not help.&lt;/sub&gt;&lt;/li&gt;
-  &lt;li&gt;High variance - J&lt;sub&gt;train&lt;/sub&gt; « J&lt;sub&gt;CV&amp;lt;/sup&amp;gt;, will not converge. More data will likely help.&lt;/sub&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;neural-networks&quot;&gt;Neural networks.&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Smaller networks prone to under fitting.&lt;/li&gt;
-  &lt;li&gt;Larger networks prone to over fitting, but can be solved using regularization.&lt;/li&gt;
-  &lt;li&gt;Number of hidden layers is similar to degree of polynomial and same techniques can be used to optimize that.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;machine-learning-system-design&quot;&gt;Machine Learning System Design&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;How to spend your time to reduce error of your algorithm?
-    &lt;ul&gt;
-      &lt;li&gt;Collect lots of data.&lt;/li&gt;
-      &lt;li&gt;Develop sophisticated features.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Error analysis
-    &lt;ul&gt;
-      &lt;li&gt;Start with a simple algorithm.&lt;/li&gt;
-      &lt;li&gt;Plot learning curves to decide whether you need more features or data.&lt;/li&gt;
-      &lt;li&gt;Eye ball data where algorithm is going wrong.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Use a single numerical evaluation metric for your algorithm - error rate or something like that.
-    &lt;ul&gt;
-      &lt;li&gt;This evaluation will helps with deciding whether your changes are useful or not.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;skewed-classes-in-classification-algorithm&quot;&gt;Skewed classes in classification algorithm.&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Data may be skewed to contain far more number of examples for certain class.&lt;/li&gt;
-  &lt;li&gt;For example - far more samples (99%) of patients who dont have cancer, compared to small sample of patient who do.&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Throwing out data to reducing skew is incorrect, as skew is representative of real world.&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Using error metric will not be very useful to determine performance of such algorithm.&lt;/li&gt;
-  &lt;li&gt;In classification, you can change threshold from 0.5 to higher or lower values to force your algorithm to predict positive class only when very confident.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Precision&lt;/strong&gt;(P) - true positives / (true positives + false positives)
-    &lt;ul&gt;
-      &lt;li&gt;What percent of predicted positive results were correct.&lt;/li&gt;
-      &lt;li&gt;Good algorithm will have closer to 1.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Recall&lt;/strong&gt;(R) - true positives / (true positives + false negative)
-    &lt;ul&gt;
-      &lt;li&gt;What percent of positive results were predicted correctly&lt;/li&gt;
-      &lt;li&gt;Good algorithm will have closer to 1.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Trade off between Precision and Recall is a hard and depends on context.&lt;/li&gt;
-  &lt;li&gt;Trying out different algorithms and comparing P and R for them is a good to determine which algorithm is better.&lt;/li&gt;
-  &lt;li&gt;F score - 2 * (P * R)/(P + R) - Higher the value the better.
-    &lt;ul&gt;
-      &lt;li&gt;This score is used to compare performance of various algorithm.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;data-for-machine-learning&quot;&gt;Data for machine learning&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Very large data set makes even an “inferior algorithm” work better, almost at par with better algorithms.&lt;/li&gt;
-  &lt;li&gt;Although having large data set is not sufficient.&lt;/li&gt;
-  &lt;li&gt;Is the data useful and contains necessary information to write a good enough algorithm?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Can a human expert predict output confidently based on example and set of features?&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;For example - you can’t predict housing price based on data which contains only size of the house as information, irrespective of how many examples you have.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 17 Jun 2019 09:21:38 +0000</pubDate>
-        <link>http://sushrutbidwai.com/week-6---machine-learning</link>
-        <guid isPermaLink="true">http://sushrutbidwai.com/week-6---machine-learning</guid>
         
         
       </item>
