@@ -5,9 +5,70 @@
     <description>Personal website of Sushrut Bidwai</description>
     <link>http://sushrutbidwai.com/</link>
     <atom:link href="http://sushrutbidwai.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 20 Oct 2021 03:00:38 +0000</pubDate>
-    <lastBuildDate>Wed, 20 Oct 2021 03:00:38 +0000</lastBuildDate>
+    <pubDate>Wed, 20 Oct 2021 03:42:08 +0000</pubDate>
+    <lastBuildDate>Wed, 20 Oct 2021 03:42:08 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Week 3   Principles of Economics   Microeconomics</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/microeconomics-course.png&quot; alt=&quot;Principles of Economics - Microeconomics&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;tax-and-subsidy&quot;&gt;Tax and subsidy&lt;/h3&gt;
+
+&lt;h4 id=&quot;commodity-taxes&quot;&gt;Commodity taxes&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;It is a tax on good.&lt;/li&gt;
+  &lt;li&gt;Who pays the tax &lt;em&gt;does not&lt;/em&gt; depend on who writes the check.&lt;/li&gt;
+  &lt;li&gt;Who pays the tax does depend on relative elasticities of demand and supply.&lt;/li&gt;
+  &lt;li&gt;Commodity taxation raises revenue and creates lost gains from trade known as dead-weight loss.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;who-pays-commodity-tax&quot;&gt;Who pays commodity tax?&lt;/h5&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The more elastic side of the market will pay a smaller share of a tax.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Elastic demand means more substitutes available, so consumers can escape paying the tax by buying non-taxed substitutes.&lt;/li&gt;
+  &lt;li&gt;Elastic supply means that the resources used to product the taxed good can easily be moved to other industries so they can escape the tax.&lt;/li&gt;
+  &lt;li&gt;Tax burden is determined by relative elasticity.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Explanation - when a demand curve is highly elastic tax, essentially a price increase, means quantity demanded falls by a lot. If the supply curve is highly elastic, it means number of trades being made reduces significantly. If supply curve however is very inelastic, it means suppliers need to make trades happen and not allow quantity demanded to fall a lot. This effectively forces them to absorb the tax burden. If both curves have same elasticity, then tax burden will be split 50-50.&lt;/p&gt;
+
+&lt;h5 id=&quot;deadweight-loss&quot;&gt;Deadweight loss&lt;/h5&gt;
+
+&lt;p&gt;Deadweight loss is the value of trades not made due to tax.
+Deadweight losses are larger the more elastic the &lt;em&gt;demand&lt;/em&gt; curve.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/tax-effects.png&quot; alt=&quot;Tax effect&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;subsidies&quot;&gt;Subsidies&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Subsidies are effectively negative taxes.&lt;/li&gt;
+  &lt;li&gt;Who gets subsidy does not depend on who receive the check.&lt;/li&gt;
+  &lt;li&gt;Who benefits depends on relative elasticities of demand and supply.&lt;/li&gt;
+  &lt;li&gt;They are paid by taxpayers and they create inefficient increases in trade known as dead-weight loss.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;wage-subsidy&quot;&gt;Wage subsidy&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Minimum wage has similar effect on supply and demand of labour as that of a tax. It reduces supply of jobs.&lt;/li&gt;
+  &lt;li&gt;Wage subsidy on the other hand increases demand for labour.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Explanation - Based on observe effects it can be argued that supply of low cost labour is inelastic, where as demand is more elastic. Low cost labour due to skills gap does not have many choices available. Whereas low paying jobs can be automated using technology, so demand is more elastic. This effectively means that raising minimum wage, equivalent to a tax, affects supply side more adversely and hence is not in favour of workers.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 Oct 2021 08:07:30 +0000</pubDate>
+        <link>http://sushrutbidwai.com/week-3---principles-of-economics---microeconomics</link>
+        <guid isPermaLink="true">http://sushrutbidwai.com/week-3---principles-of-economics---microeconomics</guid>
+        
+        
+      </item>
     
       <item>
         <title>Week 2   Principles of Economics   Microeconomics</title>
@@ -289,6 +350,8 @@ Inelastic supply curve means quantity supplied does not vary much with price.&lt
 &lt;/blockquote&gt;
 
 &lt;p&gt;Does equilibrium work? Absolutely yes!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/demand-supply-equilibrium.png&quot; alt=&quot;Supply, demand, and equilibrium&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 18 Oct 2021 08:07:30 +0000</pubDate>
         <link>http://sushrutbidwai.com/week-1---principles-of-economics---microeconomics</link>
@@ -764,60 +827,6 @@ Inelastic supply curve means quantity supplied does not vary much with price.&lt
         <pubDate>Wed, 03 Jul 2019 10:26:19 +0000</pubDate>
         <link>http://sushrutbidwai.com/week-3---science-of-exercise</link>
         <guid isPermaLink="true">http://sushrutbidwai.com/week-3---science-of-exercise</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Week 8   Machine Learning</title>
-        <description>&lt;h3 id=&quot;unsupervised-learning-&quot;&gt;&lt;span&gt;Unsupervised learning &lt;/span&gt;&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Data does not have labels (y values)&lt;/li&gt;
-  &lt;li&gt;Clustering is a way to find structures with in data sets.&lt;/li&gt;
-  &lt;li&gt;Applications of clustering
-    &lt;ul&gt;
-      &lt;li&gt;Market segmentation&lt;/li&gt;
-      &lt;li&gt;Astronomy&lt;/li&gt;
-      &lt;li&gt;Computer clusters&lt;/li&gt;
-      &lt;li&gt;Social network analysis.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;k-means-algorithm&quot;&gt;K-means algorithm&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/kmeans.png&quot; alt=&quot;K-means algorithm&quot; /&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;fine-tuning-k-means&quot;&gt;Fine tuning k-means&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Use randomly chosen inputs from input data set as initial centroids.&lt;/li&gt;
-  &lt;li&gt;Run k means multiple times with different randomly chosen centroids to reduce chance of getting stuck in local optima.&lt;/li&gt;
-  &lt;li&gt;Use elbow method to find optimum number of clusters. Although elbow method is quite ineffective for most real world problems.&lt;/li&gt;
-  &lt;li&gt;Deciding number of clusters requires human insight into the problem domain.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;dimensionality-reduction&quot;&gt;Dimensionality reduction&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Useful to reduce number of features to 2-3 to aid in visualizing data. May not necessarily be used to write machine learning algorithms.&lt;/li&gt;
-  &lt;li&gt;Compression - to save disk space, specially with computer vision.&lt;/li&gt;
-  &lt;li&gt;Speed up learning algorithm by reducing number of features without losing variance.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Don’t use PCA to solve overfitting.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h5 id=&quot;principal-component-analysis&quot;&gt;Principal Component analysis&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/pca.png&quot; alt=&quot;Principal Component Analysis&quot; /&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;how-to-choose-number-of-principal-components&quot;&gt;How to choose number of Principal components&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/choosing-k.png&quot; alt=&quot;Choosing k&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 01 Jul 2019 10:41:42 +0000</pubDate>
-        <link>http://sushrutbidwai.com/week-8---machine-learning</link>
-        <guid isPermaLink="true">http://sushrutbidwai.com/week-8---machine-learning</guid>
         
         
       </item>
