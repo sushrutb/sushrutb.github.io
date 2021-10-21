@@ -5,8 +5,8 @@
     <description>Personal website of Sushrut Bidwai</description>
     <link>http://sushrutbidwai.com/</link>
     <atom:link href="http://sushrutbidwai.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 21 Oct 2021 02:03:18 +0000</pubDate>
-    <lastBuildDate>Thu, 21 Oct 2021 02:03:18 +0000</lastBuildDate>
+    <pubDate>Thu, 21 Oct 2021 03:04:03 +0000</pubDate>
+    <lastBuildDate>Thu, 21 Oct 2021 03:04:03 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -125,31 +125,31 @@ Deadweight losses are larger the more elastic the &lt;em&gt;demand&lt;/em&gt; cu
 &lt;p&gt;elasticity of demand = the % change in quantity demanded / % change in price.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;E&lt;sup&gt;D = %∆Q&lt;sup&gt;demanded / %∆Price&lt;/sup&gt;&lt;/sup&gt;&lt;/p&gt;
+  &lt;p&gt;E&lt;sub&gt;D = %∆Q&lt;sub&gt;demanded / %∆Price&lt;/sub&gt;&lt;/sub&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Example
 Oil price increased by 10%, quantity demanded dropped by 5%, so
-E&lt;sup&gt;D(Oil) = -5/10 = -0.5&lt;/sup&gt;&lt;/p&gt;
+E&lt;sub&gt;D(Oil) = -5/10 = -0.5&lt;/sub&gt;&lt;/p&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th&gt;Absolute value of E&lt;sup&gt;D&lt;/sup&gt;&lt;/th&gt;
+      &lt;th&gt;Absolute value of E&lt;sub&gt;D&lt;/sub&gt;&lt;/th&gt;
       &lt;th&gt;Elasticity&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td&gt;E&lt;sup&gt;D &amp;lt; 1&lt;/sup&gt;&lt;/td&gt;
+      &lt;td&gt;E&lt;sub&gt;D &amp;lt; 1&lt;/sub&gt;&lt;/td&gt;
       &lt;td&gt;More inelastic&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;E&lt;sup&gt;D &amp;gt; 1&lt;/sup&gt;&lt;/td&gt;
+      &lt;td&gt;E&lt;sub&gt;D &amp;gt; 1&lt;/sub&gt;&lt;/td&gt;
       &lt;td&gt;More elastic&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;E&lt;sup&gt;D = 1&lt;/sup&gt;&lt;/td&gt;
+      &lt;td&gt;E&lt;sub&gt;D = 1&lt;/sub&gt;&lt;/td&gt;
       &lt;td&gt;Unit elastic.&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
@@ -158,9 +158,9 @@ E&lt;sup&gt;D(Oil) = -5/10 = -0.5&lt;/sup&gt;&lt;/p&gt;
 &lt;h5 id=&quot;midpoint-formula&quot;&gt;Midpoint formula&lt;/h5&gt;
 &lt;p&gt;To erase base point bias, we use following modified formula.&lt;/p&gt;
 
-&lt;p&gt;E&lt;sup&gt;D = %∆Q/%∆P = ((∆Q/Avg. Q) * 100)/((∆P/Avg. P) * 100)
-                  = ((Q&lt;sup&gt;after - Q&lt;sup&gt;before)/((Q&lt;sup&gt;after + Q&lt;sup&gt;before)/2))/
-                  ((P&lt;sup&gt;after - P&lt;sup&gt;before)/((P&lt;sup&gt;after + P&lt;sup&gt;before)/2))&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;E&lt;sub&gt;D = %∆Q/%∆P = ((∆Q/Avg. Q) * 100)/((∆P/Avg. P) * 100)
+                  = ((Q&lt;sub&gt;after - Q&lt;sub&gt;before)/((Q&lt;sub&gt;after + Q&lt;sub&gt;before)/2))/
+                  ((P&lt;sub&gt;after - P&lt;sub&gt;before)/((P&lt;sub&gt;after + P&lt;sub&gt;before)/2))&lt;/sub&gt;&lt;/sub&gt;&lt;/sub&gt;&lt;/sub&gt;&lt;/sub&gt;&lt;/sub&gt;&lt;/sub&gt;&lt;/sub&gt;&lt;/sub&gt;&lt;/p&gt;
 
 &lt;h6 id=&quot;revenue&quot;&gt;Revenue&lt;/h6&gt;
 
@@ -212,7 +212,7 @@ Inelastic supply curve means quantity supplied does not vary much with price.&lt
 
 &lt;p&gt;Elasticity of supply == the % change in supply / the % change in price.&lt;/p&gt;
 
-&lt;p&gt;E&lt;sup&gt;S is generally positive. Whereas E&lt;sup&gt;D is negative. Otherwise similar math.&lt;/sup&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;E&lt;sub&gt;S is generally positive. Whereas E&lt;sub&gt;D is negative. Otherwise similar math.&lt;/sub&gt;&lt;/sub&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;slavery&quot;&gt;Slavery&lt;/h4&gt;
 
