@@ -5,9 +5,141 @@
     <description>Personal website of Sushrut Bidwai</description>
     <link>http://sushrutbidwai.com/</link>
     <atom:link href="http://sushrutbidwai.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 25 Oct 2021 19:18:32 +0000</pubDate>
-    <lastBuildDate>Mon, 25 Oct 2021 19:18:32 +0000</lastBuildDate>
+    <pubDate>Tue, 26 Oct 2021 07:30:47 +0000</pubDate>
+    <lastBuildDate>Tue, 26 Oct 2021 07:30:47 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Week 4   Principles of Economics   Microeconomics</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/microeconomics-course.png&quot; alt=&quot;Principles of Economics - Microeconomics&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-price-system&quot;&gt;The price system&lt;/h3&gt;
+
+&lt;p&gt;Free markets are governed by the invisible hand of pricing. Free markets consist of very large number of strangers who need to collaborate with each other for their own self interest. How do these large number of stranger collaborate?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Price is a signal wrapped up as an incentive.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;In a free market with lots of participants, everyone wields a small influence.&lt;/li&gt;
+  &lt;li&gt;A consumer can decide to buy or not buy a particular good at a given market price.&lt;/li&gt;
+  &lt;li&gt;This effectively means that the consumer values the good &lt;em&gt;less than&lt;/em&gt; the market price.&lt;/li&gt;
+  &lt;li&gt;This is a signal to the suppliers to find cheaper ways to produce the same good, driving the price down.&lt;/li&gt;
+  &lt;li&gt;This gives everyone a little bit of influence on price.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;World market is not a story of competition, but it is a story of collaboration.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;the-great-economic-problem&quot;&gt;The great economic problem&lt;/h4&gt;
+
+&lt;p&gt;All markets are linked together.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/interlinked-markets-2.png&quot; alt=&quot;Interlinked markets&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The great economic problem is - How to arrange our limited resources to satisfy as many of our wants as possible?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;how-to-allocate-resources&quot;&gt;How to allocate resources?&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Central Planning
+    &lt;ul&gt;
+      &lt;li&gt;Tried in communist countries.&lt;/li&gt;
+      &lt;li&gt;Resources are allocated by a central figure.&lt;/li&gt;
+      &lt;li&gt;Problems with this approach is there is too much information to be digested by single person or committee.&lt;/li&gt;
+      &lt;li&gt;Markets are too interlinked so it is hard to know 2&lt;sup&gt;nd order effects.&lt;/sup&gt;&lt;/li&gt;
+      &lt;li&gt;There are too few incentives to allocated resources to maximize the outcome.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The pricing system&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;information--incentives&quot;&gt;Information &amp;amp; Incentives&lt;/h4&gt;
+
+&lt;p&gt;How does the price system solve the great economic problem?&lt;/p&gt;
+
+&lt;pre&gt;
+Price = Marginal value.
+      = Lowest value satisfied demand.
+      = Highest value unsatisfied demand.
+      = Social opportunity cost.
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/the-price-system.png&quot; alt=&quot;The Price System&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;information-problem&quot;&gt;Information problem&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;The market captures all information in a single value - &lt;strong&gt;the price&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;If you value a good more than the price, you buy.&lt;/li&gt;
+  &lt;li&gt;If you value good less than the price, you find substitutes which are cheaper.&lt;/li&gt;
+  &lt;li&gt;Every single consumer makes these decisions every time they participate in trade.&lt;/li&gt;
+  &lt;li&gt;These decisions about value and price are not based on some global knowledge, it is based on their own localised knowledge.&lt;/li&gt;
+  &lt;li&gt;This incentivises consumers to respond to price changes.&lt;/li&gt;
+  &lt;li&gt;Similarly a supplier will also respond to price changes to find cheaper ways to produce a good to meet unsatisfied demand.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;summary&quot;&gt;Summary&lt;/h5&gt;
+
+&lt;p&gt;Markets are interlinked in many different ways&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Geographically.&lt;/li&gt;
+  &lt;li&gt;Via substitutes and complement goods.&lt;/li&gt;
+  &lt;li&gt;Markets are linked via time, current action affects future supply and demand.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Market is like a giant computer. It is continuously evaluating price based on signals from trades&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;speculation&quot;&gt;Speculation&lt;/h3&gt;
+
+&lt;p&gt;Speculation is using your knowledge and information to predict supply and demand in the future.&lt;/p&gt;
+
+&lt;p&gt;Speculators are moving resources through time.&lt;/p&gt;
+
+&lt;p&gt;If there is a resource shortage in one geography, it creates an opportunity to buy at surplus geography and then sell at geographies with shortages. Speculators do this through time. They predict whether price will rise or fall in the future. Based on that they decide to either sell now or sell in the future. Hence profiting from their predictions.&lt;/p&gt;
+
+&lt;h4 id=&quot;effect-of-speculation&quot;&gt;Effect of Speculation&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/speculation.png&quot; alt=&quot;Effects of speculation&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Speculations keep prices stable over long term.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;prediction-markets&quot;&gt;Prediction markets&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Prices are signals that contain information.
+    &lt;ul&gt;
+      &lt;li&gt;It informs how much a person values that good.&lt;/li&gt;
+      &lt;li&gt;It also informs that a person may have some specific knowledge about future.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Speculators are conveying their info by participating in futures market.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Prediction market - A speculative market designed so that prices can be interpreted as probabilities and used to make predictions.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;is-speculation-a-global-good&quot;&gt;Is speculation a global good?&lt;/h4&gt;
+
+&lt;p&gt;(This is not from the lectures.)&lt;/p&gt;
+
+&lt;p&gt;Often speculators get a bad name as it closely resembles gambling. However speculation is different and helps the world in general.&lt;/p&gt;
+
+&lt;p&gt;Speculators, by participating in futures markets such commodity market, help keep prices more stable. When current prices are low, but future prices may be high, speculators are incentivised to buy now and sell when prices rise. By selling in future, they are essentially increasing supply in the future. This reduces the price in future, bringing more buyers and essentially maximizing producer and consumer surplus.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 Oct 2021 08:07:30 +0000</pubDate>
+        <link>http://sushrutbidwai.com/week-4---principles-of-economics---microeconomics</link>
+        <guid isPermaLink="true">http://sushrutbidwai.com/week-4---principles-of-economics---microeconomics</guid>
+        
+        
+      </item>
     
       <item>
         <title>Week 3   Principles of Economics   Microeconomics</title>
@@ -676,157 +808,6 @@ Inelastic supply curve means quantity supplied does not vary much with price.&lt
         <pubDate>Wed, 03 Jul 2019 10:26:24 +0000</pubDate>
         <link>http://sushrutbidwai.com/week-4---science-of-exercise</link>
         <guid isPermaLink="true">http://sushrutbidwai.com/week-4---science-of-exercise</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Week 3   Science Of Exercise</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/science-of-exercise.png&quot; alt=&quot;Science Of Exercise&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;fitness-and-performance&quot;&gt;&lt;span&gt;Fitness and performance&lt;/span&gt;&lt;/h3&gt;
-
-&lt;h5 id=&quot;endurance-training&quot;&gt;Endurance training&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;When you regularly exercise, body will adapt. 3-5 times a week, for few months.&lt;/li&gt;
-  &lt;li&gt;Adaptations depend on - frequency, intensity, duration, and type of exercise.&lt;/li&gt;
-  &lt;li&gt;Frequency
-    &lt;ul&gt;
-      &lt;li&gt;Don’t be a weekend warrior when it comes to exercise.&lt;/li&gt;
-      &lt;li&gt;3 to 5 days a week is ideal.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Intensity is most important when it comes to adaptations.
-    &lt;ul&gt;
-      &lt;li&gt;Use heart rate monitors.&lt;/li&gt;
-      &lt;li&gt;Intensity should be 50-85% of heart rate reserves.&lt;/li&gt;
-      &lt;li&gt;(heart rate reserve/100) * (max HR 210 - resting HR) + Rest HR&lt;/li&gt;
-      &lt;li&gt;Max HR = 220 - age&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;For me to train at 85% HR reserve: 85%/100 * (220 - 37 - 66) + 66 = 165 bpm&lt;/strong&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;For me to train at 85% HR reserve: 50%/100 * (220 - 37 - 66) + 66 = 125 bpm&lt;/strong&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Duration
-    &lt;ul&gt;
-      &lt;li&gt;20 to 60 mins of exercise.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Type or mode
-    &lt;ul&gt;
-      &lt;li&gt;Should involve large muscle groups.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;A training program should have
-    &lt;ul&gt;
-      &lt;li&gt;Designated recovery days.&lt;/li&gt;
-      &lt;li&gt;Designated hard training weeks, followed by recovery weeks.&lt;/li&gt;
-      &lt;li&gt;Start with low intensity, lower duration and gradually increase both.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;what-happens-when-you-stop-training&quot;&gt;What happens when you stop training.&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Reversibility - all adaptations will be reversed with time once you stop training.&lt;/li&gt;
-  &lt;li&gt;Reversal of various adaptations is quite fast and will occur within weeks after training is stopped.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;strengh-training&quot;&gt;Strengh training&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Strength training adaptations depend on - frequency, intensity, number of repetitions per set, and number of sets.&lt;/li&gt;
-  &lt;li&gt;After a period of strength training, output plateaus, factors affecting it
-    &lt;ul&gt;
-      &lt;li&gt;Physical activity&lt;/li&gt;
-      &lt;li&gt;Nutrition&lt;/li&gt;
-      &lt;li&gt;Genetics&lt;/li&gt;
-      &lt;li&gt;Endocrine influences&lt;/li&gt;
-      &lt;li&gt;Nervous system&lt;/li&gt;
-      &lt;li&gt;Environmental.&lt;/li&gt;
-      &lt;li&gt;Growth hormones such as testosterone.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/strength.png&quot; alt=&quot;Strength training adaptations&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/strength2.png&quot; alt=&quot;Strength training over time&quot; /&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;differences-for-men-and-women-in-strength-training&quot;&gt;Differences for men and women in strength training.&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Men have more muscles and larger cross sectional areas.&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;A man and a woman having same muscle mass can generate same amount of power and force.&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Due to very large quantities of testosterone (20-30 times), amount of muscle gain in men can be much higher.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;nutrition-for-training&quot;&gt;Nutrition for training&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;How much to eat?
-    &lt;ul&gt;
-      &lt;li&gt;Endurance - weight stable.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;What to eat?
-    &lt;ul&gt;
-      &lt;li&gt;Endurance
-        &lt;ul&gt;
-          &lt;li&gt;Increasing carb stores.&lt;/li&gt;
-          &lt;li&gt;55-60% calories from carbs.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;When?
-    &lt;ul&gt;
-      &lt;li&gt;Takes 24 hours to replenish carb stores.&lt;/li&gt;
-      &lt;li&gt;First 1 to 2 hours post exercise.&lt;/li&gt;
-      &lt;li&gt;Pre-competition meal -
-        &lt;ul&gt;
-          &lt;li&gt;2 to 3 hours prior - reduces blood requirements of digestive system and stabilizes glucose level&lt;/li&gt;
-          &lt;li&gt;300-500 calories, high in carbs.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;causes-of-muscle-fatigue&quot;&gt;Causes Of Muscle fatigue&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Muscle fatigue is inability to maintain output required during exercise.&lt;/li&gt;
-  &lt;li&gt;Common causes are located in the muscle itself.&lt;/li&gt;
-  &lt;li&gt;For Endurance exercise
-    &lt;ul&gt;
-      &lt;li&gt;Depletion of carb stores.&lt;/li&gt;
-      &lt;li&gt;Calcium levels&lt;/li&gt;
-      &lt;li&gt;Body and muscle temperature.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;causes-of-muscle-soreness&quot;&gt;Causes of muscle soreness&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;During prolonged isometric contraction, blood flow to the muscle can be shut down, reducing oxygen flow.&lt;/li&gt;
-  &lt;li&gt;This results in creating ATP anaerobically, producing acids. These acids when released into blood stream cause localized burning and pain, which subsided quickly.&lt;/li&gt;
-  &lt;li&gt;Cramps - no clear reasons are yet established.
-    &lt;ul&gt;
-      &lt;li&gt;Theory 1 - electrolyte imbalance.&lt;/li&gt;
-      &lt;li&gt;Theory 2 - bug in neural wiring.&lt;/li&gt;
-      &lt;li&gt;Can be solved using salts, fluids, massage and ice packs.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Muscle soreness which starts hours after the exercise is caused by eccentric contraction, when muscle is stretched.&lt;/li&gt;
-  &lt;li&gt;These contractions causes micro tears in the muscle fibers leading to inflammation, weakness, tenderness, and pain.&lt;/li&gt;
-  &lt;li&gt;Damaged sarcomere (muscle tissues) are replaced with healthy.&lt;/li&gt;
-  &lt;li&gt;Subsequent exercise with same intensity with cause lesser pain.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;performance-enhancing-drugs&quot;&gt;Performance enhancing drugs&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Blood doping - inject your blood cells before a competition.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 03 Jul 2019 10:26:19 +0000</pubDate>
-        <link>http://sushrutbidwai.com/week-3---science-of-exercise</link>
-        <guid isPermaLink="true">http://sushrutbidwai.com/week-3---science-of-exercise</guid>
         
         
       </item>
