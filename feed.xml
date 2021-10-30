@@ -5,9 +5,142 @@
     <description>Personal website of Sushrut Bidwai</description>
     <link>http://sushrutbidwai.com/</link>
     <atom:link href="http://sushrutbidwai.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 30 Oct 2021 03:14:11 +0000</pubDate>
-    <lastBuildDate>Sat, 30 Oct 2021 03:14:11 +0000</lastBuildDate>
+    <pubDate>Sat, 30 Oct 2021 08:27:52 +0000</pubDate>
+    <lastBuildDate>Sat, 30 Oct 2021 08:27:52 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Week 5   Principles of Economics   Microeconomics</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/microeconomics-course.png&quot; alt=&quot;Principles of Economics - Microeconomics&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;price-ceiling&quot;&gt;Price Ceiling&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Price ceiling - Maximum price allowed by law.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;effects-of-price-ceiling&quot;&gt;Effects of price ceiling&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Shortages&lt;/li&gt;
+  &lt;li&gt;Bad quality&lt;/li&gt;
+  &lt;li&gt;Lines and search costs&lt;/li&gt;
+  &lt;li&gt;Deadweight loss&lt;/li&gt;
+  &lt;li&gt;Misallocation of resources&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;shortages&quot;&gt;Shortages&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/price-ceiling.png&quot; alt=&quot;Price Ceiling&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;bad-quality&quot;&gt;Bad Quality&lt;/h5&gt;
+
+&lt;p&gt;Main effect of price ceiling is that Q&lt;sub&gt;Demanded &amp;gt; Q&lt;sub&gt;Supplied. Sellers have more customers so&lt;/sub&gt;&lt;/sub&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;They can cut quality, cut costs and still able to sell at the same mandated price.&lt;/li&gt;
+  &lt;li&gt;They can provide worse service and still be able to sell.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;lines-and-search-costs&quot;&gt;Lines and search costs&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Price control does not reduce quantity demanded.&lt;/li&gt;
+  &lt;li&gt;Consumers outnumber sellers.&lt;/li&gt;
+  &lt;li&gt;This incentivises consumers who value a good more to pay bribes to buy it.&lt;/li&gt;
+  &lt;li&gt;More consumers than suppliers leads to lines and increase in time cost.&lt;/li&gt;
+  &lt;li&gt;Paying in time is wasteful as time is a perishable resource.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/line-costs.png&quot; alt=&quot;Line costs&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;deadweight-loss&quot;&gt;Deadweight loss&lt;/h5&gt;
+
+&lt;p&gt;Due to price control, not all profitable trades are made, so  there is a deadweight loss.&lt;/p&gt;
+
+&lt;h5 id=&quot;misallocation-of-resources&quot;&gt;Misallocation of resources&lt;/h5&gt;
+
+&lt;p&gt;The key benefit of free market and the pricing system is that&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;We want to ensure that consumers who value a good more can secure supply before consumers who value it less.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Example -&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gold and silver are used in many electrical and electronics manufacturing. It is also used as jewellery.&lt;/li&gt;
+  &lt;li&gt;If government puts a max price on gold, some of the supply that should have gone to electrical and electronics manufacturing goes to jewellery.&lt;/li&gt;
+  &lt;li&gt;Manufacturers can not signal to the market that they value gold more by paying a higher price to secure supplies, as there is a price ceiling.&lt;/li&gt;
+  &lt;li&gt;This leads to shortages in manufacturing and instead allocates resources for jewellery which is not as important area.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Price system ensures that most important and hence most valued consumers of good are last to be affected by shortages.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/misallocation.png&quot; alt=&quot;Misallocation of resources&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;rent-controls&quot;&gt;Rent controls&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;It is a type of a price ceiling.&lt;/li&gt;
+  &lt;li&gt;Makes it difficult to find apartments.&lt;/li&gt;
+  &lt;li&gt;Often rent controlled apartments are rented by people who do not need them.&lt;/li&gt;
+  &lt;li&gt;Creates shortages in supply of apartment buildings.&lt;/li&gt;
+  &lt;li&gt;Over time due to fund shortages rent controlled buildings become decrepit, unmaintained, and dangerous. Many rent controlled buildings fall down in Mumbai, killing people.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;price-floors&quot;&gt;Price floors&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Minimum price allowed by law.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;effect-of-price-floors&quot;&gt;Effect of price floors&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;They create surpluses.&lt;/li&gt;
+  &lt;li&gt;Lost gains.&lt;/li&gt;
+  &lt;li&gt;Wasteful increase in quality.&lt;/li&gt;
+  &lt;li&gt;Misallocation of resources.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Floors are less common.&lt;/p&gt;
+
+&lt;h4 id=&quot;minimum-wage&quot;&gt;Minimum wage&lt;/h4&gt;
+
+&lt;p&gt;Minimum wage is a type of price floor.
+Effects of minimum wage on above mentioned dimensions.&lt;/p&gt;
+
+&lt;h5 id=&quot;surpluses&quot;&gt;Surpluses&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Minimum wage creates surplus of labour, leading to unemployment.&lt;/li&gt;
+  &lt;li&gt;People who may have be willing to work at lesser wage are now unable to find jobs as employers can not pay minimum wage.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Minimum wage affects&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Only small % of workers are paid at minimum wage, less than 5%.&lt;/li&gt;
+  &lt;li&gt;Large increase in the minimum wage will cause serious increase in unemployment.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Test case&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;US government accidentally increased minimum wage in Puerto Rico, by a lot.&lt;/li&gt;
+  &lt;li&gt;Led to many businesses shutting down and a very high increase in unemployment.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Communism = universal price controls.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Mon, 18 Oct 2021 08:07:30 +0000</pubDate>
+        <link>http://sushrutbidwai.com/week-5---principles-of-economics---microeconomics</link>
+        <guid isPermaLink="true">http://sushrutbidwai.com/week-5---principles-of-economics---microeconomics</guid>
+        
+        
+      </item>
     
       <item>
         <title>Week 4   Principles of Economics   Microeconomics</title>
@@ -710,104 +843,6 @@ Inelastic supply curve means quantity supplied does not vary much with price.&lt
         <pubDate>Fri, 05 Jul 2019 11:41:37 +0000</pubDate>
         <link>http://sushrutbidwai.com/week-9---machine-learning</link>
         <guid isPermaLink="true">http://sushrutbidwai.com/week-9---machine-learning</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Week 4   Science Of Exercise</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/science-of-exercise.png&quot; alt=&quot;Science Of Exercise&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;exercise-in-medicine-and-diseases&quot;&gt;&lt;span&gt;Exercise in Medicine and diseases&lt;/span&gt;&lt;/h3&gt;
-
-&lt;h5 id=&quot;sedentary-lifestyle&quot;&gt;Sedentary lifestyle.&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Leads many diseases cancer, cardio vascular diseases.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Sitting is harmful!&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Inactivity is risk factor for major chronic illnesses.&lt;/li&gt;
-  &lt;li&gt;Even moderate exercise is great for reducing risk of many illnesses.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;diet-exercise-and-weight-control&quot;&gt;Diet, exercise, and weight control.&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Obesity is cause for many diseases.&lt;/li&gt;
-  &lt;li&gt;Fat stored in abdominal cavity is far more harmful.
-    &lt;ul&gt;
-      &lt;li&gt;Having a tummy/beer belly is far worse than having fat thighs/hips.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;If you eat more calories than you burn, then you gain weight.&lt;/li&gt;
-  &lt;li&gt;Dieting leads to loss of water weight. Prolonged diet will lead to loss of fat, but also loss of protein.&lt;/li&gt;
-  &lt;li&gt;Weight lost due to dieting is regained when stopped, as it reduces metabolic rate.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;heart-diseases&quot;&gt;Heart diseases&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Heart diseases is most common cause of death - 25% in US.&lt;/li&gt;
-  &lt;li&gt;Fat deposits in major arteries, eventually blocking blood causing heart attacks and strokes.&lt;/li&gt;
-  &lt;li&gt;59% of heart diseases causes due to physical inactivity.&lt;/li&gt;
-  &lt;li&gt;Aerobic exercises will reduce risk of coronary artery blockages by reducing bad cholesterol and increasing good cholesterol.&lt;/li&gt;
-  &lt;li&gt;Hypertension leads to stroke, heart diseases, kidney failures.&lt;/li&gt;
-  &lt;li&gt;Exercise reduces blood pressure and hyper tension.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;diabetes---type-ii&quot;&gt;Diabetes - Type II&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Caused elevated blood glucose levels or chronic hyperglycemia.&lt;/li&gt;
-  &lt;li&gt;Insulin resistance.&lt;/li&gt;
-  &lt;li&gt;Symptoms - excess urination, blurry vision, fatigue, thirst, hunger.&lt;/li&gt;
-  &lt;li&gt;Main causes lack of exercise and obesity.&lt;/li&gt;
-  &lt;li&gt;Regular exercise will increase insulin sensitivity and lower risk of insulin resistance.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Exercise will help treat type II Diabetes far, far better than anything else.&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;cancer&quot;&gt;Cancer&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Modifiable risk factors for Cancer
-    &lt;ul&gt;
-      &lt;li&gt;Unhealthy lifestyle - lack of exercise, obesity, poor diet.&lt;/li&gt;
-      &lt;li&gt;Environmental - tobacco, diet, sunlight, infectious diseases&lt;/li&gt;
-      &lt;li&gt;Alcohol&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Regular exercises reduces risk of breat, prostate, and colon cancer - 3 of the top 4 most common cancers.&lt;/li&gt;
-  &lt;li&gt;Exercise can stop growth of cancer.&lt;/li&gt;
-  &lt;li&gt;Improves antioxidants which are useful in fighting cancer.&lt;/li&gt;
-  &lt;li&gt;Lowers body fat which can lead to cancer.&lt;/li&gt;
-  &lt;li&gt;Reduces certain hormones which cause growth of cancer.&lt;/li&gt;
-  &lt;li&gt;Exercise also improves quality of life for patient undergoing treatment.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;aging&quot;&gt;Aging&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Successful aging relates to maintaining your health to live experience desired quality of life.&lt;/li&gt;
-  &lt;li&gt;Stamina - regular aerobic exercise helps maintain stamina in older age.&lt;/li&gt;
-  &lt;li&gt;Loss of muscle mass, sarcopenia, which leads to falls, fractures, loss of mobility can be reduced with regular exercise.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Never too late to start exercising.&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Osteoporosis - Porous bones, affects lot of women. - low calcium, vitamin D.&lt;/li&gt;
-  &lt;li&gt;Weight lifting is important activity to counter Osteoporosis.&lt;/li&gt;
-  &lt;li&gt;If you are active in younger age, it is important to keep active, as adaptations are reversible.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;brain&quot;&gt;Brain&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;For healthy Brain
-    &lt;ul&gt;
-      &lt;li&gt;Active social lifestyle&lt;/li&gt;
-      &lt;li&gt;Quality sleep&lt;/li&gt;
-      &lt;li&gt;Stress management&lt;/li&gt;
-      &lt;li&gt;Mental stimulation&lt;/li&gt;
-      &lt;li&gt;Healthy diet&lt;/li&gt;
-      &lt;li&gt;Regular exercise&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Exercise helps with maintaining blood flow to brain, reducing risk of dementia.&lt;/li&gt;
-  &lt;li&gt;Parkinson’s disease - brain stops producing dopamine, losing control of muscle movements.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 03 Jul 2019 10:26:24 +0000</pubDate>
-        <link>http://sushrutbidwai.com/week-4---science-of-exercise</link>
-        <guid isPermaLink="true">http://sushrutbidwai.com/week-4---science-of-exercise</guid>
         
         
       </item>
