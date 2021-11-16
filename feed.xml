@@ -5,9 +5,39 @@
     <description>Personal website of Sushrut Bidwai</description>
     <link>http://sushrutbidwai.com/</link>
     <atom:link href="http://sushrutbidwai.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 16 Nov 2021 04:30:19 +0000</pubDate>
-    <lastBuildDate>Tue, 16 Nov 2021 04:30:19 +0000</lastBuildDate>
+    <pubDate>Tue, 16 Nov 2021 19:30:18 +0000</pubDate>
+    <lastBuildDate>Tue, 16 Nov 2021 19:30:18 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>She cries</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/she-cries.jpg&quot; alt=&quot;She cries&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;She cries.
+Because she likes reading,
+when it rains.
+Even on a beautiful summer day.&lt;/p&gt;
+
+&lt;p&gt;She cries.
+Because tears are more familiar.
+Even in a warm embrace of her lover.&lt;/p&gt;
+
+&lt;p&gt;She cries.
+Because happiness feels fleeting.
+But sadness will last her a lifetime.&lt;/p&gt;
+
+&lt;p&gt;She cries.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 16 Nov 2021 09:49:24 +0000</pubDate>
+        <link>http://sushrutbidwai.com/she-cries</link>
+        <guid isPermaLink="true">http://sushrutbidwai.com/she-cries</guid>
+        
+        <category>poetry</category>
+        
+        
+        <category>poetry</category>
+        
+      </item>
     
       <item>
         <title>Activism</title>
@@ -892,60 +922,6 @@ Inelastic supply curve means quantity supplied does not vary much with price.&lt
         <guid isPermaLink="true">http://sushrutbidwai.com/machine-learning</guid>
         
         <category>course</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Week 11   Machine Learning</title>
-        <description>&lt;h3 id=&quot;machine-learning-application---photo-ocr&quot;&gt;Machine Learning Application - Photo OCR&lt;/h3&gt;
-
-&lt;h5 id=&quot;pipeline&quot;&gt;Pipeline&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Detect text&lt;/li&gt;
-  &lt;li&gt;Character segmentation&lt;/li&gt;
-  &lt;li&gt;Character classification&lt;/li&gt;
-  &lt;li&gt;(Optional) spelling correction.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;sliding-window&quot;&gt;Sliding Window&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Scan an image step by step to check whether object can be detected in it.&lt;/li&gt;
-  &lt;li&gt;Draw boundaries around the detected objects/characters.&lt;/li&gt;
-  &lt;li&gt;Feed these smaller images to the next step.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;character-detection&quot;&gt;Character detection&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Train an algorithm which can detect when an image is a the middle of two adjoining characters.&lt;/li&gt;
-  &lt;li&gt;If it detects image as middle of the two characters, mark it as a boundary.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/photo-ocr.png&quot; alt=&quot;Photo OCR&quot; /&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;artificial-data-synthesis&quot;&gt;Artificial data synthesis&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Generate data using off the shelf fonts and other image processing techniques to mimic real world data.&lt;/li&gt;
-  &lt;li&gt;Use small real world training set, but use image processing techniques, generate more samples.&lt;/li&gt;
-  &lt;li&gt;Introduce gaussian noise or distortions to generate more samples.&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;You need a low bias classifier, so that adding more samples helps.&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;If you can get more real world data, that might be better use of resources than spending time on artificial data synthesis.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;ceiling-analysis--how-to-decide-which-part-of-the-pipeline-to-work-on&quot;&gt;Ceiling Analysis / How to decide which part of the pipeline to work on?&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Mimic a stage is working at 100% accuracy by using training set, but just using label output at the output of the algorithm.&lt;/li&gt;
-  &lt;li&gt;So if the label is y=1, then algorithm outputs 1, else outputs 0.&lt;/li&gt;
-  &lt;li&gt;This similar to mocking in classical programming unit testing.&lt;/li&gt;
-  &lt;li&gt;Step by step mock out each stage of the pipeline and observer the overall pipeline performance in each step.&lt;/li&gt;
-  &lt;li&gt;If the mock stage which is working at 100% efficiency does not change the overall performance by a lot, then that stage is not worth working on immediate priority.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/ceiling.png&quot; alt=&quot;Ceiling Analysis&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 10 Jul 2019 10:27:55 +0000</pubDate>
-        <link>http://sushrutbidwai.com/week-11---machine-learning</link>
-        <guid isPermaLink="true">http://sushrutbidwai.com/week-11---machine-learning</guid>
         
         
       </item>
