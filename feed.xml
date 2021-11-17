@@ -5,8 +5,8 @@
     <description>Personal website of Sushrut Bidwai</description>
     <link>http://sushrutbidwai.com/</link>
     <atom:link href="http://sushrutbidwai.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 17 Nov 2021 03:30:48 +0000</pubDate>
-    <lastBuildDate>Wed, 17 Nov 2021 03:30:48 +0000</lastBuildDate>
+    <pubDate>Wed, 17 Nov 2021 03:31:19 +0000</pubDate>
+    <lastBuildDate>Wed, 17 Nov 2021 03:31:19 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -137,6 +137,68 @@ It is extremely easy for X to gain really high influence in T. Even if they do n
         <pubDate>Wed, 20 Oct 2021 20:42:27 +0000</pubDate>
         <link>http://sushrutbidwai.com/activism</link>
         <guid isPermaLink="true">http://sushrutbidwai.com/activism</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Week 7   Principles of Economics   Microeconomics</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/microeconomics-course.png&quot; alt=&quot;Principles of Economics - Microeconomics&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;externalities&quot;&gt;Externalities&lt;/h3&gt;
+
+&lt;p&gt;Costs of trade&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Private cost - Paid by the consumer or the producer.&lt;/li&gt;
+  &lt;li&gt;External cost - A cost paid by bystanders, by people other than the consumer or the producer.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Social cost of trade = Private cost + External cost.&lt;/p&gt;
+
+&lt;p&gt;Externalities deal with external cost.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Market does &lt;strong&gt;not&lt;/strong&gt; maximize social surplus.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;external-costs&quot;&gt;External Costs&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/external-cost.png&quot; alt=&quot;External Cost&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When there are external costs of trade, output should be reduced.
+Who bears the cost is irrelevant.&lt;/p&gt;
+
+&lt;h4 id=&quot;solutions&quot;&gt;Solutions&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Pigouvian Tax
+    &lt;ul&gt;
+      &lt;li&gt;For example tax on cigarattes.&lt;/li&gt;
+      &lt;li&gt;Tax increases price and reduces output.&lt;/li&gt;
+      &lt;li&gt;If tax can capture external costs, then it can be great way to reduce output.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;external-benefits&quot;&gt;External Benefits&lt;/h3&gt;
+
+&lt;p&gt;Benefits to bystanders.&lt;/p&gt;
+
+&lt;p&gt;For example - Vaccine. They protect not just the consumer of the vaccine, but bystanders whose risk of infection is reduced.&lt;/p&gt;
+
+&lt;p&gt;In case of external benefits Social Value &amp;gt; Private Value.&lt;/p&gt;
+
+&lt;h4 id=&quot;pigouvian-subsidy&quot;&gt;Pigouvian Subsidy&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;In case of external benefits, output should be increased.&lt;/li&gt;
+  &lt;li&gt;One way to achieve that is by subsidies trades.&lt;/li&gt;
+  &lt;li&gt;This is known as Pigouvian subsidy.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 18 Oct 2021 08:07:30 +0000</pubDate>
+        <link>http://sushrutbidwai.com/week-7---principles-of-economics---microeconomics</link>
+        <guid isPermaLink="true">http://sushrutbidwai.com/week-7---principles-of-economics---microeconomics</guid>
         
         
       </item>
@@ -894,34 +956,6 @@ Inelastic supply curve means quantity supplied does not vary much with price.&lt
         <pubDate>Fri, 28 May 2021 12:51:52 +0000</pubDate>
         <link>http://sushrutbidwai.com/india</link>
         <guid isPermaLink="true">http://sushrutbidwai.com/india</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Machine Learning</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/machine-learning.png&quot; alt=&quot;Machine Learning&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This blog will host weekly notes from the course. I will update this post to links with weekly notes.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/machine-learning---course-notes&quot;&gt;Week 1 Notes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/week-2---machine-learning&quot;&gt;Week 2 Notes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/week-3---machine-learning&quot;&gt;Week 3 Notes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/week-4---machine-learning&quot;&gt;Week 4 Notes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/week-5---machine-learning&quot;&gt;Week 5 Notes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/week-6---machine-learning&quot;&gt;Week 6 Notes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/week-8---machine-learning&quot;&gt;Week 8 Notes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/week-9---machine-learning&quot;&gt;Week 9 Notes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/week-10---machine-learning&quot;&gt;Week 10 Notes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/week-11---machine-learning&quot;&gt;Week 11 Notes&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 12 Jul 2019 10:22:36 +0000</pubDate>
-        <link>http://sushrutbidwai.com/machine-learning</link>
-        <guid isPermaLink="true">http://sushrutbidwai.com/machine-learning</guid>
-        
-        <category>course</category>
         
         
       </item>
