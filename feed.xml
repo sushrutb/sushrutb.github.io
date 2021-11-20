@@ -5,8 +5,8 @@
     <description>Personal website of Sushrut Bidwai</description>
     <link>http://sushrutbidwai.com/</link>
     <atom:link href="http://sushrutbidwai.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Nov 2021 19:31:09 +0000</pubDate>
-    <lastBuildDate>Fri, 19 Nov 2021 19:31:09 +0000</lastBuildDate>
+    <pubDate>Sat, 20 Nov 2021 03:38:23 +0000</pubDate>
+    <lastBuildDate>Sat, 20 Nov 2021 03:38:23 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -195,6 +195,53 @@ Who bears the cost is irrelevant.&lt;/p&gt;
   &lt;li&gt;One way to achieve that is by subsidies trades.&lt;/li&gt;
   &lt;li&gt;This is known as Pigouvian subsidy.&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h3 id=&quot;solutions-to-externalities&quot;&gt;Solutions to Externalities&lt;/h3&gt;
+
+&lt;h4 id=&quot;command-and-control&quot;&gt;Command and control&lt;/h4&gt;
+
+&lt;p&gt;Example:
+Government imposes strict electricity consumption ceiling on washing machines. But washing machines that use less electricity clean less.&lt;/p&gt;
+
+&lt;p&gt;This kind of command and control is rarely efficient. Government does not have all the information on how consumers value use of electricity. So if instead government imposes taxes on electricity, each consumer will reduce their own uses based on their individual information. Overall this will lead to lowering electricity consumption and reducing pollution.&lt;/p&gt;
+
+&lt;h4 id=&quot;coase-theorem&quot;&gt;Coase Theorem&lt;/h4&gt;
+
+&lt;p&gt;Example -&lt;/p&gt;
+
+&lt;p&gt;There are bee keepers who rent out their bees for pollination services. This market place works because&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Low transaction cost.&lt;/li&gt;
+  &lt;li&gt;External benefits can be contained, bees travel less.&lt;/li&gt;
+  &lt;li&gt;Property rights are clear; Bee keeper owns bees, farmer owns the farm.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pollution&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Unclear external cost. How much? Who and Where?&lt;/li&gt;
+  &lt;li&gt;Unclear property rights.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Coase Theorem - If transaction costs are low and property rights are clear, private trade will ensure efficient market equilibrium even in case of externalities.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Coase theorem suggests that a new market can be created to trade externalities as long as property rights can be defined.&lt;/p&gt;
+
+&lt;p&gt;Example&lt;/p&gt;
+
+&lt;p&gt;Tradable allowances and pollution&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;To reduce pollution a fixed number of carbon credits are created.&lt;/li&gt;
+  &lt;li&gt;Firms can buy these credits for certain amount.&lt;/li&gt;
+  &lt;li&gt;Firms which can lower carbon footprint at lower cost than cost of credit will do that.&lt;/li&gt;
+  &lt;li&gt;Firms which can not, will continue to pollute by buying unused credits.&lt;/li&gt;
+  &lt;li&gt;But due to limited supply of carbon credits, least valuable uses of carbon are removed from the system and this reduces pollution more efficiently.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;incentives&quot;&gt;Incentives&lt;/h4&gt;
+
+&lt;p&gt;In case of external benefits, incentivising consumers will increase the total social benefits. For example a flu shot can be subsidised, hence more people get flu shot and this reduces cases of flu per year.&lt;/p&gt;
 </description>
         <pubDate>Mon, 18 Oct 2021 08:07:30 +0000</pubDate>
         <link>http://sushrutbidwai.com/week-7---principles-of-economics---microeconomics</link>
@@ -230,10 +277,10 @@ Who bears the cost is irrelevant.&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Comparitive Advantage - The more different we are from each other, the more we benefit from trade.&lt;/p&gt;
+  &lt;p&gt;Comparative Advantage - The more different we are from each other, the more we benefit from trade.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/comparitive-advantage.png&quot; alt=&quot;Comparitive Advantage&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/comparitive-advantage.png&quot; alt=&quot;Comparative Advantage&quot; /&gt;&lt;/p&gt;
 
 &lt;h5 id=&quot;opportunity-cost&quot;&gt;Opportunity cost&lt;/h5&gt;
 
@@ -246,14 +293,14 @@ Who bears the cost is irrelevant.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;In two country/person examples, trade makes everyone better off, but in larger examples some may be worse off.&lt;/li&gt;
-  &lt;li&gt;Comparitive advantage applies to groups and invidividuals.&lt;/li&gt;
+  &lt;li&gt;Comparative advantage applies to groups and individuals.&lt;/li&gt;
   &lt;li&gt;Diversity is a strength when combined with trade.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;tariffs-and-protectionism&quot;&gt;Tariffs and Protectionism&lt;/h3&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Protectionism - economic policy of restraining trade through tariffs, quotas, or other regulations that burden foreign producer but not dometic.&lt;/p&gt;
+  &lt;p&gt;Protectionism - economic policy of restraining trade through tariffs, quotas, or other regulations that burden foreign producer but not domestic.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Tariff - tax on import.
