@@ -5,8 +5,8 @@
     <description>Personal website of Sushrut Bidwai</description>
     <link>http://sushrutbidwai.com/</link>
     <atom:link href="http://sushrutbidwai.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 21 Nov 2021 19:32:47 +0000</pubDate>
-    <lastBuildDate>Sun, 21 Nov 2021 19:32:47 +0000</lastBuildDate>
+    <pubDate>Mon, 22 Nov 2021 03:07:07 +0000</pubDate>
+    <lastBuildDate>Mon, 22 Nov 2021 03:07:07 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -137,6 +137,224 @@ It is extremely easy for X to gain really high influence in T. Even if they do n
         <pubDate>Wed, 20 Oct 2021 20:42:27 +0000</pubDate>
         <link>http://sushrutbidwai.com/activism</link>
         <guid isPermaLink="true">http://sushrutbidwai.com/activism</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Week 8   Principles of Economics   Microeconomics</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/microeconomics-course.png&quot; alt=&quot;Principles of Economics - Microeconomics&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;profit-maximization&quot;&gt;Profit maximization&lt;/h3&gt;
+
+&lt;h4 id=&quot;costs-and-profit-maximization-under-competition&quot;&gt;Costs and profit maximization under competition&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Profit is the main motivation for firms actions.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In competitive industry firms maximize profits by choosing price and quantity.&lt;/p&gt;
+
+&lt;p&gt;Competitive firms&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Similar products.&lt;/li&gt;
+  &lt;li&gt;Many buyers and sellers.&lt;/li&gt;
+  &lt;li&gt;Small number of buyers and sellers tot total.&lt;/li&gt;
+  &lt;li&gt;Many &lt;em&gt;potential&lt;/em&gt; sellers - sellers that can entry the marketplace.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Competitive market =&amp;gt; No price control.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Some definitions&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Profit = Revenue - Cost&lt;/li&gt;
+  &lt;li&gt;Revenue = Price * Quantity&lt;/li&gt;
+  &lt;li&gt;Total cost = Fixed cost + Variable cost * Quantity&lt;/li&gt;
+  &lt;li&gt;Marginal revenue = Addition to total revenue from selling an additional unit.&lt;/li&gt;
+  &lt;li&gt;Marginal cost = Addition to total cost from producing an additional unit.&lt;/li&gt;
+  &lt;li&gt;Average cost = Total Cost / Quantity&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;calculating-profits&quot;&gt;Calculating profits&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/profits.png&quot; alt=&quot;Calculating profits&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If Price = minimum of average cost, the firm break evens. Which means all costs, including opportunity costs, are covered.&lt;/p&gt;
+
+&lt;h4 id=&quot;entry-and-exit&quot;&gt;Entry and exit&lt;/h4&gt;
+
+&lt;p&gt;As the total demand for a product changes, new firms will enter the market or exit the market. This affects total demand-supply curve for the product based on type of industry.&lt;/p&gt;
+
+&lt;p&gt;Three types of industries&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Increasing Cost industry&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Additional supply requires more input costs - typical in mining and similar industries.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/increasing-cost-industries.png&quot; alt=&quot;Increasing Cost Industries&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Constant cost industry&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/constant-price.png&quot; alt=&quot;Constant cost industries&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Decreasing cost industry&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This is a special case.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Typically the specific knowledge acquired has network effects.&lt;/li&gt;
+  &lt;li&gt;Ready availability of specific knowledge reduces entry cost for firms.&lt;/li&gt;
+  &lt;li&gt;This makes it easier to build same/similar products with lower costs.&lt;/li&gt;
+  &lt;li&gt;Industrial clusters which produce same/similar products get created to this network effect.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;competition-and-invisible-hand&quot;&gt;competition and invisible hand&lt;/h4&gt;
+
+&lt;p&gt;Competitive markets&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Balance production costs across firms in an industry so that total industry costs are minimized.&lt;/li&gt;
+  &lt;li&gt;Entry and exit decisions balance production costs across &lt;em&gt;different&lt;/em&gt; industries so that total value of production is maximized.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Profit distributes resources and labour across industries.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h5 id=&quot;elimination-principle&quot;&gt;Elimination principle&lt;/h5&gt;
+
+&lt;p&gt;Above normal profits are eliminated by entry of new firms. Below normal profits are eliminated by exit of firms.&lt;/p&gt;
+
+&lt;h3 id=&quot;monopoly&quot;&gt;Monopoly&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Market power - Power to raise prices above marginal cost without fear of new competition.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Monopolies have market power.&lt;/p&gt;
+
+&lt;p&gt;Sources of market power&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Patents&lt;/li&gt;
+  &lt;li&gt;Regulations&lt;/li&gt;
+  &lt;li&gt;Economies of scale&lt;/li&gt;
+  &lt;li&gt;Exclusive access to an important input material&lt;/li&gt;
+  &lt;li&gt;Technological innovation - temporary power&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;maximizing-profit-under-monopoly&quot;&gt;Maximizing profit under monopoly&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/monopoly-profit.png&quot; alt=&quot;Monopoly profit&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Monopoly firm maximizes profit when marginal revenue = marginal cost.&lt;/p&gt;
+
+&lt;h4 id=&quot;calculating-monopoly-profits&quot;&gt;Calculating monopoly profits&lt;/h4&gt;
+
+&lt;p&gt;Example&lt;/p&gt;
+
+&lt;p&gt;Demand =&amp;gt; Price = 100 - 2 * Quantity
+Fixed cost =&amp;gt; 50
+Marginal cost =&amp;gt; 20&lt;/p&gt;
+
+&lt;p&gt;(This is a linear curve, with a slope of 2)&lt;/p&gt;
+
+&lt;p&gt;Marginal revenue = 100 - 2 * 2 * Quantity&lt;/p&gt;
+
+&lt;p&gt;(A mathematical shortcut to derive marginal revenue curve when linear demand curve.)&lt;/p&gt;
+
+&lt;p&gt;For a monopoly profit maximizes when marginal revenue = marginal cost.&lt;/p&gt;
+
+&lt;p&gt;Hence marginal revenue =&amp;gt; 100 - 4 * Quantity = 20&lt;/p&gt;
+
+&lt;p&gt;Solving for Quantity =&amp;gt; Quantity = 20&lt;/p&gt;
+
+&lt;p&gt;This is the profit maximizing quantity.&lt;/p&gt;
+
+&lt;p&gt;Price at this quantity =&amp;gt; 100 - 2 * 20 = 60&lt;/p&gt;
+
+&lt;p&gt;Total profits = Total revenue - Total cost
+Total profits = Price * Quantity - (Fixed cost + Marginal cost * quantity)
+Total profits = 60 * 20 - (50 + 20 * 20) = 750&lt;/p&gt;
+
+&lt;h4 id=&quot;monopoly-markup&quot;&gt;Monopoly markup&lt;/h4&gt;
+
+&lt;p&gt;A monopoly firm can markup price proportional to inelasticity of demand.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/monopoly-markup.png&quot; alt=&quot;Monopoly markup&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;cost-and-benefits-of-monopoly&quot;&gt;Cost and benefits of monopoly&lt;/h4&gt;
+
+&lt;p&gt;Costs&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Deadweight loss - trades are not made to higher prices.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Benefits&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Patents tend to incentivise innovation. Without patents fewer drugs will get created.&lt;/li&gt;
+  &lt;li&gt;In industries with high development cost and low marginal cost, will be helped by monopoly.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;possible-solutions-to-monopoly&quot;&gt;Possible solutions to monopoly&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Government can buyout patents.&lt;/li&gt;
+  &lt;li&gt;Prized/grants for drug discovery.&lt;/li&gt;
+  &lt;li&gt;Price discrimination.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;price-discrimination&quot;&gt;Price discrimination&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Price discrimination - selling same product at different prices to different consumers.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Consumers segment will have different demand curves. A firm can set different prices based on each segments demand curves. Arbitrage may make it difficult to price discriminate.&lt;/p&gt;
+
+&lt;p&gt;Price discrimination is common&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Different prices for children and senior citizens for trains, movie halls, and even meals.&lt;/li&gt;
+  &lt;li&gt;Special prices for students.&lt;/li&gt;
+  &lt;li&gt;Airlines based on time of booking charge different prices. Weekend prices. Seating classes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;social-welfare-and-price-discrimination&quot;&gt;Social welfare and price discrimination&lt;/h5&gt;
+
+&lt;p&gt;If the total output increases, price discrimination is good, else it is bad.&lt;/p&gt;
+
+&lt;p&gt;Perfect price discrimination is price set for each each individual consumer. No consumer surplus, all gains go to monopolies. No deadweight loss.&lt;/p&gt;
+
+&lt;h5 id=&quot;tying&quot;&gt;Tying&lt;/h5&gt;
+
+&lt;p&gt;Goods are tied. Printers and ink. Cellphone and service plan.&lt;/p&gt;
+
+&lt;p&gt;Base good is cheap. Tied good is priced at above marginal cost. Printers are cheap, but ink is expensive.&lt;/p&gt;
+
+&lt;p&gt;Tying tends to increase social welfare. People who print less and hence do not need to buy lot of ink, get to print at lower cost as cost of printer is much lower. People who print more and hence value printing more will pay more.&lt;/p&gt;
+
+&lt;h5 id=&quot;bundling&quot;&gt;Bundling&lt;/h5&gt;
+
+&lt;p&gt;Goods are sold together. Cable TV, Microsoft Office.&lt;/p&gt;
+
+&lt;p&gt;Each product in a bundle will have a different demand curve. For example some people value Excel more than Word. Others value Powerpoint more than Excel. Due to bundling this variability of different demands get accumulated.&lt;/p&gt;
+
+&lt;p&gt;Demand for bundle less variable than demand for each good.&lt;/p&gt;
+
+&lt;p&gt;Zero marginal cost makes it easier to bundle goods together.&lt;/p&gt;
+
+&lt;p&gt;Bundling increases profits as consumer surplus reduces and more trades are made reducing deadweight loss.&lt;/p&gt;
+
+&lt;p&gt;Consumer welfare may go up or down depending on elasticity of demands.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 Oct 2021 08:07:30 +0000</pubDate>
+        <link>http://sushrutbidwai.com/week-8---principles-of-economics---microeconomics</link>
+        <guid isPermaLink="true">http://sushrutbidwai.com/week-8---principles-of-economics---microeconomics</guid>
         
         
       </item>
@@ -988,21 +1206,6 @@ Inelastic supply curve means quantity supplied does not vary much with price.&lt
         <pubDate>Mon, 18 Oct 2021 08:07:30 +0000</pubDate>
         <link>http://sushrutbidwai.com/week-1---principles-of-economics---microeconomics</link>
         <guid isPermaLink="true">http://sushrutbidwai.com/week-1---principles-of-economics---microeconomics</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>India</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/goa-sunset.jpg&quot; alt=&quot;Goa&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;After spending last two years in UK and Germany, I have moved back for good to India.&lt;/p&gt;
-
-&lt;p&gt;Plan for now is to do some consulting, while trying out few ideas and see if anything sticks.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 28 May 2021 12:51:52 +0000</pubDate>
-        <link>http://sushrutbidwai.com/india</link>
-        <guid isPermaLink="true">http://sushrutbidwai.com/india</guid>
         
         
       </item>
