@@ -5,8 +5,8 @@
     <description>Personal website of Sushrut Bidwai</description>
     <link>http://sushrutbidwai.com/</link>
     <atom:link href="http://sushrutbidwai.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 22 Nov 2021 19:32:47 +0000</pubDate>
-    <lastBuildDate>Mon, 22 Nov 2021 19:32:47 +0000</lastBuildDate>
+    <pubDate>Tue, 23 Nov 2021 03:08:10 +0000</pubDate>
+    <lastBuildDate>Tue, 23 Nov 2021 03:08:10 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -137,6 +137,56 @@ It is extremely easy for X to gain really high influence in T. Even if they do n
         <pubDate>Wed, 20 Oct 2021 20:42:27 +0000</pubDate>
         <link>http://sushrutbidwai.com/activism</link>
         <guid isPermaLink="true">http://sushrutbidwai.com/activism</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Week 9   Principles of Economics   Microeconomics</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/microeconomics-course.png&quot; alt=&quot;Principles of Economics - Microeconomics&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;labour-markets&quot;&gt;Labour markets&lt;/h3&gt;
+
+&lt;p&gt;Marginal product of labour&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The increase in a firm’s revenue created by hiring an additional labourer.&lt;/li&gt;
+  &lt;li&gt;Declines with more labour.&lt;/li&gt;
+  &lt;li&gt;Firms hire as long as wage &amp;lt; marginal product.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/marginal-product.png&quot; alt=&quot;Marginal Product&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;education&quot;&gt;Education&lt;/h4&gt;
+
+&lt;p&gt;Is education just a signalling tool or does education provide real benefits?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Earnings are co-related with having a college degree, even liberal arts degree.&lt;/li&gt;
+  &lt;li&gt;Not finishing a college does not add to future earnings, even if a person leaves college in the last year. This is the basic premise of signalling argument.&lt;/li&gt;
+  &lt;li&gt;Education does provide social contexts, building networks, learning skills which are not taught in a classroom.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;unions&quot;&gt;Unions&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Western Europe despite having more unions than United States, has lower wages than the US.&lt;/li&gt;
+  &lt;li&gt;Unions raise wages by restricting supply of labour.&lt;/li&gt;
+  &lt;li&gt;Unions however are not just about wage negotiating, but general welfare of the workforce which does provide value.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;compensating-differential&quot;&gt;Compensating differential&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If two jobs require the same set of skills, then wages at a more fun job will be less than wages at a less fun job.&lt;/li&gt;
+  &lt;li&gt;Wage captures not just the skill value of the labour, but also social characteristics of the job.&lt;/li&gt;
+  &lt;li&gt;Example - an optometrist in a remote Australian mining town makes far better wages than in a suburban Melbourne or Sydney.&lt;/li&gt;
+  &lt;li&gt;Wage also captures any other benefits derived from the job. If one job has more learning potential compared to another, wage at the job with higher learning will be less.&lt;/li&gt;
+  &lt;li&gt;Typically dangerous jobs have much higher wages than safe jobs.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 18 Oct 2021 08:07:30 +0000</pubDate>
+        <link>http://sushrutbidwai.com/week-9---principles-of-economics---microeconomics</link>
+        <guid isPermaLink="true">http://sushrutbidwai.com/week-9---principles-of-economics---microeconomics</guid>
         
         
       </item>
@@ -1076,136 +1126,6 @@ Inelastic supply curve means quantity supplied does not vary much with price.&lt
         <pubDate>Mon, 18 Oct 2021 08:07:30 +0000</pubDate>
         <link>http://sushrutbidwai.com/week-2---principles-of-economics---microeconomics</link>
         <guid isPermaLink="true">http://sushrutbidwai.com/week-2---principles-of-economics---microeconomics</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Week 1 Principles of Economics - Microeconomics</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/microeconomics-course.png&quot; alt=&quot;Principles of Economics - Microeconomics&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;supply-demand-and-equilibrium&quot;&gt;Supply, Demand, and Equilibrium&lt;/h3&gt;
-
-&lt;h4 id=&quot;demand-curve&quot;&gt;Demand curve&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Graphs quantity demanded at various price points. Quantity demanded decreases if price increases, as less consumers are willing to purchase the product.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;supply-curve&quot;&gt;Supply curve&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Graphs quantity supplied at various price points. Quantity supplied increases if price increases, as more suppliers are willing to supply the product.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;how-to-interpret-supply-and-demand-curve&quot;&gt;How to interpret supply and demand curve?&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;If price of a product decreases, consumers who were buying products which are substitutes, are now buying the product.&lt;/li&gt;
-  &lt;li&gt;If price of a product increases, suppliers who were making other products, are now supplying the product.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;supply-and-demand-equilibrium-price-point&quot;&gt;Supply and demand equilibrium price point.&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;When supply and demand are graphed, equilibrium is where these intersect.&lt;/li&gt;
-  &lt;li&gt;In a free market, market forces are always trying to push the price towards equilibrium.&lt;/li&gt;
-  &lt;li&gt;If price is above equilibrium, there is product surplus as demand &amp;lt; supply. This pushes the price down, towards equilibrium.&lt;/li&gt;
-  &lt;li&gt;If price is below equilibrium, there is product shortage as demand &amp;gt; supply. This pushes the price up, towards the equilibrium.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;At equilibrium, total gains from the trade are maximized.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/demand-supply-equilibrium.png&quot; alt=&quot;Demand and supply equilibrium&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;consumer-surplus&quot;&gt;Consumer surplus&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;It is &lt;em&gt;profit&lt;/em&gt; made by consumer.&lt;/li&gt;
-  &lt;li&gt;It is the difference between a maximum price a consumer is willing to pay and purchase price.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;producer-surplus&quot;&gt;Producer surplus&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;It is &lt;em&gt;profit&lt;/em&gt; made by supplier.&lt;/li&gt;
-  &lt;li&gt;It is the difference between minimum price a supplier willing to sell at and sale price.&lt;/li&gt;
-  &lt;li&gt;Assuming that minimum price set by supplier includes some profit margin, this is the extra profit made by supplier.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;demand-curve-shifts&quot;&gt;Demand curve shifts&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;demand curve shifts right - greater quantity demanded at &lt;em&gt;every&lt;/em&gt; given price point.&lt;/li&gt;
-  &lt;li&gt;demand curve shifts left - lesser quantity demanded at &lt;em&gt;every&lt;/em&gt; given price point.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;possible-reasons&quot;&gt;Possible reasons&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Income&lt;/li&gt;
-  &lt;li&gt;Population&lt;/li&gt;
-  &lt;li&gt;Price of substitutes&lt;/li&gt;
-  &lt;li&gt;Price of complements&lt;/li&gt;
-  &lt;li&gt;Expectations&lt;/li&gt;
-  &lt;li&gt;Tastes&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;income&quot;&gt;Income&lt;/h6&gt;
-&lt;ul&gt;
-  &lt;li&gt;For normal goods demand increases if income increases. e.g computers, phones, pubs.&lt;/li&gt;
-  &lt;li&gt;For inferior goods demand decreases if income decreases. e.g fast food.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;population&quot;&gt;Population&lt;/h6&gt;
-&lt;ul&gt;
-  &lt;li&gt;Demand curve shifts with changes in population.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;price-of-substitutes&quot;&gt;Price of substitutes&lt;/h6&gt;
-&lt;ul&gt;
-  &lt;li&gt;Two goods are substitutes if increase in price for one good leads to an increase in demand for the other good. demand(good1) ∝ price(good2)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;price-of-complements&quot;&gt;Price of complements&lt;/h6&gt;
-&lt;ul&gt;
-  &lt;li&gt;Two goods are complements if an increase in the price of one good leads to an decrease in the demand for the other.&lt;/li&gt;
-  &lt;li&gt;Fuel and cars are complements. If fuel price increases, demand for cars will decrease.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;expectations&quot;&gt;Expectations&lt;/h6&gt;
-&lt;ul&gt;
-  &lt;li&gt;Future price of a good will shift demand curve for the good right now.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;tastes&quot;&gt;Tastes&lt;/h6&gt;
-&lt;ul&gt;
-  &lt;li&gt;Seasonal goods, fashion, fads.&lt;/li&gt;
-  &lt;li&gt;Remember pet rock!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;supply-curve-shifts&quot;&gt;Supply curve shifts&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;Supply curve shifts left - quantity supplied at &lt;em&gt;every&lt;/em&gt; given price decreases.&lt;/li&gt;
-  &lt;li&gt;Supply curve shifts right - quantity supplied at &lt;em&gt;every&lt;/em&gt; given price increases.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Possible reasons&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Technological innovations - can drive down prices and/or increase throughput without adding much more cost increase supply.&lt;/li&gt;
-  &lt;li&gt;Input prices - Cost of raw materials, labour, and other input resources may affect price and supply.&lt;/li&gt;
-  &lt;li&gt;Tax and subsidies - Additional taxes will drive up prices and shift supply curve up. Subsidies will drive down prices and will shift supply curve down.&lt;/li&gt;
-  &lt;li&gt;Expectations - Future demand and prices will affect current supply.&lt;/li&gt;
-  &lt;li&gt;Opportunity costs - If another market has shifted providing better opportunities for supplier, that will increase cost and will shift supply curve.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;equilibrium&quot;&gt;Equilibrium&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Free market maximizes gain from trade at equilibrium quantity and prices.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Does equilibrium work? Absolutely yes!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/demand-supply-equilibrium.png&quot; alt=&quot;Supply, demand, and equilibrium&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 18 Oct 2021 08:07:30 +0000</pubDate>
-        <link>http://sushrutbidwai.com/week-1---principles-of-economics---microeconomics</link>
-        <guid isPermaLink="true">http://sushrutbidwai.com/week-1---principles-of-economics---microeconomics</guid>
         
         
       </item>
