@@ -5,8 +5,8 @@
     <description>Personal website of Sushrut Bidwai</description>
     <link>http://sushrutbidwai.com/</link>
     <atom:link href="http://sushrutbidwai.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 09 Mar 2022 02:06:47 +0000</pubDate>
-    <lastBuildDate>Wed, 09 Mar 2022 02:06:47 +0000</lastBuildDate>
+    <pubDate>Wed, 09 Mar 2022 02:08:06 +0000</pubDate>
+    <lastBuildDate>Wed, 09 Mar 2022 02:08:06 +0000</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -47,14 +47,14 @@ But sadness will last her a lifetime.&lt;/p&gt;
 
 &lt;p&gt;If you look around, almost everybody is trying to be an activist. Most fields including but not limited to entrepreneurs, academics, government officials, religious groups are being dominated by activists. Why is this happening and is there anything you can do about it?&lt;/p&gt;
 
-&lt;p&gt;Activism is mostly a zero-sum game&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. In fact zero-sum activism is easiest to get behind. It is a us vs them. As long as you can find simple enough grounds to paint &lt;em&gt;them&lt;/em&gt; as evil, and &lt;em&gt;us&lt;/em&gt; as the good people, it is extremely easy to bully people into supporting your view. You can see this bullying and how it played out in campaigns like https://internetfreedom.in/campaigns-savetheinternet/ .&lt;/p&gt;
+&lt;p&gt;Activism is mostly a zero-sum game&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. In fact zero-sum activism is easiest to get behind. It is a us vs them. As long as you can find simple enough grounds to paint &lt;em&gt;them&lt;/em&gt; as evil, and &lt;em&gt;us&lt;/em&gt; as the good people, it is extremely easy to bully people into supporting your view. You can see this bullying and how it played out in campaigns like https://internetfreedom.in/campaigns-savetheinternet/ .&lt;/p&gt;
 
 &lt;p&gt;So why is this happening?&lt;/p&gt;
 
 &lt;h3 id=&quot;game-theoretic-perspective&quot;&gt;Game theoretic perspective.&lt;/h3&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Let us say you and X&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; are part of a (online) tribe T.&lt;/li&gt;
+  &lt;li&gt;Let us say you and X&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; are part of a (online) tribe T.&lt;/li&gt;
   &lt;li&gt;X is very motivated by movement Z, which is not related to T.&lt;/li&gt;
   &lt;li&gt;X tweets about Z, supporting Z and condemning Y.&lt;/li&gt;
   &lt;li&gt;Now you three choices - co-opt, ignore, or oppose X.&lt;/li&gt;
@@ -107,7 +107,7 @@ X does care about Z to some degree.
 X may not be expert on Z.
 It is extremely easy for X to gain really high influence in T. Even if they do not care about Z, purely from game theory perspective it is quite difficult to resist being an activist.&lt;/p&gt;
 
-&lt;h4 id=&quot;if-so-then-why-i-am-still-not-an-activist&quot;&gt;If so, then why I am still not an activist&lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;?&lt;/h4&gt;
+&lt;h4 id=&quot;if-so-then-why-i-am-still-not-an-activist&quot;&gt;If so, then why I am still not an activist&lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;?&lt;/h4&gt;
 
 &lt;p&gt;Mainly because over a period of time these tribes will become more and more extreme. What you think of as extreme, they manage to make it a normal within an enclosed world view. Then there is more activism within that already narrow world and it can only push the tribe as a whole towards extreme end. And that is the biggest worry. It is not that there is activism in the world and it is increasing at an alarming rate, but that over time all activism ends up being extremism which has a net negative impact on the world.&lt;/p&gt;
 
