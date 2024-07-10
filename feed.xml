@@ -5,9 +5,74 @@
     <description>Personal website of Sushrut Bidwai</description>
     <link>https://sushrutbidwai.com/</link>
     <atom:link href="https://sushrutbidwai.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 10 Jul 2024 10:18:42 +0530</pubDate>
-    <lastBuildDate>Wed, 10 Jul 2024 10:18:42 +0530</lastBuildDate>
+    <pubDate>Wed, 10 Jul 2024 10:29:15 +0530</pubDate>
+    <lastBuildDate>Wed, 10 Jul 2024 10:29:15 +0530</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
+    
+      <item>
+        <title>CAP Theorem</title>
+        <description>&lt;h2 id=&quot;using-cap-theorem-for-decision-making-in-life&quot;&gt;Using CAP Theorem for Decision Making in Life&lt;/h2&gt;
+
+&lt;p&gt;The CAP theorem, originating from computer science, suggests that in a distributed system, you can only prioritize two out of three characteristics: consistency, availability, and partition tolerance (the ‘C,’ ‘A,’ and ‘P’ in CAP).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.ibm.com/topics/cap-theorem&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;However, let’s explore how we can use this theorem metaphorically to make important life decisions. This approach isn’t a strict framework but rather a method to prioritize what truly matters to us.&lt;/p&gt;
+
+&lt;h3 id=&quot;applying-cap-theorem-to-choosing-a-place-to-live&quot;&gt;Applying CAP Theorem to Choosing a Place to Live&lt;/h3&gt;
+
+&lt;p&gt;Imagine you’re deciding where to live. What are the most critical factors influencing your decision? For me, these are location, features, and budget.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Location&lt;/strong&gt;: Where it is situated and what it offers in terms of amenities, community, and surroundings.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Features&lt;/strong&gt;: The specifics of the home or apartment, including size, amenities, security, noise levels, etc.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Budget&lt;/strong&gt;: The overall cost implications, including daily expenses like commuting costs and additional purchases.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;how-to-use-cap-theorem-in-decision-making&quot;&gt;How to Use CAP Theorem in Decision Making&lt;/h3&gt;
+
+&lt;h4 id=&quot;step-1-prioritize-your-key-attributes&quot;&gt;Step 1: Prioritize Your Key Attributes&lt;/h4&gt;
+
+&lt;p&gt;Identify the two attributes that are most crucial to you and determine which one you can afford to compromise on, if necessary. For me, location and features are paramount, while budget is flexible.&lt;/p&gt;
+
+&lt;h4 id=&quot;step-2-refine-your-priorities&quot;&gt;Step 2: Refine Your Priorities&lt;/h4&gt;
+
+&lt;p&gt;Within each key attribute, further prioritize sub-attributes. For instance, in choosing a location, I prioritize access to nature, proximity to essential places like work and markets, and the neighborhood’s community vibe.&lt;/p&gt;
+
+&lt;h4 id=&quot;step-3-continuously-narrow-down&quot;&gt;Step 3: Continuously Narrow Down&lt;/h4&gt;
+
+&lt;p&gt;Continue applying this method to refine your priorities until you’ve identified the best options that align with what matters most to you.&lt;/p&gt;
+
+&lt;h4 id=&quot;bonus-involving-others&quot;&gt;Bonus: Involving Others&lt;/h4&gt;
+
+&lt;p&gt;If the decision involves multiple stakeholders, this process can help find common ground by understanding each person’s priorities and flexibility.&lt;/p&gt;
+
+&lt;h2 id=&quot;where-can-you-apply-cap-theorem&quot;&gt;Where Can You Apply CAP Theorem?&lt;/h2&gt;
+
+&lt;p&gt;This approach can be applied to various significant decisions in life:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Choosing a new home&lt;/li&gt;
+  &lt;li&gt;Deciding on a new job&lt;/li&gt;
+  &lt;li&gt;Selecting a topic to learn&lt;/li&gt;
+  &lt;li&gt;Planning a vacation destination&lt;/li&gt;
+  &lt;li&gt;Even in relationships, identifying what qualities you seek in a partner&lt;/li&gt;
+  &lt;li&gt;Determining which project to pursue next, and more&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It’s essential to approach important decisions with intentionality and self-awareness about your values and priorities.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h5 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h5&gt;
+
+</description>
+        <pubDate>Wed, 10 Jul 2024 14:43:15 +0530</pubDate>
+        <link>https://sushrutbidwai.com/cap-theorem</link>
+        <guid isPermaLink="true">https://sushrutbidwai.com/cap-theorem</guid>
+        
+        
+      </item>
     
       <item>
         <title>India</title>
@@ -954,139 +1019,6 @@ Quota - Quantity restriction of import.&lt;/p&gt;
         <pubDate>Mon, 18 Oct 2021 13:37:30 +0530</pubDate>
         <link>https://sushrutbidwai.com/week-6---principles-of-economics---microeconomics</link>
         <guid isPermaLink="true">https://sushrutbidwai.com/week-6---principles-of-economics---microeconomics</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Week 5   Principles of Economics   Microeconomics</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/microeconomics-course.png&quot; alt=&quot;Principles of Economics - Microeconomics&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;price-ceiling&quot;&gt;Price Ceiling&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Price ceiling - Maximum price allowed by law.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;effects-of-price-ceiling&quot;&gt;Effects of price ceiling&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Shortages&lt;/li&gt;
-  &lt;li&gt;Bad quality&lt;/li&gt;
-  &lt;li&gt;Lines and search costs&lt;/li&gt;
-  &lt;li&gt;Deadweight loss&lt;/li&gt;
-  &lt;li&gt;Misallocation of resources&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;shortages&quot;&gt;Shortages&lt;/h5&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/price-ceiling.png&quot; alt=&quot;Price Ceiling&quot; /&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;bad-quality&quot;&gt;Bad Quality&lt;/h5&gt;
-
-&lt;p&gt;Main effect of price ceiling is that Q&lt;sub&gt;Demanded &amp;gt; Q&lt;sub&gt;Supplied. Sellers have more customers so&lt;/sub&gt;&lt;/sub&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;They can cut quality, cut costs and still able to sell at the same mandated price.&lt;/li&gt;
-  &lt;li&gt;They can provide worse service and still be able to sell.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;lines-and-search-costs&quot;&gt;Lines and search costs&lt;/h5&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Price control does not reduce quantity demanded.&lt;/li&gt;
-  &lt;li&gt;Consumers outnumber sellers.&lt;/li&gt;
-  &lt;li&gt;This incentivises consumers who value a good more to pay bribes to buy it.&lt;/li&gt;
-  &lt;li&gt;More consumers than suppliers leads to lines and increase in time cost.&lt;/li&gt;
-  &lt;li&gt;Paying in time is wasteful as time is a perishable resource.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/line-costs.png&quot; alt=&quot;Line costs&quot; /&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;deadweight-loss&quot;&gt;Deadweight loss&lt;/h5&gt;
-
-&lt;p&gt;Due to price control, not all profitable trades are made, so  there is a deadweight loss.&lt;/p&gt;
-
-&lt;h5 id=&quot;misallocation-of-resources&quot;&gt;Misallocation of resources&lt;/h5&gt;
-
-&lt;p&gt;The key benefit of free market and the pricing system is that&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;We want to ensure that consumers who value a good more can secure supply before consumers who value it less.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Example -&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Gold and silver are used in many electrical and electronics manufacturing. It is also used as jewellery.&lt;/li&gt;
-  &lt;li&gt;If government puts a max price on gold, some of the supply that should have gone to electrical and electronics manufacturing goes to jewellery.&lt;/li&gt;
-  &lt;li&gt;Manufacturers can not signal to the market that they value gold more by paying a higher price to secure supplies, as there is a price ceiling.&lt;/li&gt;
-  &lt;li&gt;This leads to shortages in manufacturing and instead allocates resources for jewellery which is not as important area.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Price system ensures that most important and hence most valued consumers of good are last to be affected by shortages.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/misallocation.png&quot; alt=&quot;Misallocation of resources&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;rent-controls&quot;&gt;Rent controls&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;It is a type of a price ceiling.&lt;/li&gt;
-  &lt;li&gt;Makes it difficult to find apartments.&lt;/li&gt;
-  &lt;li&gt;Often rent controlled apartments are rented by people who do not need them.&lt;/li&gt;
-  &lt;li&gt;Creates shortages in supply of apartment buildings.&lt;/li&gt;
-  &lt;li&gt;Over time due to fund shortages rent controlled buildings become decrepit, unmaintained, and dangerous. Many rent controlled buildings fall down in Mumbai, killing people.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;price-floors&quot;&gt;Price floors&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Minimum price allowed by law.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;effect-of-price-floors&quot;&gt;Effect of price floors&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;They create surpluses.&lt;/li&gt;
-  &lt;li&gt;Lost gains.&lt;/li&gt;
-  &lt;li&gt;Wasteful increase in quality.&lt;/li&gt;
-  &lt;li&gt;Misallocation of resources.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Floors are less common.&lt;/p&gt;
-
-&lt;h4 id=&quot;minimum-wage&quot;&gt;Minimum wage&lt;/h4&gt;
-
-&lt;p&gt;Minimum wage is a type of price floor.
-Effects of minimum wage on above mentioned dimensions.&lt;/p&gt;
-
-&lt;h5 id=&quot;surpluses&quot;&gt;Surpluses&lt;/h5&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Minimum wage creates surplus of labour, leading to unemployment.&lt;/li&gt;
-  &lt;li&gt;People who may have be willing to work at lesser wage are now unable to find jobs as employers can not pay minimum wage.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Minimum wage affects&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Only small % of workers are paid at minimum wage, less than 5%.&lt;/li&gt;
-  &lt;li&gt;Large increase in the minimum wage will cause serious increase in unemployment.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Test case&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;US government accidentally increased minimum wage in Puerto Rico, by a lot.&lt;/li&gt;
-  &lt;li&gt;Led to many businesses shutting down and a very high increase in unemployment.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Communism = universal price controls.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Mon, 18 Oct 2021 13:37:30 +0530</pubDate>
-        <link>https://sushrutbidwai.com/week-5---principles-of-economics---microeconomics</link>
-        <guid isPermaLink="true">https://sushrutbidwai.com/week-5---principles-of-economics---microeconomics</guid>
         
         
       </item>
