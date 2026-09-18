@@ -5,8 +5,8 @@
     <description>Personal website of Sushrut Bidwai</description>
     <link>https://sushrutbidwai.com/</link>
     <atom:link href="https://sushrutbidwai.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 18 Sep 2026 11:20:56 +0530</pubDate>
-    <lastBuildDate>Fri, 18 Sep 2026 11:20:56 +0530</lastBuildDate>
+    <pubDate>Fri, 18 Sep 2026 11:24:37 +0530</pubDate>
+    <lastBuildDate>Fri, 18 Sep 2026 11:24:37 +0530</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
     
       <item>
@@ -15,7 +15,7 @@
 
 &lt;p&gt;Here is a simple test.&lt;/p&gt;
 
-&lt;p&gt;Make a list of 100[^1] people exclusing people with whom you have an intimate personal relationship. Such as close friends, immediate family, partner/s, ex-partners, kids and so on. List will include people at work, barista at your favorite coffee spot, people from any hobby groups, etc.&lt;/p&gt;
+&lt;p&gt;Make a list of 100&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; people exclusing people with whom you have an intimate personal relationship. Such as close friends, immediate family, partner/s, ex-partners, kids and so on. List will include people at work, barista at your favorite coffee spot, people from any hobby groups, etc.&lt;/p&gt;
 
 &lt;p&gt;For each person write down three qualities about them. Usually focus on qualities that are about how they engage with the world.
 Qualities such as - friendly, kind, snobby, rude, disinterested, respectful, and many others.&lt;/p&gt;
@@ -28,12 +28,20 @@ Qualities such as - friendly, kind, snobby, rude, disinterested, respectful, and
   &lt;p&gt;World is generally full of decent people.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;If your lived experience is constantly otherwise, it is quite possible that you are not.[^2]&lt;/p&gt;
+&lt;p&gt;If your lived experience is constantly otherwise, it is quite possible that you are not.&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h4&gt;
 
-&lt;p&gt;[^1] Does not have to be exactly 100. But at least 25.
-[^2] Or at least you are prone to assuming worst in people.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Does not have to be exactly 100. But at least 25. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Or at least you are prone to assuming worst in people. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
 </description>
         <pubDate>Fri, 18 Sep 2026 16:42:04 +0530</pubDate>
         <link>https://sushrutbidwai.com/100-people-test</link>
