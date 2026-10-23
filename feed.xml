@@ -5,9 +5,32 @@
     <description>Personal website of Sushrut Bidwai</description>
     <link>https://sushrutbidwai.com/</link>
     <atom:link href="https://sushrutbidwai.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 08 Oct 2026 09:45:15 +0530</pubDate>
-    <lastBuildDate>Thu, 08 Oct 2026 09:45:15 +0530</lastBuildDate>
+    <pubDate>Fri, 23 Oct 2026 13:01:05 +0530</pubDate>
+    <lastBuildDate>Fri, 23 Oct 2026 13:01:05 +0530</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
+    
+      <item>
+        <title>Sorry</title>
+        <description>&lt;p&gt;Being able to admit you have made a mistake and saying sorry is a superpower.&lt;/p&gt;
+
+&lt;p&gt;Most people will dilute their apology with excuses.&lt;/p&gt;
+
+&lt;p&gt;I missed our meeting because something important came up.&lt;/p&gt;
+
+&lt;p&gt;I said something because I was under stress.&lt;/p&gt;
+
+&lt;p&gt;I did not mean it that way.&lt;/p&gt;
+
+&lt;p&gt;Say you fucked up and will try not to fuck up in future.&lt;/p&gt;
+
+&lt;p&gt;That’s it.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 23 Oct 2026 18:28:55 +0530</pubDate>
+        <link>https://sushrutbidwai.com/sorry</link>
+        <guid isPermaLink="true">https://sushrutbidwai.com/sorry</guid>
+        
+        
+      </item>
     
       <item>
         <title>Goa   Part 2</title>
@@ -598,79 +621,6 @@ P2: Nah, I have a busy weekend ahead.
         <pubDate>Thu, 29 Aug 2024 12:43:46 +0530</pubDate>
         <link>https://sushrutbidwai.com/workout</link>
         <guid isPermaLink="true">https://sushrutbidwai.com/workout</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>CAP Theorem</title>
-        <description>&lt;h2 id=&quot;using-cap-theorem-for-decision-making-in-life&quot;&gt;Using CAP Theorem for Decision Making in Life&lt;/h2&gt;
-
-&lt;p&gt;The CAP theorem, originating from computer science, suggests that in a distributed system, you can only prioritize two out of three characteristics: consistency, availability, and partition tolerance (the ‘C,’ ‘A,’ and ‘P’ in CAP).&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.ibm.com/topics/cap-theorem&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;However, let’s explore how we can use this theorem metaphorically to make important life decisions. This approach isn’t a strict framework but rather a method to prioritize what truly matters to us.&lt;/p&gt;
-
-&lt;h3 id=&quot;applying-cap-theorem-to-choosing-a-place-to-live&quot;&gt;Applying CAP Theorem to Choosing a Place to Live&lt;/h3&gt;
-
-&lt;p&gt;Imagine you’re deciding where to live. What are the three&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; most critical factors influencing your decision? For me, these are location, features, and budget.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Location&lt;/strong&gt;: Where it is situated and what it offers in terms of amenities, community, and surroundings.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Features&lt;/strong&gt;: The specifics of the home or apartment, including size, amenities, security, noise levels, etc.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Budget&lt;/strong&gt;: The overall cost implications, including daily expenses like commuting costs and additional purchases.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;how-to-use-cap-theorem-in-decision-making&quot;&gt;How to Use CAP Theorem in Decision Making&lt;/h3&gt;
-
-&lt;h4 id=&quot;step-1-prioritize-your-key-attributes&quot;&gt;Step 1: Prioritize Your Key Attributes&lt;/h4&gt;
-
-&lt;p&gt;Identify the two attributes that are most crucial to you and determine which one you can afford to compromise on, if necessary. 
-For me, location and features are paramount, while budget is flexible.&lt;/p&gt;
-
-&lt;h4 id=&quot;step-2-refine-your-priorities&quot;&gt;Step 2: Refine Your Priorities&lt;/h4&gt;
-
-&lt;p&gt;Within each key attribute, further prioritize sub-attributes. For instance, in choosing a location, I prioritize access to nature, proximity to essential places like work and markets, and the neighborhood’s community vibe.&lt;/p&gt;
-
-&lt;h4 id=&quot;step-3-continuously-narrow-down&quot;&gt;Step 3: Continuously Narrow Down&lt;/h4&gt;
-
-&lt;p&gt;Continue applying this method to refine your priorities until you’ve identified the best options that align with what matters most to you.&lt;/p&gt;
-
-&lt;h4 id=&quot;bonus-involving-others&quot;&gt;Bonus: Involving Others&lt;/h4&gt;
-
-&lt;p&gt;If the decision involves multiple stakeholders, this process can help find common ground by understanding each person’s priorities and flexibility.&lt;/p&gt;
-
-&lt;h2 id=&quot;where-can-you-apply-cap-theorem&quot;&gt;Where Can You Apply CAP Theorem?&lt;/h2&gt;
-
-&lt;p&gt;This approach can be applied to various significant decisions in life:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Choosing a new home&lt;/li&gt;
-  &lt;li&gt;Deciding on a new job&lt;/li&gt;
-  &lt;li&gt;Selecting a topic to learn&lt;/li&gt;
-  &lt;li&gt;Planning a vacation destination&lt;/li&gt;
-  &lt;li&gt;Even in relationships, identifying what qualities you seek in a partner&lt;/li&gt;
-  &lt;li&gt;Determining which project to pursue next, and more&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It’s essential to approach important decisions with intentionality and self-awareness about your values and priorities.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h5 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h5&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;The number of attributes doesn’t have to be three, but it should be kept minimal to prioritize effectively. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Wed, 10 Jul 2024 14:43:15 +0530</pubDate>
-        <link>https://sushrutbidwai.com/cap-theorem</link>
-        <guid isPermaLink="true">https://sushrutbidwai.com/cap-theorem</guid>
         
         
       </item>
